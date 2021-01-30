@@ -1,0 +1,6 @@
+framework module Pods_FamilyAccountingBook {
+  umbrella header "Pods-FamilyAccountingBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

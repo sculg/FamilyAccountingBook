@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'FamilyAccountingBook' do use_frameworks!
+pod 'TAPageControl', '0.2.0'
+pod 'Masonry', '0.6.3'
+pod 'ReactiveCocoa', '2.5'
+pod 'JSONModel', '1.1.2'
+pod 'YYModel', '0.9.7'
+pod 'BlocksKit', '2.2.5'
+pod 'LKDBHelper'
+pod 'Charts'
+end

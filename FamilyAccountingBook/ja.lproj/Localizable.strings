@@ -1,0 +1,239 @@
+/* 
+  Localizable.strings
+  FamilyAccountingBook
+
+  Created by lg on 2017/8/18.
+  Copyright © 2017年 com.familyaccountingbook. All rights reserved.
+*/
+
+"Account" = "会計";
+"Report" = "レポート";
+//"Me"     = "私";
+"Total Wealth" = "総富";
+"Security Settings" = "セキュリティ設定";
+"Data Management" = "データ管理";
+"General Settings" = "一般設定";
+"Help Center" = "ヘルプセンター";
+"About Us" = "私たちについて";
+"Rate Me" = "私にスコアを与える";
+"Add A Record" = "レコードを追加する";
+"Income" = "収入";
+"Expenditure" = "支出";
+"Money" = "金   額";
+"Revenue Way" = "損益計算書";
+"Income Type" = "所得タイプ";
+"Income Detail" = "所得の詳細";
+"Recorded Address" = "記録された住所";
+"Income Date" = "収入日";
+"Income Target" = "所得オブジェクト";
+"Save" = "保存する";
+"Delete" = "削除";
+"Payment Type" = "支出のタイプ";
+"Expenditure Detail" = "支出の詳細";
+"Payment Method" = "お支払い方法";
+"Expenditure Date" = "支出時間";
+"Expenditure Target" = "支出オブジェクト";
+"Clothes" = "衣類";
+"Foods" = "食べ物";
+"Rent" = "ライブ";
+"Traffic" = "トラフィック";
+"Entertainment" = "エンターテインメント";
+"Medical Care" = "医療";
+"Necessary" = "日用品";
+"Cosmetology" = "美しさ";
+"Education" = "教育";
+"Social" = "ソーシャル";
+"Donate" = "寄付する";
+"Cash gift" = "ギフト";
+/*“其他”分开用*/
+"Others" = "その他";
+
+"Other income" = "その他の収入";
+"Other expenses" = "その他の費用";
+"Other people" = "他の人";
+
+
+/*“其他”分开用*/
+"Family" = "家族";
+"Me" = "自分自身";
+"Spouse" = "配偶者";
+"Parents" = "親";
+"Children" = "子供";
+"Fail to accomplish" = "完了していない";
+
+"Saved successfully" = "保存に成功しました！";
+"Save failed" = "保存に失敗しました！";
+"Modify failed" = "変更に失敗しました！";
+"Successfully modified" = "変更に成功しました！";
+"Budget Settings" = "予算設定";
+"Income Template" = "収入テンプレート";
+"Expenditure Template" = "支出テンプレート";
+"Income Type Settings" = "所得タイプ";
+"Payment Type Settings" = "支出のタイプ";
+"Today" = "今  日";
+"Yesterday" = "昨  日";
+"Salary" = "賃金";
+"Bonus" = "ボーナス";
+"Financing Income" = "財務管理";
+"Part-time Income" = "パートタイム";
+"Red Packet" = "赤い封筒";
+
+
+"Wechat Pay" = "WeChatの支払い";
+"Ali Pay" = "Ali支払う";
+"Union Pay" = "Union支払う";
+"Cash Pay" = "現金";
+
+"Income and expenditure" = "プロフィール";
+"Income this month" = "今月の収入： ";
+"expenditure this month" = "今月の支出： ";
+"Expenditure budget" = "支出予算： ";
+"Budget balance" = "予算残高： ";
+"Balance for this month" = "今月のまとめ： ";
+
+"History record" = "過去の記録";
+"Recent record" = "最近記録された";
+
+"Month Details" = "今月の収支の詳細";
+
+"Sum" = "合計： ";
+"Overview" = "プロフィール";
+"Income budget" = "収入予算： ";
+"Real income" = "実際の収入： ";
+"Expenditure budget" = "支出予算： ";
+"Real Expenditure" = "実際の支出： ";
+
+"All records" = "すべてのレコード";
+
+"Normal" = "ノーマル";
+"Over budget" = "予算超過";
+"History report" = "歴史的声明";
+"Changes" = "最近の収入と支出の変化";
+
+"Month" = "月";
+"No data" = "まだデータがありません，\n移動してレコードを追加する！";
+
+"Kindly Reminder" = "ウォームヒント";
+"Got it" = "それを知る";
+"Remind me later" = "後で私に思い出させる";
+"Confirm" = "確認";
+"Set immediately" = "すぐにセットアップする";
+"No set" = "ここに設定する必要はありません！";
+"set it now？" = "予算を設定していない、今設定していますか?";
+"Data can not be restored" = "続行するかどうか、削除後にデータを復元することはできませんか？";
+"Unfilled" = "記入されていない";
+"Accumulated income" = "累積収入：";
+"Cumulative expenditures" = "累積経費：";
+
+"Number of records" = "レコード数：";
+"Start time" = "開始時間： ";
+"Accumulated balance" = "積算残高：";
+
+"Query the records" = "クエリレコード";
+"End time" = "終了時刻： ";
+"Queries Now" = "すぐにお問い合わせください";
+"All records" = "すべて記録された";
+"Corresponding month" = "対応する月： ";
+"Add item" = "アイテムを追加（+）";
+"Added" = "追加された";
+"Security question setting" = "機密性問題の設定";
+"Gesture password setting" = "ジェスチャーのパスワード設定";
+"Question 1" = "機密性問題1：";
+"Question 2" = "機密性問題2：";
+"Question 3" = "機密性問題3：";
+"Please enter the answer" = "答えを入力してください";
+"Modify gesture password" = "ジェスチャーのパスワードを変更する";
+"Original gesture password" = "元のジェスチャーのパスワードを描いてください";
+"Password is wrong" = "パスワードが間違っている、もう一度やり直すこともできます";
+"Times" = "タイムズ";
+"Close gesture password" = "ジェスチャーパスワードを閉じる";
+"5 times" = "エラーの数は5回に達しました";
+"Sorry" = "申し訳ありません！";
+
+"Exit immediately" = "すぐに終了する";
+"Congratulations" = "おめでとう！";
+"Verification failed" = "確認に失敗しました。終了してください。";
+"Verify security question" = "セキュリティに関する質問を確認する";
+"Gesture password" = "ジェスチャーのパスワード";
+
+"Please draw the gesture password" = "ジェスチャーのパスワードを描いてください";
+"Please draw a new gesture password" = "新しいジェスチャーパスワードを描画してください";
+
+"Draw again to confirm" = "確認のためにもう一度描く";
+"Confirm success" = "成功を確認する";
+"Inconsistent" = "一貫性がなく、再描画してください";
+
+"Connect at least 4 points, please redraw" = "少なくとも4点を接続し、再描画してください";
+"Deleted successfully" = "削除されました";
+"Delete failed" = "削除に失敗しました";
+"Please wait" = "お待ちください...";
+"Verification is successful, the gesture password has been cleared!" = "確認が成功し、ジェスチャーのパスワードがクリアされました!";
+
+"The answer can not be empty" = "答えは空ではありません";
+"Please keep in mind the secret answer!" = "秘密の答えを覚えておいてください！";
+
+"Your first boss's name" = "あなたの最初の上司の名前？";
+"The name of your high school class teacher" = "あなたの高校の教師の名前？";
+"The name of your best friend" = "あなたの親友の名前？";
+"Where did you go for the first time by plane" = "初めて飛行機でどこへ行きましたか?";
+"Where did you go by train for the first time" = "列車に乗るのは初めてですか？";
+"Where did you go by ship for the first time" = "あなたは初めてどこへ行ったのですか？";
+"What is your ideal job" = "あなたの理想的な仕事は何ですか？";
+"What is your first nickname" = "あなたの最初のニックネームは何ですか？";
+"Who is your favorite singer" = "あなたの好きな歌手は誰ですか？";
+
+"Please set the security problem first" = "まず秘密の問題を設定してください";
+
+"¥" = " ¥";
+
+"Please draw the gesture to unlock" = "ジェスチャーを引いてロックを解除してください";
+
+"Currency Unit" = "通貨単位";
+"Select the currency unit" = "単位を選択：";
+
+"Initial Assets" = "初期資産";
+"Total Assets" = "総資産：";
+
+"Daily report" = "日報" ;
+
+"Monthly report" = "月報";
+"Change in recent days" = "最近の変化";
+"no record" = "記録なし!";
+"Jan." = "1月.";
+"Feb." = "2月.";
+"Mar." = "3月.";
+"Apr." = "4月.";
+"May." = "5月.";
+"Jun." = "6月.";
+"Jul." = "7月.";
+"Aug." = "8月.";
+"Sept." = "9月.";
+"Oct." = "10月.";
+"Nov." = "11月.";
+"Dec." = "12月.";
+"Sun" = "日曜日.";
+"Mon" = "月曜日.";
+"Tues" = "火曜日.";
+"Wed" = "水曜日.";
+"Thur" = "木曜日.";
+"Fri" = "金曜日.";
+"Sat" = "土曜日.";
+
+"day income" = "收入";
+"day expenditure" = "支出";
+"rate desc" = "こんにちは、おめでとうあなたはソフトウェアの上級ユーザーになっている、あなたはいくつかの言いたいことがあります、あなたのフィードバックのいくつかを教えてください！";
+
+"DayChanges" = "最近の収入と支出の変化";
+
+"Touch ID" = "Touch ID 指紋のロック解除";
+"kTouchIDLocalizedReasonKey" = "指紋照合を確認するホームキー";
+"kTouchIDNotEvaluatePolicyKey" = "あなたは指紋（タッチID）を設定していないので、電話システムで指紋を追加してください\ 設定 - >タッチIDとパスワード";
+"kTouchIDEvaluateSuccess" = "指紋が正常に開いた";
+"kTouchIDEvaluateFailed" = "確認に失敗しました";
+"kTouchIDResetSystemTouchIDTips" = "指紋認証に失敗しました。認証後にシステムを再起動してください。";
+"kTouchIDClickEvaluateUnlock" = "「指紋照合」をクリックします。";
+"kTouchIDClickSetUnlock" = "クリックして指紋を設定してロックを解除する";
+"kTouchIDCloseSuccess" = "フィンガープリントが正常にロック解除されました";
+"Dear User" = "親愛なるユーザー";
+"Share" = "シェア";
+

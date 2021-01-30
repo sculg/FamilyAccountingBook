@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  FamilyAccountingBook
+
+  Created by lg on 2017/9/1.
+  Copyright © 2017年 com.familyaccountingbook. All rights reserved.
+*/
+CFBundleDisplayName = "Bookkeeping";

@@ -1,0 +1,20 @@
+//
+//  FamilyAccountingBook.pch
+//  FamilyAccountingBook
+//
+//  Created by lg on 2017/6/22.
+//  Copyright © 2017年 com.familyaccountingbook. All rights reserved.
+//
+
+#ifndef FamilyAccountingBook_pch
+#define FamilyAccountingBook_pch
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppMacro.h"
+#endif
+
+#endif /* FamilyAccountingBook_pch */

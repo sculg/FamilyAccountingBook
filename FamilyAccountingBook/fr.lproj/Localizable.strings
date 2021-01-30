@@ -1,0 +1,239 @@
+/* 
+  Localizable.strings
+  FamilyAccountingBook
+
+  Created by lg on 2017/8/18.
+  Copyright © 2017年 com.familyaccountingbook. All rights reserved.
+*/
+
+"Account" = "Comptabilité";
+"Report" = "Rapport";
+//"Me"     = "Moi";
+"Total Wealth" = "La richesse totale";
+"Security Settings" = "Paramètres de sécurité";
+"Data Management" = "Gestion des données";
+"General Settings" = "Paramètres généraux";
+"Help Center" = "Centre d'aide";
+"About Us" = "À propos de nous";
+"Rate Me" = "Donnez-moi un score";
+"Add A Record" = "Ajouter un enregistrement";
+"Income" = "Revenu";
+"Expenditure" = "Dépenses";
+"Money" = "Montant d'argent";
+"Revenue Way" = "Méthode du revenu";
+"Income Type" = "Type de revenu";
+"Income Detail" = "Einkommensdetails";
+"Recorded Address" = "Adresse enregistrée";
+"Income Date" = "Date du revenu";
+"Income Target" = "Cible de revenu";
+"Save" = "Enregistrer";
+"Delete" = "Supprimé";
+"Payment Type" = "Type de paiement";
+"Expenditure Detail" = "Détail des dépenses";
+"Payment Method" = "Mode de paiement";
+"Expenditure Date" = "Temps de dépenses";
+"Expenditure Target" = "Objectif de dépenses";
+"Clothes" = "Vêtements";
+"Foods" = "Nourriture";
+"Rent" = "Loyer";
+"Traffic" = "Trafic";
+"Entertainment" = "Divertissement";
+"Medical Care" = "Soins médicaux";
+"Necessary" = "Besoins quotidiens";
+"Cosmetology" = "Beauté";
+"Education" = "Éducation";
+"Social" = "Social";
+"Donate" = "Faire un don";
+"Cash gift" = "Cadeau";
+/*“其他”分开用*/
+"Others" = "Autre";
+
+"Other income" = "Autres revenus";
+"Other expenses" = "Autres dépenses";
+"Other people" = "Autres personnes";
+
+
+/*“其他”分开用*/
+"Family" = "Famille";
+"Me" = "Se posséder";
+"Spouse" = "Conjoint";
+"Parents" = "Les parents";
+"Children" = "Les enfants";
+"Saved successfully" = "Enregistrer avec succès！";
+"Save failed" = "Enregistrer échoué！";
+"Modify failed" = "La modification a échoué！";
+"Successfully modified" = "Modifié avec succès！";
+"Budget Settings" = "Paramètres de budget";
+"Income Template" = "Modèle de revenu";
+"Expenditure Template" = "Modèle de dépenses";
+"Income Type Settings" = "Type de revenu";
+"Payment Type Settings" = "Type de paiement";
+
+"Today" = "Aujourd'hui";
+"Yesterday" = "Hier";
+
+"Salary" = "Salaire";
+"Bonus" = "Prime";
+"Financing Income" = "Gestion financière";
+"Part-time Income" = "Temps partiel";
+"Red Packet" = "Pack rouge";
+
+
+"Wechat Pay" = "Paiement de WeChat";
+"Ali Pay" = "Paiement de Ali";
+"Union Pay" = "Paiement de Union";
+"Cash Pay" = "En espèces";
+
+"Income and expenditure" = " Profil";
+"Income this month" = "Revenu： ";
+"expenditure this month" = "Dépenses： ";
+"Expenditure budget" = "Budget de dépenses： ";
+"Budget balance" = "Solde budgétaire： ";
+"Balance for this month" = "Solde pour ce mois： ";
+
+"History record" = "Historique";
+"Recent record" = "Enregistré récemment";
+
+"Month Details" = "Month Details";
+
+"Sum" = "Somme： ";
+"Overview" = "Aperçu";
+"Income budget" = "Budget de revenu： ";
+"Real income" = "Revenu réel： ";
+"Expenditure budget" = "Budget de dépenses： ";
+"Real Expenditure" = "Dépenses réelles： ";
+
+"All records" = "Tous les enregistrements";
+
+
+"Normal" = "Normale";
+"Over budget" = "Plus de budget";
+
+"Fail to accomplish" = "Ne pas accomplir";
+"History report" = "historiques";
+"Changes" = "Au cours des derniers mois";
+"Month" = "";
+"No data" = "Pas de données！";
+"Kindly Reminder" = "Conseils chaleureux";
+"Got it" = "Connaissez-le";
+"Remind me later" = "Rappelle-moi plus tard";
+"Confirm" = "Confirmation";
+"Set immediately" = "Mettre en place immédiatement";
+"No set" = "Il n'est pas nécessaire de mettre en place ici！";
+"set it now？" = "N'avez-vous pas fixé de budget, configurez-le maintenant?";
+"Data can not be restored" = "Les données ne peuvent pas être restaurées après la suppression, que ce soit pour continuer?";
+"Unfilled" = "Non rempli";
+"Accumulated income" = "Revenu accumulé：";
+"Cumulative expenditures" = "Dépenses accumulées：";
+"Number of records" = "Nombre d'enregistrements：";
+"Start time" = "Heure de début：";
+"Accumulated balance" = "Solde cumulé：";
+"Query the records" = "Enregistrement de requête";
+"End time" = "Heure de fin： ";
+
+"Queries Now" = "Demandez immédiatement";
+"All records" = "Tous enregistrés";
+"Corresponding month" = "Les mois correspondants： ";
+"Add item" = "Ajouter un élément（+）";
+"Added" = "Ajouté";
+"Security question setting" = "série de questions de sécurité";
+"Gesture password setting" = "Paramètre de mot de passe Gesture";
+
+"Question 1" = "Question de sécurité 1：";
+"Question 2" = "Question de sécurité 2：";
+"Question 3" = "Question de sécurité 3：";
+"Please enter the answer" = "Entrez la réponse";
+"Modify gesture password" = "Modifier le mot de passe du geste";
+"Original gesture password" = "Veuillez dessiner le mot de passe original du geste";
+"Password is wrong" = "Le mot de passe est incorrect, vous pouvez également essayer à nouveau";
+"Times" = " les temps";
+"Close gesture password" = "Fermez le mot de passe du geste";
+
+"5 times" = "Le nombre d'erreurs a atteint 5 fois";
+"Sorry" = "Désolé！";
+
+"Exit immediately" = "Sortie immédiate";
+"Congratulations" = "Félicitations！";
+"Verification failed" = "La vérification a échoué, veuillez quitter!";
+
+
+"Verify security question" = "Vérifier la question de sécurité";
+"Gesture password" = "Mot de passe Gesture";
+"Please draw the gesture password" = "Veuillez dessiner le mot de passe du geste";
+"Please draw a new gesture password" = "Veuillez dessiner un nouveau mot de passe";
+"Draw again to confirm" = "Dessinez à nouveau pour confirmer";
+"Confirm success" = "Confirmer le succès";
+
+"Inconsistent" = "Incohérent, veuillez redessiner";
+"Connect at least 4 points, please redraw" = "Connectez au moins 4 points, redessinez-le";
+"Deleted successfully" = "Supprimé avec succès";
+"Delete failed" = "Suppression échoué";
+"Please wait" = "Veuillez patienter...";
+
+"Verification is successful, the gesture password has been cleared!" = "La vérification est réussie, le mot de passe du geste a été effacé!";
+"The answer can not be empty" = "La réponse ne peut pas être vide";
+
+"Please keep in mind the secret answer!" = "Gardez à l'esprit la réponse secrète!";
+
+"Your first boss's name" = "Le nom de votre premier patron？";
+"DayChanges" = "Changements récents dans les recettes et les dépenses";
+
+
+"The name of your high school class teacher" = "Le nom de votre professeur de classe secondaire？";
+"The name of your best friend" = "Le nom de votre meilleur ami？";
+"Where did you go for the first time by plane" = "Où êtes-vous allé pour la première fois en avion?";
+"Where did you go by train for the first time" = "Où êtes-vous allé en train pour la première fois?";
+"Where did you go by ship for the first time" = "Où êtes-vous allé pour la première fois?";
+"What is your ideal job" = "Quel est votre travail idéal？";
+"What is your first nickname" = "Quel est ton premier surnom?";
+"Who is your favorite singer" = "Qui est votre chanteur préféré?";
+"Please set the security problem first" = "Veuillez d'abord définir le problème secret";
+
+"¥" = " FF";
+"Please draw the gesture to unlock" = "Veuillez dessiner le geste pour débloquer";
+
+"Currency Unit" = "Unité monétaire";
+
+"Select the currency unit" = "Sélectionnez les unités：";
+
+
+"Initial Assets" = "Initial Assets";
+"Total Assets" = "Total Assets:";
+
+"Daily report" = "Daily" ;
+"Monthly report" = "Monthly";
+"Change in recent days" = "Change in recent days";
+"no record" = "no record!";
+"Jan." = "Jan.";
+"Feb." = "Feb.";
+"Mar." = "Mar.";
+"Apr." = "Apr.";
+"May." = "May.";
+"Jun." = "Jun.";
+"Jul." = "Jul.";
+"Aug." = "Aug.";
+"Sept."= "Sept.";
+"Oct." = "Oct.";
+"Nov." = "Nov.";
+"Dec." = "Dec.";
+"Sun" = "Sun";
+"Mon" = "Mon";
+"Tues" = "Tues";
+"Wed" = "Wed";
+"Thur" = "Thur";
+"Fri" = "Fri";
+"Sat" = "Sat";
+"day income" = "Income";
+"day expenditure" = "Expenditure";
+"rate desc" = "Hello, congratulations you have become a senior user of the software, you must have some want to say, please give me some of your feedback！";
+"Touch ID" = "Touch ID Déverrouillage des empreintes digitales";
+"kTouchIDLocalizedReasonKey" = "Clé d'accueil pour vérifier le déverrouillage d'empreinte digitale";
+"kTouchIDNotEvaluatePolicyKey" = "Vous n'avez pas défini l'empreinte digitale (Touch ID), veuillez ajouter l'empreinte digitale dans le système téléphonique \ Paramètres -> Touch ID et mot de passe ";
+"kTouchIDEvaluateSuccess" = "Déverrouillage des empreintes digitales ouvert avec succès";
+"kTouchIDEvaluateFailed" = "La vérification a échoué";
+"kTouchIDResetSystemTouchIDTips" = "La vérification de l'empreinte digitale a échoué, veuillez redémarrer le système après vérification.";
+"kTouchIDClickEvaluateUnlock" = "Cliquez sur Vérifier l'empreinte digitale";
+"kTouchIDClickSetUnlock" = "Cliquez pour définir l'empreinte digitale pour déverrouiller";
+"kTouchIDCloseSuccess" = "Empreinte digitale déverrouillée avec succès fermée";
+"Dear User" = "Cher utilisateur";
+"Share" = "Partager";
