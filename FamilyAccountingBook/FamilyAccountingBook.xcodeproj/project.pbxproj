@@ -72,6 +72,8 @@
 		CB3927E41F5813BE00B3D914 /* XNOKeyboardExtensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3927E31F5813BE00B3D914 /* XNOKeyboardExtensionView.m */; };
 		CB3927E81F5816CA00B3D914 /* record_bueaty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3927E71F5816CA00B3D914 /* record_bueaty@2x.png */; };
 		CB3927EA1F58171F00B3D914 /* keyboard_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3927E91F58171F00B3D914 /* keyboard_arrow@2x.png */; };
+		CB3D6CE325C5A92C005C91E8 /* FABRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D6CE225C5A92B005C91E8 /* FABRouter.m */; };
+		CB3D6D0025C5B7FF005C91E8 /* FABSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D6CFF25C5B7FF005C91E8 /* FABSettingManager.m */; };
 		CB75914F1F0F2C4F00249735 /* FABSecurityEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = CB75914E1F0F2C4F00249735 /* FABSecurityEntity.m */; };
 		CB7591531F0F6DD700249735 /* FABAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7591521F0F6DD700249735 /* FABAppUtils.m */; };
 		CB7591601F0F7B4B00249735 /* FABGestureAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB75915F1F0F7B4B00249735 /* FABGestureAuthView.m */; };
@@ -300,6 +302,10 @@
 		CB3927E31F5813BE00B3D914 /* XNOKeyboardExtensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNOKeyboardExtensionView.m; sourceTree = "<group>"; };
 		CB3927E71F5816CA00B3D914 /* record_bueaty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_bueaty@2x.png"; sourceTree = "<group>"; };
 		CB3927E91F58171F00B3D914 /* keyboard_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_arrow@2x.png"; sourceTree = "<group>"; };
+		CB3D6CE125C5A92B005C91E8 /* FABRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABRouter.h; sourceTree = "<group>"; };
+		CB3D6CE225C5A92B005C91E8 /* FABRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABRouter.m; sourceTree = "<group>"; };
+		CB3D6CFE25C5B7FF005C91E8 /* FABSettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABSettingManager.h; sourceTree = "<group>"; };
+		CB3D6CFF25C5B7FF005C91E8 /* FABSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABSettingManager.m; sourceTree = "<group>"; };
 		CB75914D1F0F2C4F00249735 /* FABSecurityEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABSecurityEntity.h; sourceTree = "<group>"; };
 		CB75914E1F0F2C4F00249735 /* FABSecurityEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABSecurityEntity.m; sourceTree = "<group>"; };
 		CB7591511F0F6DD700249735 /* FABAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABAppUtils.h; sourceTree = "<group>"; };
@@ -728,6 +734,7 @@
 		CB1120431EFBAFEA00CE2FF9 /* MySetting */ = {
 			isa = PBXGroup;
 			children = (
+				CB3D6CF725C5B785005C91E8 /* FABSettingManager */,
 				CBAFD0081F0E2675008E12C7 /* Unlock */,
 				CB026ED71F03571C00C9E643 /* Model */,
 				CB026ED61F03571500C9E643 /* View */,
@@ -840,6 +847,24 @@
 			);
 			name = Supports;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		CB3D6CDE25C5A82B005C91E8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D6CE125C5A92B005C91E8 /* FABRouter.h */,
+				CB3D6CE225C5A92B005C91E8 /* FABRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CB3D6CF725C5B785005C91E8 /* FABSettingManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D6CFE25C5B7FF005C91E8 /* FABSettingManager.h */,
+				CB3D6CFF25C5B7FF005C91E8 /* FABSettingManager.m */,
+			);
+			name = FABSettingManager;
 			sourceTree = "<group>";
 		};
 		CB7591501F0F6DA200249735 /* Classes */ = {
@@ -998,6 +1023,7 @@
 		CB9AD3BF1EFB963600CAF17D /* General */ = {
 			isa = PBXGroup;
 			children = (
+				CB3D6CDE25C5A82B005C91E8 /* Router */,
 				CB7591501F0F6DA200249735 /* Classes */,
 				CBC6D7041EFC12C000F7BA4A /* Categories */,
 				CBC6D6F31EFC11BE00F7BA4A /* View */,
@@ -1550,8 +1576,10 @@
 				CBC6CBEA1F0E2FBD0021F596 /* FABGestureEntity.m in Sources */,
 				CBC064D51F0782520026B28D /* FABTableSelectView.m in Sources */,
 				CBA61ADA1EFCFB93008BE475 /* FABMainViewController.m in Sources */,
+				CB3D6D0025C5B7FF005C91E8 /* FABSettingManager.m in Sources */,
 				CBA61A8C1EFCFADB008BE475 /* NSDate+convenience.m in Sources */,
 				CB7875B21F90807100AD2249 /* DAYComponentView.m in Sources */,
+				CB3D6CE325C5A92C005C91E8 /* FABRouter.m in Sources */,
 				CBA61AC61EFCFB61008BE475 /* FABAccountingRecentRecordCell.m in Sources */,
 				CB7A66891FB2FCF100CEACF2 /* FABSummaryBlockView.m in Sources */,
 				CBA61AA11EFCFB00008BE475 /* UIView+SSToolkitAdditions.m in Sources */,

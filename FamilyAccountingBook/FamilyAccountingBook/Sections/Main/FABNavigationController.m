@@ -17,6 +17,15 @@
 @implementation FABNavigationController
 
 #pragma mark - Life Cycle
++(void)initialize {
+//    [[UIBarButtonItem appearanceWhenContainedIn:[FABNavigationController class], nil] setBackButtonBackgroundImage:[UIImage imageNamed:@"default_back_normal"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    [[UIBarButtonItem appearanceWhenContainedIn:[FABNavigationController class], nil] setTintColor:UIColorFromRGB(0x333333)];
+    [[UINavigationBar appearanceWhenContainedIn:[FABNavigationController class], nil] setBackgroundImage:[UIImage imageWithColor:kWhiteColor] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearanceWhenContainedIn:[FABNavigationController class], nil] setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColorFromRGB(0x333333),NSFontAttributeName:[UIFont systemFontOfSize:18]}];
+    [[UINavigationBar appearanceWhenContainedIn:[FABNavigationController class], nil] setTintColor:kWhiteColor];
+    [[UINavigationBar appearanceWhenContainedIn:[FABNavigationController class], nil] setShadowImage:[UIImage new]];
+}
+
 #pragma mark -- Initialier Methods
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController
 {
@@ -44,11 +53,11 @@
 {
     [super viewDidLoad];
     
-    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:kBarTitleTextColor,NSFontAttributeName:[UIFont systemFontOfSize:19.0f]};
-    self.navigationBar.tintColor = kBarHighlightedTextColor;
-    [self.navigationBar setBackgroundImage:[UIImage imageWithColor:kWhiteColor] forBarMetrics:UIBarMetricsDefault];
-    [self.navigationBar setShadowImage:[[UIImage alloc] init]];
-    
+//    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:kBarTitleTextColor,NSFontAttributeName:[UIFont systemFontOfSize:19.0f]};
+//    self.navigationBar.tintColor = kBarHighlightedTextColor;
+//    [self.navigationBar setBackgroundImage:[UIImage imageWithColor:kWhiteColor] forBarMetrics:UIBarMetricsDefault];
+//    [self.navigationBar setShadowImage:[[UIImage alloc] init]];
+//    
     __weak typeof (self) weakSelf = self;
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)])
     {

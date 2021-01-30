@@ -24,8 +24,12 @@
 #import "FABAccountingRecentRecordEntity.h"
 #import "FABNavigationController.h"
 #import "FABGestureMainViewController.h"
+#import "FABRouter.h"
+#import "FABAllTreasureViewController.h"
 
 static NSString *SectionViewID = @"FABAccountingViewHeaderView";
+
+static NSString *Router_JumpToAllTreasureVC = @"Router_JumpToAllTreasureVC";
 
 
 @interface FABAccountingViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -50,6 +54,11 @@ static NSString *SectionViewID = @"FABAccountingViewHeaderView";
     //    [FABGestureMainViewController showMainGestureDefinitely:YES type:FABGestureMangerViewType_UnLock];
     
     
+}
+
+- (void)jumpToAllTreasureVC {
+    NSDictionary *params = @{@"navigation":self.navigationController};
+    [FABRouter openURL:@"FAB://Setting/AllTreasureVC" withUserInfo:params completion:nil];
 }
 
 
@@ -128,8 +137,10 @@ static NSString *SectionViewID = @"FABAccountingViewHeaderView";
 
 - (void)rightBarButtonPressed:(id)sender
 {
-    FABMonthHistoryViewController *monthDetail = [[FABMonthHistoryViewController alloc] init];
-    [self pushNormalViewController:monthDetail];
+    [self jumpToAllTreasureVC];
+    
+//    FABMonthHistoryViewController *monthDetail = [[FABMonthHistoryViewController alloc] init];
+//    [self pushNormalViewController:monthDetail];
     
 }
 
