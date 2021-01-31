@@ -17,6 +17,7 @@ PODS:
   - Charts (3.5.0):
     - Charts/Core (= 3.5.0)
   - Charts/Core (3.5.0)
+  - FABAllTreasure (0.1.0)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -39,6 +40,7 @@ PODS:
 DEPENDENCIES:
   - BlocksKit (= 2.2.5)
   - Charts
+  - FABAllTreasure (from `../FABAllTreasure`)
   - JSONModel (= 1.1.2)
   - LKDBHelper
   - Masonry (= 0.6.3)
@@ -58,9 +60,14 @@ SPEC REPOS:
     - TAPageControl
     - YYModel
 
+EXTERNAL SOURCES:
+  FABAllTreasure:
+    :path: "../FABAllTreasure"
+
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  FABAllTreasure: 01cfc79cd24ea7dd9da95eacce43ae6a46559c03
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
   LKDBHelper: e853b4408ffa1a5cc1c39346c45b4204db83e10a
@@ -69,6 +76,6 @@ SPEC CHECKSUMS:
   TAPageControl: fd11d779bbb5c2464ca2f55dde9e288213ea8a9b
   YYModel: 88f4bdec25975a8f642daa0bb572b039a3ab1db1
 
-PODFILE CHECKSUM: 9ae6d7f9026353c4a2a207728432df527037ab57
+PODFILE CHECKSUM: 108d47e5350cf72b8c6a50ed08ee8159bbe3773d
 
 COCOAPODS: 1.10.0

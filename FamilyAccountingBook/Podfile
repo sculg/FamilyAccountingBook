@@ -1,9 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/sculg/FABMacro.git'
-source 'https://github.com/sculg/FABCocoaPods.git'
+source 'https://gitlab.com/fab12/FABSpec.git'
 
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'FamilyAccountingBook' do use_frameworks!
 pod 'TAPageControl', '0.2.0'
@@ -14,5 +13,5 @@ pod 'YYModel', '0.9.7'
 pod 'BlocksKit', '2.2.5'
 pod 'LKDBHelper'
 pod 'Charts'
-pod 'FABMacro'
+pod 'FABAllTreasure', :path=> '../FABAllTreasure'
 end
