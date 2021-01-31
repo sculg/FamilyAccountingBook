@@ -1,0 +1,22 @@
+{
+  "name": "FABCoreSDK",
+  "version": "0.1.0",
+  "summary": "A short description of FABCoreSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitlab.com/sculg/FABCoreSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sculg": "sculisong@163.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/sculg/FABCoreSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FABCoreSDK/Classes/**/*"
+}

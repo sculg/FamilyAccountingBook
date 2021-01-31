@@ -6,6 +6,19 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		BAC76D76611DF88D224DB3CF7A82B877 /* FABAllTreasure */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 12C1D6A776BE3A4837DA513F228CCD68 /* Build configuration list for PBXAggregateTarget "FABAllTreasure" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FABAllTreasure;
+			productName = FABAllTreasure;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		00AE159D301D55ABBC0765F9F20BE3C2 /* NSNotificationCenter+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453A5B26447E9DCDF42DECB4923993B /* NSNotificationCenter+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00F52B5B3C90538FE25AEBD9DCC93249 /* ChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF969B8B63799B055E02A9137B9F869 /* ChartDataProvider.swift */; };
@@ -69,7 +82,6 @@
 		171D7FC46EC56CF9B16D97877A176C10 /* ChartUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB358D0A7D45909459B5D92C7F8387E /* ChartUtils.swift */; };
 		1872C9FC4BDC6F8F509162BB80BCC5AD /* RACUnarySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E270E893E260ED0B3970DDFEDF86264 /* RACUnarySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EC4D3DC2C9D4ED763CF9C8895830D6 /* UIPopoverController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 559061B3F9008A1D3B869808F592E0F8 /* UIPopoverController+BlocksKit.m */; };
-		1970063B0DD66B15D3E235301204EA41 /* FABAllTreasure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 444EC0F25D2F708BF8DB60F245351EFA /* FABAllTreasure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21FD6555D72A920925F53741588A3ED /* Masonry-dummy.m */; };
 		1A8A562D8D720140B1877F09EC08A436 /* UIActionSheet+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2E477F7A45489744C7EE32F7E2886 /* UIActionSheet+RACSignalSupport.m */; };
 		1A8CE4FC7EFC2462CA581533C839DF31 /* UITextField+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 221598C3741BF49E3CBC932CECC11004 /* UITextField+RACSignalSupport.m */; };
@@ -130,7 +142,6 @@
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2853FC7735484A6069F5D9251305B440 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348E248BFE74155E0C49FE6EF4B2B113 /* NSUserDefaults+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ABF2959AAC18E8C05351485A1EB0E6 /* NSUserDefaults+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BC5667BA39781B4F70C9AC0518E537 /* CombinedChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1203E5F1C068D23406742BF636370E1 /* CombinedChartDataProvider.swift */; };
-		3542F28F3B03F132462CB5EDBECE1CDE /* Pods-FamilyAccountingBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A19105594D177F35AA3253A2CBE3D /* Pods-FamilyAccountingBook-dummy.m */; };
 		35B4FDEF4026F2BF599BDD239E3531E9 /* RACCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 89497AD9A278CD71343386011DA4ABD2 /* RACCommand.m */; };
 		35C57ED01BE2D7FD6F4DACD96F5EDFE1 /* IFillFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4879BE18E86025EFCF6720E54823767 /* IFillFormatter.swift */; };
 		36D2AA6D0E48D5BAF9335437E39212C7 /* NSString+RACKeyPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F49F1EB210F236572448BA85EA9194 /* NSString+RACKeyPathUtilities.m */; };
@@ -166,7 +177,6 @@
 		49487B5676236394429A39B3EE6807C8 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A924F269D59BFBF16F2C722ABC8E05C /* NSObject+YYModel.m */; };
 		4975CACC893A427910F64270C28E7275 /* RadarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E727053566A63D147997BCEFA106A /* RadarChartData.swift */; };
 		4994E7B2E69CF616E8E7ECD19014CAE0 /* CandleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FFB43F6E410966FF03187A5C8A3E1E /* CandleChartDataSet.swift */; };
-		49C749043583A123B3E31D788402DB56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
 		49E9DCC5114DE66808AE2344D54D6045 /* UITableViewCell+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DB1F9F777D0BB68849412513B7E0C8 /* UITableViewCell+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49FD48552CF61BA11BA1DF1DB818096E /* NSData+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB417E2E5EBF2E160C2335AB2C9CDC5 /* NSData+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB3E642E4A77F11F5486607EFC01DC7 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D835ECD12DC48CD111FAE1C18DE32FAE /* NSArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -207,7 +217,6 @@
 		5E8062C4CA7CFF864E870DD32EF373D0 /* NSURLConnection+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A802773DCF65F51FF5085BF930DCF04E /* NSURLConnection+RACSupport.m */; };
 		5F86F0A9416CF47DE55F7C1F333F9B20 /* RACSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDFFAEF6A9ED79F105649C2AB0A25B2 /* RACSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F964DC161D88BE519E59D025C01C6F5 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD081343EF858532317348ADDF0D25A /* JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5FCCB2EFD019E02A4AD77B0E5915053C /* Pods-FamilyAccountingBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CDD0AECC6BC03411F0C74C4082F821 /* Pods-FamilyAccountingBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FFBD27779914949CCB3A643396696CF /* UIWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F81D97DC76959EBD472148D4EC80CCE5 /* UIWebView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61A4F8288571431BD9CCAEA01D489B8B /* NSObject+RACPropertySubscribing.h in Headers */ = {isa = PBXBuildFile; fileRef = E32CC7BDDDDC69B06D80A5C68711792A /* NSObject+RACPropertySubscribing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61B753A042411BCF77F768D958106A5C /* RadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19D000A43352C890CC0FECAFE2C353 /* RadarHighlighter.swift */; };
@@ -253,7 +262,6 @@
 		750E16E225DCC3B6ECB705DE09F71699 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8077400A418385F74F301EF36F63F /* NSArray+JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		75B22CB8C580F73B117214B061436099 /* IMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B77DDC910441D99853787623BE29F /* IMarker.swift */; };
 		75DED089B685357D34569CFC24045E73 /* RACStringSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F54C2FDD633B01F9CC10A47FEFB49F4 /* RACStringSequence.m */; };
-		75E335C99EDB59CB99157E491A5D004B /* FABAllTreasure-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE95992F9BC09B277A8FFDE07FDE2C /* FABAllTreasure-dummy.m */; };
 		7605565F28B5C078923EE0A3F5D7C86E /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E79D1FD22C645A7C02F6AA431AA56 /* ChartData.swift */; };
 		7731319719C1878AE7AF9D78705712AF /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9C771DB9D51BF9E34C86955CCB0E3 /* Range.swift */; };
 		777B08381903387AEBE83CA0713DB562 /* RACIndexSetSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BF75638D5F3245DFBF501685EAB18A /* RACIndexSetSequence.m */; };
@@ -274,7 +282,6 @@
 		7D9B234A80745375B69B16745BB6ECF6 /* RACDynamicSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D887D2C6E604A3820F99F5093BD570 /* RACDynamicSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DE20C090855CD99A5D208A3410AF5F4 /* RACStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 040627B8EA4DE3E8BEE93D52DDA0FD61 /* RACStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EA6B81624538BCC292467DC0E7832D0 /* BubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6FC466BFDCC0AAB92AAC382F9792C /* BubbleChartData.swift */; };
-		8000740E39389D9E0AE5A828FD90F830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
 		8104AC0D8B60EEC6FB5C73EAFA1934AA /* PieRadarChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41697B088FB49F5390038DA19866D28D /* PieRadarChartViewBase.swift */; };
 		81FCFDD76834B83BF46D3741C79FF29A /* MarkerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832648BAD963B8B9513A4864152EA2A /* MarkerImage.swift */; };
 		8356648C8026AB8EBA631C6D2DD179C4 /* NSObject+RACDeallocating.m in Sources */ = {isa = PBXBuildFile; fileRef = 79429A08C1808A4F01EDEFE45D335C8F /* NSObject+RACDeallocating.m */; };
@@ -341,6 +348,7 @@
 		A299807BB62EA27766C43F32715D3A64 /* RACCompoundDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AD3485BC12C5633F77E60C455481DC /* RACCompoundDisposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E057BC2F8F7AECAC015010439A154120 /* View+MASAdditions.m */; };
 		A36802C377AD51FA89641B3B834F4C02 /* UISlider+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C0291BBFF572BE6CAED35618AB9981 /* UISlider+RACSignalSupport.m */; };
+		A38EFC28759AE4BFEA4CB607B578FB36 /* Pods-FamilyAccountingBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CDD0AECC6BC03411F0C74C4082F821 /* Pods-FamilyAccountingBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4E67531A1E94CF08B3808330D77103B /* UIRefreshControl+RACCommandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 01191017B872E3D1B218DB0EBB93C9C6 /* UIRefreshControl+RACCommandSupport.m */; };
 		A510FED6943809E7E3DA700F672B2F7D /* RACQueueScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965CF42A6051B51164D7E7BD2E0282F /* RACQueueScheduler.m */; };
 		A60A5723AF821BB0F476AB9C860B7C39 /* NSObject+LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 153E44B4D9660C12DD7F9D311EBE80C4 /* NSObject+LKDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -363,6 +371,7 @@
 		AEAB95AFD2529CDAF3A10D90A165CF16 /* BarLineScatterCandleBubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A193A166AA6EC448E4BD8386B8F70 /* BarLineScatterCandleBubbleChartDataSet.swift */; };
 		AF34EC6CDB336F35ACD18C2CA8428251 /* PieChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0890FE9C3ACC28ACB0D863748CEF74EE /* PieChartDataEntry.swift */; };
 		AFD44F8A46638784EBBD8E515DF799F8 /* RACMulticastConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BD58F897D74B5A041907212078FCE2 /* RACMulticastConnection.m */; };
+		AFDBB986095160960C0FF5AE6C39D0A7 /* Pods-FamilyAccountingBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A19105594D177F35AA3253A2CBE3D /* Pods-FamilyAccountingBook-dummy.m */; };
 		B00A1568A89DD820BC9063DC6961540D /* XAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19321E485C981C74B9D83F957AEE5A6 /* XAxis.swift */; };
 		B14341E138DC6D05193C2866864E9DEC /* AxisRendererBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3260CA023EBB4BE8A35F2D24F868018F /* AxisRendererBase.swift */; };
 		B1784BB8A283FF28BE29BDD9AA7FA653 /* UIActionSheet+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 167B35B03FEADA56091297C5E2122558 /* UIActionSheet+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -427,10 +436,8 @@
 		CADA3263D9306E1D64AAB82D23D2E19E /* UITableViewHeaderFooterView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7489658AE3E537CE9E4E4862A5636447 /* UITableViewHeaderFooterView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAE986D939019B7726C896B88AC34B82 /* ScatterChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A37834A28CCFE1FEEA669287CFD8A6 /* ScatterChartDataSet.swift */; };
 		CB6E235EB0A5B896F9D1815877757EF9 /* CandleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EB75A0A869B30F73A63EE3C4D7EA /* CandleChartData.swift */; };
-		CBDDA6BC25C6D0FE003F5640 /* FABAllTreasureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDDA6BA25C6D0FE003F5640 /* FABAllTreasureManager.h */; };
-		CBDDA6BD25C6D0FE003F5640 /* FABAllTreasureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDDA6BB25C6D0FE003F5640 /* FABAllTreasureManager.m */; };
-		CBDDA72525C6D4D4003F5640 /* FABAllTreasureVC.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDDA72325C6D4D4003F5640 /* FABAllTreasureVC.h */; };
-		CBDDA72625C6D4D4003F5640 /* FABAllTreasureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDDA72425C6D4D4003F5640 /* FABAllTreasureVC.m */; };
+		CBDDA75925C6E920003F5640 /* FABRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDDA75725C6E920003F5640 /* FABRouter.m */; };
+		CBDDA75A25C6E920003F5640 /* FABRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDDA75825C6E920003F5640 /* FABRouter.h */; };
 		CC4C642566282D6390D6D79811F6C1DC /* RACErrorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFFEABFF41618A768441C5AC264CBED /* RACErrorSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDABB0AA47F0EEE957FCE629F8D2DB6B /* BubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1B12AF61E85ED745471A08605BE05 /* BubbleChartView.swift */; };
 		CE460375BE540FD967B8CA0C9FC874A8 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AC55E4064089D8AB4F5CAE8A2BDA3 /* YYModel-dummy.m */; };
@@ -480,9 +487,11 @@
 		E63E7C561D6EB07E30ADE917A93270BE /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD325335EDDF5E0BED240261DDF58B0B /* BlocksKit+UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E667AF98DE4D39AE296A43CB195A4669 /* RACChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBB7D379E548BF1CF31B24ACF6D8707 /* RACChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EF8FFC4F685FE72AD8FD950A22396B /* RACArraySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = A68AAAC2903E4BD2A08602D856553F2C /* RACArraySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6FA47F529F19CEDB0CF7BFD95ED8090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
 		E73D9F2950182C774E50E891F75C1BB4 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015A383A7B2F62EFB65B87A79A01E574 /* LineChartView.swift */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2C1FCB460C0352641BB24BE64B4DAE /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7CB601E57442AAE994A1FDE532E2D94 /* UIRefreshControl+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D2854D28FFADBAE756D66AE55920FA65 /* UIRefreshControl+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CB72FEE2BA8FD320108C20C4AC4A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
 		E7CBE606982C38420CF8FE76965585F4 /* NSMutableSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B16F8C37FE86244193D511192121EE51 /* NSMutableSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A246774010833A438D0CB67B6E45CE /* MASConstraint.m */; };
 		E96933645DBB6113A94B915DA8C07D05 /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B35CF00DA271CA9F405E173BA363147 /* UIView+BlocksKit.m */; };
@@ -501,6 +510,8 @@
 		EEE7C3B2DB0A8AA92F28F87310FDBF5B /* RACStream+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E655BC67FFC74E99FC9E5ADA24E8F0 /* RACStream+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EF0794E8D385C57B4B3DDD8895431161 /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0987AF46D03227DCC3D70682C12AF060 /* NSObject+LKDBHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EF57656B0F585FA18814D96F8B301E8E /* NSObject+RACSelectorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF6F2E33D8D09331B4C68C7DD4A63DB /* NSObject+RACSelectorSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13976C58F1B0C0B190D8A0CD26B8267 /* FABCoreSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 485DF97C65EB82D06F90F4FD26E2AD88 /* FABCoreSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16A8FCC42DB2A8ED60FA37BE531ADAB /* FABCoreSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C929EAAE703A08904C5E12BD5D06F3 /* FABCoreSDK-dummy.m */; };
 		F1B3693550BD159B7E910C182326A44B /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C867E2656716248023EA9A6E722221 /* ChartAnimationEasing.swift */; };
 		F202AE59369A42D39FDDE8A0E67C4B06 /* RACCompoundDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 899882E29CF416D7D01A1014005CBCD5 /* RACCompoundDisposable.m */; };
 		F26B98E98E1122E758EFF14A66BC5799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
@@ -532,82 +543,89 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B976BC3F4CAA68141E0F46DC3983B47 /* PBXContainerItemProxy */ = {
+		1AA63E354785B3A848C78D50B395ADCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
 			remoteInfo = YYModel;
 		};
-		2443EEA7FF03B272A8F8F2B0F2274466 /* PBXContainerItemProxy */ = {
+		22D6B0F65102D688B90DA3CF17623628 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
+			remoteGlobalIDString = B2777DC549C19A310651FBD3C87B71DF;
+			remoteInfo = BlocksKit;
 		};
-		335C7F47210817B790CEDDE6990F3A0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
-			remoteInfo = JSONModel;
-		};
-		4034BD967B37AE26AAE683EEAB4871E7 /* PBXContainerItemProxy */ = {
+		309268C7EE96C585141C493FA1B2BE05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 798077C12EFD402A47390D1CDB0ED3D6;
 			remoteInfo = LKDBHelper;
 		};
-		49C17B2D6B816548401FC94FF2B2941B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		4F3A789DC5C1063BD6A2CEB14DC2AE56 /* PBXContainerItemProxy */ = {
+		317387871DC31529C0F254F19BD6CDCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BAC76D76611DF88D224DB3CF7A82B877;
 			remoteInfo = FABAllTreasure;
 		};
-		5C8D964E8271BFB4A074241A0BD79EBD /* PBXContainerItemProxy */ = {
+		54790478F9CF8789FA82E62BB230F518 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C7544868328B26802248D109459AB722;
-			remoteInfo = TAPageControl;
+			remoteGlobalIDString = B0FDCE6612B121244BD768EC8591CEB8;
+			remoteInfo = FABCoreSDK;
 		};
-		780E0C145020847E26BDEDF36325762C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07B5C6907D09E767CDC5954A9468CA2E;
-			remoteInfo = ReactiveCocoa;
-		};
-		AAE054EFEDE39565C0B2E5CF35F7E847 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF03B0B2B8B052092CB5F90CC5FB3757;
-			remoteInfo = Charts;
-		};
-		CF75E6ED00A811D480C6FD363271BA97 /* PBXContainerItemProxy */ = {
+		61393C1BF4FC914D1C38D93B51E25156 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
 			remoteInfo = FMDB;
 		};
-		EE590FC6C5BA8D60FE34FA0F558E8132 /* PBXContainerItemProxy */ = {
+		6DB718FAAD334FB2F3307CC3E354A532 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2777DC549C19A310651FBD3C87B71DF;
-			remoteInfo = BlocksKit;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		C3911650FCACC87A1501690466C867B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF03B0B2B8B052092CB5F90CC5FB3757;
+			remoteInfo = Charts;
+		};
+		CA4D3BAF0A344E77DADC8FA19B756E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		DD9A267B09C07C1B9B013C5477A9A389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B5C6907D09E767CDC5954A9468CA2E;
+			remoteInfo = ReactiveCocoa;
+		};
+		F3DF44865701857BA05A4850941F5727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7544868328B26802248D109459AB722;
+			remoteInfo = TAPageControl;
+		};
+		FF4ADFC3DCF4D99FE52957F052F818AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -618,7 +636,6 @@
 		015A383A7B2F62EFB65B87A79A01E574 /* LineChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartView.swift; path = Source/Charts/Charts/LineChartView.swift; sourceTree = "<group>"; };
 		0217D9B099C607F2E8F9B910D01DAFD1 /* BlocksKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlocksKit.modulemap; sourceTree = "<group>"; };
 		0218C4F8B1CA064BB4BB770C498ABAB5 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		02AF99FB8711CBD58FA0682A92489580 /* FABAllTreasure.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FABAllTreasure.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		03C867E2656716248023EA9A6E722221 /* ChartAnimationEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAnimationEasing.swift; path = Source/Charts/Animation/ChartAnimationEasing.swift; sourceTree = "<group>"; };
 		03D3C90D34EE9D5D64766AC2C653D7A7 /* RACSubscriptionScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubscriptionScheduler.h; path = ReactiveCocoa/RACSubscriptionScheduler.h; sourceTree = "<group>"; };
 		040627B8EA4DE3E8BEE93D52DDA0FD61 /* RACStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACStream.h; path = ReactiveCocoa/RACStream.h; sourceTree = "<group>"; };
@@ -636,6 +653,7 @@
 		0A628A52F38D3E6CE9796EA7BC216F65 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		0AB3654BC62362587BB30C729FDF1DD7 /* BlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-prefix.pch"; sourceTree = "<group>"; };
 		0ABAA6B74D2D645D99E00324B1194450 /* UIDatePicker+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDatePicker+RACSignalSupport.h"; path = "ReactiveCocoa/UIDatePicker+RACSignalSupport.h"; sourceTree = "<group>"; };
+		0B474895EB8AD8A49FC7FAC335B50357 /* FABCoreSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FABCoreSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0BE7579A629A50AAAE28418051EA3703 /* ChartLimitLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartLimitLine.swift; path = Source/Charts/Components/ChartLimitLine.swift; sourceTree = "<group>"; };
 		0BEC05D45E22C5838946FE733E0E188E /* BarChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataProvider.swift; path = Source/Charts/Interfaces/BarChartDataProvider.swift; sourceTree = "<group>"; };
 		0C111FCC8108323CA125AD63B1FA4547 /* A2BlockInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2BlockInvocation.h; path = BlocksKit/DynamicDelegate/A2BlockInvocation.h; sourceTree = "<group>"; };
@@ -677,12 +695,10 @@
 		1B6A6F74DFF411EEDEDF6C772481A44B /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Source/Charts/Animation/Animator.swift; sourceTree = "<group>"; };
 		1BE8999CA38E44F10E3B58D0E939BB9B /* NSEnumerator+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEnumerator+RACSequenceAdditions.m"; path = "ReactiveCocoa/NSEnumerator+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		1C22B9ACC8246A1B7D53CE38B5DA6643 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		1C43198C611AAF05C653A0627C2CCFEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C65897663B3819820F43FCCD12E4C5D /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
 		1CEA168F77DFED2EBE1FA11E3E590968 /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+BlocksKit.m"; path = "BlocksKit/UIKit/UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
 		1D59B8A45B9EFFA443E82E349E04DC22 /* NSString+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACSequenceAdditions.m"; path = "ReactiveCocoa/NSString+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		1DFBAB18D51A82580E175FA45ADC04F7 /* RACBlockTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACBlockTrampoline.m; path = ReactiveCocoa/RACBlockTrampoline.m; sourceTree = "<group>"; };
-		1E3A6A11A59ADD85DDBD0A3ED98BA7F8 /* FABAllTreasure-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FABAllTreasure-Info.plist"; sourceTree = "<group>"; };
 		1E3C52B988D5E728CF8217B6F0F9C200 /* NSURLConnection+RACSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+RACSupport.h"; path = "ReactiveCocoa/NSURLConnection+RACSupport.h"; sourceTree = "<group>"; };
 		1E4AA9F5E8D6100D948B75D92AF0E561 /* AnimatedViewPortJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedViewPortJob.swift; path = Source/Charts/Jobs/AnimatedViewPortJob.swift; sourceTree = "<group>"; };
 		1E7EEA8C317FDB4277AC96A1C5618390 /* RACGroupedSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACGroupedSignal.m; path = ReactiveCocoa/RACGroupedSignal.m; sourceTree = "<group>"; };
@@ -701,6 +717,7 @@
 		24DB1F9F777D0BB68849412513B7E0C8 /* UITableViewCell+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+RACSignalSupport.h"; path = "ReactiveCocoa/UITableViewCell+RACSignalSupport.h"; sourceTree = "<group>"; };
 		25A37834A28CCFE1FEEA669287CFD8A6 /* ScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ScatterChartDataSet.swift; sourceTree = "<group>"; };
 		25BD58F897D74B5A041907212078FCE2 /* RACMulticastConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACMulticastConnection.m; path = ReactiveCocoa/RACMulticastConnection.m; sourceTree = "<group>"; };
+		267D57E7A47779ADB5C2D3C65E8E10DE /* FABCoreSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABCoreSDK-prefix.pch"; sourceTree = "<group>"; };
 		268E6ABE16E12855338242EE31D4E68D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		27B8A69E56DBAAB57DC127ADB9234F2D /* BarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/BarChartDataSet.swift; sourceTree = "<group>"; };
 		27C2BC550AE0BBA74E8E666A7C676A15 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
@@ -758,7 +775,6 @@
 		419177FC63FE164D1022B775C8638E7E /* UITextField+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+RACSignalSupport.h"; path = "ReactiveCocoa/UITextField+RACSignalSupport.h"; sourceTree = "<group>"; };
 		4359FEC841567A83DF3827215C759B69 /* LKDBHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKDBHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4427A21E92F2A04466BDFC143775D82F /* TAPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAPageControl-umbrella.h"; sourceTree = "<group>"; };
-		444EC0F25D2F708BF8DB60F245351EFA /* FABAllTreasure-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABAllTreasure-umbrella.h"; sourceTree = "<group>"; };
 		449BB369AC2B32F57F1FACE6F5F04B59 /* RACDynamicSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDynamicSignal.m; path = ReactiveCocoa/RACDynamicSignal.m; sourceTree = "<group>"; };
 		450B6E310B359059EA084AE88BBF4063 /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+BlocksKit.h"; path = "BlocksKit/UIKit/UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
 		4645AA26B4CCEFE4E6E08B3405CB21E4 /* UIImagePickerController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+BlocksKit.m"; path = "BlocksKit/UIKit/UIImagePickerController+BlocksKit.m"; sourceTree = "<group>"; };
@@ -767,17 +783,20 @@
 		476404063A409D731352F67E9DC6FE60 /* TAPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TAPageControl-Info.plist"; sourceTree = "<group>"; };
 		47889DF13E996EC4465D52430E36E783 /* Pods-FamilyAccountingBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FamilyAccountingBook-Info.plist"; sourceTree = "<group>"; };
 		4823205C60F226C90D4333A196FC459E /* RACEXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTRuntimeExtensions.h; path = ReactiveCocoa/extobjc/RACEXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		485DF97C65EB82D06F90F4FD26E2AD88 /* FABCoreSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABCoreSDK-umbrella.h"; sourceTree = "<group>"; };
 		48D887D2C6E604A3820F99F5093BD570 /* RACDynamicSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDynamicSequence.h; path = ReactiveCocoa/RACDynamicSequence.h; sourceTree = "<group>"; };
 		490AC753C5C289D7B70E73B4E7512560 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C4EBFA8809B43B15CDB4E42E84F866 /* ChartBaseDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartBaseDataSet.swift; path = Source/Charts/Data/Implementations/ChartBaseDataSet.swift; sourceTree = "<group>"; };
 		49EF0D04FF581CD151363B200EB01849 /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m"; sourceTree = "<group>"; };
 		4A924F269D59BFBF16F2C722ABC8E05C /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
 		4C121B8B0DE1F00D53740606997CF58D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C667612CE620C159C6BE41F6227AAB2 /* FABCoreSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FABCoreSDK-Info.plist"; sourceTree = "<group>"; };
 		4C9321400EC2CDB97DAC52CECEA2C014 /* RACImmediateScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACImmediateScheduler.m; path = ReactiveCocoa/RACImmediateScheduler.m; sourceTree = "<group>"; };
 		4CB2E477F7A45489744C7EE32F7E2886 /* UIActionSheet+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+RACSignalSupport.m"; path = "ReactiveCocoa/UIActionSheet+RACSignalSupport.m"; sourceTree = "<group>"; };
 		4D80800993FD8AC9E7E8F9638CCD9AFC /* NSObject+RACDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACDescription.m"; path = "ReactiveCocoa/NSObject+RACDescription.m"; sourceTree = "<group>"; };
 		4F2FCB2D804FB4903431B302120B7C5F /* RACCompoundDisposableProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.dtrace; name = RACCompoundDisposableProvider.d; path = ReactiveCocoa/RACCompoundDisposableProvider.d; sourceTree = "<group>"; };
 		5007AB021DE79D26E63C9DAE600F5BAF /* UIGestureRecognizer+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+RACSignalSupport.h"; path = "ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.h"; sourceTree = "<group>"; };
+		505E378F130494A921E45D96C2C8D258 /* FABCoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABCoreSDK.debug.xcconfig; sourceTree = "<group>"; };
 		50AA114E144FA68F275F796D9D89E41D /* BlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlocksKit-dummy.m"; sourceTree = "<group>"; };
 		50CDD0AECC6BC03411F0C74C4082F821 /* Pods-FamilyAccountingBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FamilyAccountingBook-umbrella.h"; sourceTree = "<group>"; };
 		51436CE161D944CDC0590D152E1F0924 /* NSString+RACKeyPathUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RACKeyPathUtilities.h"; path = "ReactiveCocoa/NSString+RACKeyPathUtilities.h"; sourceTree = "<group>"; };
@@ -796,8 +815,8 @@
 		57A8D00178510431DFDC22E3590CA13A /* HorizontalBarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartRenderer.swift; path = Source/Charts/Renderers/HorizontalBarChartRenderer.swift; sourceTree = "<group>"; };
 		582A19105594D177F35AA3253A2CBE3D /* Pods-FamilyAccountingBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FamilyAccountingBook-dummy.m"; sourceTree = "<group>"; };
 		5832648BAD963B8B9513A4864152EA2A /* MarkerImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkerImage.swift; path = Source/Charts/Components/MarkerImage.swift; sourceTree = "<group>"; };
+		58D3A9E07EB53F0BC7CDDAC3B9DFFA32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		58EEB3711E4518D62AEDBE5F19C646B9 /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+BlocksKit.m"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
-		5941176B7D97FEF60A3AF4A776C69834 /* FABAllTreasure-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABAllTreasure-prefix.pch"; sourceTree = "<group>"; };
 		597A92B8B8B15522FB451F68968EA235 /* RACSerialDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSerialDisposable.h; path = ReactiveCocoa/RACSerialDisposable.h; sourceTree = "<group>"; };
 		59A246774010833A438D0CB67B6E45CE /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		59AD3485BC12C5633F77E60C455481DC /* RACCompoundDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACCompoundDisposable.h; path = ReactiveCocoa/RACCompoundDisposable.h; sourceTree = "<group>"; };
@@ -824,6 +843,7 @@
 		62EA009DDE60D6B17E67A5AB500DE39D /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		62EBDC5D2B71FED409D9FF542123B9E2 /* PieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartView.swift; path = Source/Charts/Charts/PieChartView.swift; sourceTree = "<group>"; };
 		63B6B20FDD20FF2C1375BE15AEBCBCE9 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		63C929EAAE703A08904C5E12BD5D06F3 /* FABCoreSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FABCoreSDK-dummy.m"; sourceTree = "<group>"; };
 		63F49F1EB210F236572448BA85EA9194 /* NSString+RACKeyPathUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACKeyPathUtilities.m"; path = "ReactiveCocoa/NSString+RACKeyPathUtilities.m"; sourceTree = "<group>"; };
 		644193A87C32093C6C86A631BD0A6110 /* UIControl+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+RACSignalSupport.m"; path = "ReactiveCocoa/UIControl+RACSignalSupport.m"; sourceTree = "<group>"; };
 		645356133ADB1B91DA75D06C49AA6A1F /* RACKVOTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOTrampoline.m; path = ReactiveCocoa/RACKVOTrampoline.m; sourceTree = "<group>"; };
@@ -844,7 +864,6 @@
 		6BB69FFFFAE6F2A95EB370E7CBDA01C0 /* CombinedHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedHighlighter.swift; path = Source/Charts/Highlight/CombinedHighlighter.swift; sourceTree = "<group>"; };
 		6C1BBDDFE181767DAA9A680BCA5D1BAB /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
 		6C9729304D3E1A7B15A7AE06B4DED209 /* JSONModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.debug.xcconfig; sourceTree = "<group>"; };
-		6CAF89D2C7D3466E00A575FB66EAF4F2 /* FABAllTreasure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABAllTreasure.release.xcconfig; sourceTree = "<group>"; };
 		6DD5D8E520912571756563273B4FFFAF /* NSDictionary+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RACSequenceAdditions.h"; path = "ReactiveCocoa/NSDictionary+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		6E45A113E724CFBD7F97688B4594E09C /* ReactiveCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveCocoa.debug.xcconfig; sourceTree = "<group>"; };
 		6E67425653EB3BADF0158067C2487E0A /* RACUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACUnit.m; path = ReactiveCocoa/RACUnit.m; sourceTree = "<group>"; };
@@ -881,7 +900,6 @@
 		7A64747CD3E424D15DEE41E1A4474FAE /* ZoomViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomViewJob.swift; path = Source/Charts/Jobs/ZoomViewJob.swift; sourceTree = "<group>"; };
 		7A685204A2285D13A9484D1D32CF7EBF /* RACDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDisposable.m; path = ReactiveCocoa/RACDisposable.m; sourceTree = "<group>"; };
 		7AF22791F4334BB55272455BABEB020D /* RACReplaySubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACReplaySubject.h; path = ReactiveCocoa/RACReplaySubject.h; sourceTree = "<group>"; };
-		7AFE31B7A412D2F1BBF76C31CB9D72AB /* FABAllTreasure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FABAllTreasure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B45E3ECF0DFD3F99EB6B4C94D04AC69 /* RACUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACUnit.h; path = ReactiveCocoa/RACUnit.h; sourceTree = "<group>"; };
 		7B90B27749ED4FF45B31427689E38F75 /* ICandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICandleChartDataSet.swift; path = Source/Charts/Data/Interfaces/ICandleChartDataSet.swift; sourceTree = "<group>"; };
 		7BD21D438A87F229C445EB3780FE20B0 /* RACQueueScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACQueueScheduler.h; path = ReactiveCocoa/RACQueueScheduler.h; sourceTree = "<group>"; };
@@ -895,6 +913,7 @@
 		7D7E5E71A4FEACBEEF7F6CC23DB0DDB6 /* BarLineScatterCandleBubbleChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartData.swift; path = Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartData.swift; sourceTree = "<group>"; };
 		7DD7D69188575CBB1B25F39F2ACC135C /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
 		7DF2A160BA526D8E2D42DB47F3191348 /* RACScheduler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACScheduler+Private.h"; path = "ReactiveCocoa/RACScheduler+Private.h"; sourceTree = "<group>"; };
+		7E18773C596DBE81BF90935C81440E13 /* FABAllTreasure.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FABAllTreasure.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E270E893E260ED0B3970DDFEDF86264 /* RACUnarySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACUnarySequence.h; path = ReactiveCocoa/RACUnarySequence.h; sourceTree = "<group>"; };
 		7E5EC8852B2057A364DDF33AABE08B6C /* Pods-FamilyAccountingBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FamilyAccountingBook-frameworks.sh"; sourceTree = "<group>"; };
 		7E5F9BA7BAE707D3B7854107951300DD /* NSOrderedSet+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+RACSequenceAdditions.h"; path = "ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.h"; sourceTree = "<group>"; };
@@ -926,6 +945,7 @@
 		892DEEAA52AAB2E58A09FA0EA11F39AA /* BubbleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/BubbleChartDataEntry.swift; sourceTree = "<group>"; };
 		89497AD9A278CD71343386011DA4ABD2 /* RACCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACCommand.m; path = ReactiveCocoa/RACCommand.m; sourceTree = "<group>"; };
 		899882E29CF416D7D01A1014005CBCD5 /* RACCompoundDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACCompoundDisposable.m; path = ReactiveCocoa/RACCompoundDisposable.m; sourceTree = "<group>"; };
+		89B0746D69C9B280B502B92DC613B2F4 /* FABCoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABCoreSDK.release.xcconfig; sourceTree = "<group>"; };
 		89CF898BAD320581D1225AD1189F85C2 /* RACSubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubject.h; path = ReactiveCocoa/RACSubject.h; sourceTree = "<group>"; };
 		8AB8EF3D632B7CE560792DDED6A30146 /* UISwitch+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+RACSignalSupport.m"; path = "ReactiveCocoa/UISwitch+RACSignalSupport.m"; sourceTree = "<group>"; };
 		8AE2E8A7B787BC4941085D8CE4D925AB /* MoveViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoveViewJob.swift; path = Source/Charts/Jobs/MoveViewJob.swift; sourceTree = "<group>"; };
@@ -951,9 +971,10 @@
 		941C79604724C92E59A23C317A6EB024 /* BlocksKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-umbrella.h"; sourceTree = "<group>"; };
 		94FDF9A0B38B4E339E1B11134C671F28 /* UITextField+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+BlocksKit.m"; path = "BlocksKit/UIKit/UITextField+BlocksKit.m"; sourceTree = "<group>"; };
 		950FC6DC47E7D62F2CC82E0501BA747B /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BlocksKit.m"; path = "BlocksKit/Core/NSArray+BlocksKit.m"; sourceTree = "<group>"; };
+		965BC9865F5E4978356E3CFEB6C18D16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96DEA3ACFCA5A930F3531FABC4C3A110 /* TAPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAPageControl.debug.xcconfig; sourceTree = "<group>"; };
 		96E38536DCC61F5865F902A7DC260C8B /* UIBarButtonItem+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+RACCommandSupport.m"; path = "ReactiveCocoa/UIBarButtonItem+RACCommandSupport.m"; sourceTree = "<group>"; };
-		971663D9D852E5C573A8B12918DAE828 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		985AA90AE3293077FD33E31C9971BFAD /* FABAllTreasure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABAllTreasure.debug.xcconfig; sourceTree = "<group>"; };
 		987A61CC545B25C19E6B5805D86D12B2 /* ReactiveCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-umbrella.h"; sourceTree = "<group>"; };
 		98C8077400A418385F74F301EF36F63F /* NSArray+JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONModel.m"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.m"; sourceTree = "<group>"; };
 		9962DD1BF78991A2C31660D964A0CB83 /* Charts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Charts-dummy.m"; sourceTree = "<group>"; };
@@ -987,6 +1008,7 @@
 		A528B76BD6D632CB7D4A01DC5A5D09C6 /* Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Charts.release.xcconfig; sourceTree = "<group>"; };
 		A555480AA6BFD72375A46AC35DC4CAEB /* TAPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAPageControl.release.xcconfig; sourceTree = "<group>"; };
 		A58E0CDE3439756D245D5A12107C159B /* BubbleChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartRenderer.swift; path = Source/Charts/Renderers/BubbleChartRenderer.swift; sourceTree = "<group>"; };
+		A5BCB0596AF66778688A6F1C683DDA0C /* FABAllTreasure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABAllTreasure.release.xcconfig; sourceTree = "<group>"; };
 		A5C9B049A2494414714B28D21D20146B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		A638BE7FBE4CABE01C6016E656CD5671 /* RACQueueScheduler+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACQueueScheduler+Subclass.h"; path = "ReactiveCocoa/RACQueueScheduler+Subclass.h"; sourceTree = "<group>"; };
 		A68AAAC2903E4BD2A08602D856553F2C /* RACArraySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACArraySequence.h; path = ReactiveCocoa/RACArraySequence.h; sourceTree = "<group>"; };
@@ -1025,12 +1047,13 @@
 		B16F8C37FE86244193D511192121EE51 /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
 		B1B5C198DEBABA401E51DD9BC255D135 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAAnimatedDotView.h; path = TAPageControl/TAAnimatedDotView.h; sourceTree = "<group>"; };
 		B2139911ABB94BB3D27B6FA4A11C9FE1 /* RACScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACScheduler.m; path = ReactiveCocoa/RACScheduler.m; sourceTree = "<group>"; };
+		B28AF8887BE6731BB4F26B951159022E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B2DEBB36CD13512E5408A4B8BC2045E3 /* TAPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAPageControl.h; path = TAPageControl/TAPageControl.h; sourceTree = "<group>"; };
 		B2FB074D93BB26983B4D270109049490 /* Platform+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Accessibility.swift"; path = "Source/Charts/Utils/Platform+Accessibility.swift"; sourceTree = "<group>"; };
+		B333F78934A5DD957F5A3A537F45646F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B4496D1BEAF2A76EC11EF68FC9EE026B /* RACEmptySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEmptySequence.h; path = ReactiveCocoa/RACEmptySequence.h; sourceTree = "<group>"; };
 		B54F7D31560F380EDB29B426601C3183 /* RACSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSignal.h; path = ReactiveCocoa/RACSignal.h; sourceTree = "<group>"; };
 		B554342D4A600195622C0C6A505138FF /* ViewPortJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewPortJob.swift; path = Source/Charts/Jobs/ViewPortJob.swift; sourceTree = "<group>"; };
-		B5E384F74BF600AB74A1BC7AA34E3A51 /* FABAllTreasure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABAllTreasure.debug.xcconfig; sourceTree = "<group>"; };
 		B6D8E4F27ABD4F37CA1973702EB8E962 /* ReactiveCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-prefix.pch"; sourceTree = "<group>"; };
 		B719007537C3E6942CB8E32352393B3E /* RACEXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTScope.h; path = ReactiveCocoa/extobjc/RACEXTScope.h; sourceTree = "<group>"; };
 		B72F01D7F5301A24B709A77E24B67BE9 /* LineScatterCandleRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleRadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineScatterCandleRadarChartDataSet.swift; sourceTree = "<group>"; };
@@ -1074,7 +1097,6 @@
 		C926C28C4BB0DE1CD3E516F32CC285DE /* DefaultAxisValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAxisValueFormatter.swift; path = Source/Charts/Formatters/DefaultAxisValueFormatter.swift; sourceTree = "<group>"; };
 		C9993E3D24879E22DF5C7F91A3CB65A9 /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		C99FF8505B762D79B5BB2917A1161930 /* NSOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+BlocksKit.m"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
-		C9B645DC4F116AF6CA8F9867168C89AB /* FABAllTreasure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FABAllTreasure.modulemap; sourceTree = "<group>"; };
 		CA1B4CA029ABCC5F0153EBD120CF2DF4 /* Pods-FamilyAccountingBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FamilyAccountingBook.modulemap"; sourceTree = "<group>"; };
 		CA5DBC4130C5716D31E884B0D24C99DE /* CandleStickChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartView.swift; path = Source/Charts/Charts/CandleStickChartView.swift; sourceTree = "<group>"; };
 		CAA551C7035920D66F80FDC5A5753296 /* TAPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TAPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1083,18 +1105,16 @@
 		CAC7ABEA574E1DFD02DB2281385601B5 /* RACSignal+Operations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACSignal+Operations.h"; path = "ReactiveCocoa/RACSignal+Operations.h"; sourceTree = "<group>"; };
 		CB1E3D6C040EECDBBCE9934850B01676 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
 		CB91E1E32769E51A31653D7DE79BC02E /* UIGestureRecognizer+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+RACSignalSupport.m"; path = "ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.m"; sourceTree = "<group>"; };
-		CBDDA6BA25C6D0FE003F5640 /* FABAllTreasureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FABAllTreasureManager.h; path = "../../../../财管家git本地仓库/FamilyAccountingBook/FamilyAccountingBook/Sections/FABAllTreasureManager.h"; sourceTree = "<group>"; };
-		CBDDA6BB25C6D0FE003F5640 /* FABAllTreasureManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FABAllTreasureManager.m; path = "../../../../财管家git本地仓库/FamilyAccountingBook/FamilyAccountingBook/Sections/FABAllTreasureManager.m"; sourceTree = "<group>"; };
-		CBDDA72325C6D4D4003F5640 /* FABAllTreasureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FABAllTreasureVC.h; path = ../../../../FABAllTreasureVC.h; sourceTree = "<group>"; };
-		CBDDA72425C6D4D4003F5640 /* FABAllTreasureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FABAllTreasureVC.m; path = ../../../../FABAllTreasureVC.m; sourceTree = "<group>"; };
+		CBDDA75725C6E920003F5640 /* FABRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABRouter.m; sourceTree = "<group>"; };
+		CBDDA75825C6E920003F5640 /* FABRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABRouter.h; sourceTree = "<group>"; };
 		CC333F6CD5417B9014F8BB8C5746020E /* CandleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataEntry.swift; sourceTree = "<group>"; };
 		CCB981063F8CBE5AAAE097FBD39C08C5 /* LineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineChartDataSet.swift; sourceTree = "<group>"; };
 		CCC169DAE4AC7FA6FF0C0262F270AC45 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		CD012293C5DCE8182F626730A008F424 /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
 		CD462A90A1CA497F5E3D99028AA42B71 /* A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2DynamicDelegate.m; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.m; sourceTree = "<group>"; };
+		CDCB59ABBD5977074538EBE5383DBD75 /* FABCoreSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FABCoreSDK.modulemap; sourceTree = "<group>"; };
 		CDCD68DC32BADC486A322FCC9B032F31 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
 		CDED6975575447E9D12D4965B77021AD /* LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBHelper.h; path = LKDBHelper/Helper/LKDBHelper.h; sourceTree = "<group>"; };
-		CEBE95992F9BC09B277A8FFDE07FDE2C /* FABAllTreasure-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FABAllTreasure-dummy.m"; sourceTree = "<group>"; };
 		CEFDC0437DA4ABE2AAABD5621EC2D265 /* RACSubscriptingAssignmentTrampoline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubscriptingAssignmentTrampoline.h; path = ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h; sourceTree = "<group>"; };
 		CFE1CB16C7F93EE95FA978C79788CEED /* BubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataProvider.swift; path = Source/Charts/Interfaces/BubbleChartDataProvider.swift; sourceTree = "<group>"; };
 		D0339FF8EFF97979F316E7B9B61004FE /* Renderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = Source/Charts/Renderers/Renderer.swift; sourceTree = "<group>"; };
@@ -1135,6 +1155,7 @@
 		E19321E485C981C74B9D83F957AEE5A6 /* XAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxis.swift; path = Source/Charts/Components/XAxis.swift; sourceTree = "<group>"; };
 		E1BF79FE9C0E16142BF8BF96F7B45249 /* LineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineRadarChartDataSet.swift; sourceTree = "<group>"; };
 		E1CF80B64F5AE14C5F315920A6FBB079 /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
+		E1DAB4381634F00562A17E4DF534A6FC /* FABCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FABCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21A1CD75A6DF64B5BB61F2E509722A8 /* IBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBubbleChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBubbleChartDataSet.swift; sourceTree = "<group>"; };
 		E32CC7BDDDDC69B06D80A5C68711792A /* NSObject+RACPropertySubscribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACPropertySubscribing.h"; path = "ReactiveCocoa/NSObject+RACPropertySubscribing.h"; sourceTree = "<group>"; };
 		E37E272F8249DAFBB05F3C25F7D3E43B /* RACSubscriptionScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSubscriptionScheduler.m; path = ReactiveCocoa/RACSubscriptionScheduler.m; sourceTree = "<group>"; };
@@ -1240,11 +1261,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCA76BD6B63A8F8D77739F2E065DE9FE /* Frameworks */ = {
+		ACECDB9D5C48A3C3E6424A01F407CC01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8000740E39389D9E0AE5A828FD90F830 /* Foundation.framework in Frameworks */,
+				E6FA47F529F19CEDB0CF7BFD95ED8090 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE9DBAF99AA5E467C0CE3995D782362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CB72FEE2BA8FD320108C20C4AC4A35 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1263,14 +1292,6 @@
 				1CC2C4464C49BED48885AF8F1211748F /* CoreFoundation.framework in Frameworks */,
 				4C526862196B73429AF9662EA73E352F /* Foundation.framework in Frameworks */,
 				31A66493CE1DBFFA9CA5F64CA5353AD6 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAE86D32FF09C6E03F678EEC51CBDFB3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49C749043583A123B3E31D788402DB56 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1318,21 +1339,6 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		1302266341B0C809D754E757A2F8BD54 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C9B645DC4F116AF6CA8F9867168C89AB /* FABAllTreasure.modulemap */,
-				CEBE95992F9BC09B277A8FFDE07FDE2C /* FABAllTreasure-dummy.m */,
-				1E3A6A11A59ADD85DDBD0A3ED98BA7F8 /* FABAllTreasure-Info.plist */,
-				5941176B7D97FEF60A3AF4A776C69834 /* FABAllTreasure-prefix.pch */,
-				444EC0F25D2F708BF8DB60F245351EFA /* FABAllTreasure-umbrella.h */,
-				B5E384F74BF600AB74A1BC7AA34E3A51 /* FABAllTreasure.debug.xcconfig */,
-				6CAF89D2C7D3466E00A575FB66EAF4F2 /* FABAllTreasure.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../FamilyAccountingBook/Pods/Target Support Files/FABAllTreasure";
-			sourceTree = "<group>";
-		};
 		19C7DA101A71A3812663F30DED9FBFFB /* MessageUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -1354,18 +1360,6 @@
 			name = "no-arc";
 			sourceTree = "<group>";
 		};
-		1EE6817421138ED2B9994696D85A5837 /* FABAllTreasure */ = {
-			isa = PBXGroup;
-			children = (
-				CBDDA72225C6D4A4003F5640 /* VC */,
-				CBDDA6B925C6D095003F5640 /* FABAllTreasureManager */,
-				50DF4D06676CB899F28320B5F54CB94E /* Pod */,
-				1302266341B0C809D754E757A2F8BD54 /* Support Files */,
-			);
-			name = FABAllTreasure;
-			path = ../../FABAllTreasure;
-			sourceTree = "<group>";
-		};
 		21E0297EBC9D6CDA6911F428928A3173 /* Pods-FamilyAccountingBook */ = {
 			isa = PBXGroup;
 			children = (
@@ -1381,6 +1375,21 @@
 			);
 			name = "Pods-FamilyAccountingBook";
 			path = "Target Support Files/Pods-FamilyAccountingBook";
+			sourceTree = "<group>";
+		};
+		23953AA839183D1C4CA004313D3DAE5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDCB59ABBD5977074538EBE5383DBD75 /* FABCoreSDK.modulemap */,
+				63C929EAAE703A08904C5E12BD5D06F3 /* FABCoreSDK-dummy.m */,
+				4C667612CE620C159C6BE41F6227AAB2 /* FABCoreSDK-Info.plist */,
+				267D57E7A47779ADB5C2D3C65E8E10DE /* FABCoreSDK-prefix.pch */,
+				485DF97C65EB82D06F90F4FD26E2AD88 /* FABCoreSDK-umbrella.h */,
+				505E378F130494A921E45D96C2C8D258 /* FABCoreSDK.debug.xcconfig */,
+				89B0746D69C9B280B502B92DC613B2F4 /* FABCoreSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../FamilyAccountingBook/Pods/Target Support Files/FABCoreSDK";
 			sourceTree = "<group>";
 		};
 		24ECF518F1B58DB2538BB4A923717A18 /* standard */ = {
@@ -1399,6 +1408,17 @@
 				24C5DA73F98F806A9858DEE4071079F0 /* FMResultSet.m */,
 			);
 			name = standard;
+			sourceTree = "<group>";
+		};
+		2D3943EBE12CBE7E79A10177AA3D0DC2 /* FABCoreSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CBDDA75625C6E8BF003F5640 /* FABRouter */,
+				58C5CDB8914CC67388297545DC2DC7BC /* Pod */,
+				23953AA839183D1C4CA004313D3DAE5F /* Support Files */,
+			);
+			name = FABCoreSDK;
+			path = ../../FABCoreSDK;
 			sourceTree = "<group>";
 		};
 		2F2A49E737FC4614D8EB68B70E81DB94 /* UIKit */ = {
@@ -1449,6 +1469,24 @@
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
 		};
+		394408022AB24D8CADEBB1C52E9192D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */,
+				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
+				E1DAB4381634F00562A17E4DF534A6FC /* FABCoreSDK.framework */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */,
+				4359FEC841567A83DF3827215C759B69 /* LKDBHelper.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				3C48DA6A92ED5E9B70BF5239A098A26A /* Pods_FamilyAccountingBook.framework */,
+				490AC753C5C289D7B70E73B4E7512560 /* ReactiveCocoa.framework */,
+				CAA551C7035920D66F80FDC5A5753296 /* TAPageControl.framework */,
+				E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4DAB9BAA02CA59385C8A7AB8AFA2BEB2 /* BlocksKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1461,12 +1499,12 @@
 			path = BlocksKit;
 			sourceTree = "<group>";
 		};
-		50DF4D06676CB899F28320B5F54CB94E /* Pod */ = {
+		58C5CDB8914CC67388297545DC2DC7BC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				02AF99FB8711CBD58FA0682A92489580 /* FABAllTreasure.podspec */,
-				971663D9D852E5C573A8B12918DAE828 /* LICENSE */,
-				1C43198C611AAF05C653A0627C2CCFEA /* README.md */,
+				0B474895EB8AD8A49FC7FAC335B50357 /* FABCoreSDK.podspec */,
+				B333F78934A5DD957F5A3A537F45646F /* LICENSE */,
+				B28AF8887BE6731BB4F26B951159022E /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -1627,6 +1665,15 @@
 				9FFE29A4B9097D04EFBF0E22F43743D1 /* NSTimer+BlocksKit.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		7E97F427439DB0AD36978CD28C9681E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D20AC5E6EFE801CAF20C9B0F3173139E /* FABAllTreasure */,
+				2D3943EBE12CBE7E79A10177AA3D0DC2 /* FABCoreSDK */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8415F6E321C6DCA957B011A0C37C0F61 /* Support Files */ = {
@@ -2016,42 +2063,45 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		CBDDA6B925C6D095003F5640 /* FABAllTreasureManager */ = {
+		C137CE3E2E7F5025DB5911D0F28DDEF8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CBDDA6BA25C6D0FE003F5640 /* FABAllTreasureManager.h */,
-				CBDDA6BB25C6D0FE003F5640 /* FABAllTreasureManager.m */,
+				7E18773C596DBE81BF90935C81440E13 /* FABAllTreasure.podspec */,
+				58D3A9E07EB53F0BC7CDDAC3B9DFFA32 /* LICENSE */,
+				965BC9865F5E4978356E3CFEB6C18D16 /* README.md */,
 			);
-			path = FABAllTreasureManager;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		CBDDA72225C6D4A4003F5640 /* VC */ = {
+		CBDDA75625C6E8BF003F5640 /* FABRouter */ = {
 			isa = PBXGroup;
 			children = (
-				CBDDA72325C6D4D4003F5640 /* FABAllTreasureVC.h */,
-				CBDDA72425C6D4D4003F5640 /* FABAllTreasureVC.m */,
+				CBDDA75825C6E920003F5640 /* FABRouter.h */,
+				CBDDA75725C6E920003F5640 /* FABRouter.m */,
 			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		CE90B4DD7587E5AFB48C32D6953954D7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1EE6817421138ED2B9994696D85A5837 /* FABAllTreasure */,
-			);
-			name = "Development Pods";
+			path = FABRouter;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CE90B4DD7587E5AFB48C32D6953954D7 /* Development Pods */,
+				7E97F427439DB0AD36978CD28C9681E9 /* Development Pods */,
 				3247032305B0F529721AD0A459432A70 /* Frameworks */,
 				60307B402653BD401486BA6B409186AC /* Pods */,
-				F53470093EC69B9C00EEB40B451507BF /* Products */,
+				394408022AB24D8CADEBB1C52E9192D1 /* Products */,
 				E66AC368934DF388B774C07892AC2AB2 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D20AC5E6EFE801CAF20C9B0F3173139E /* FABAllTreasure */ = {
+			isa = PBXGroup;
+			children = (
+				C137CE3E2E7F5025DB5911D0F28DDEF8 /* Pod */,
+				F84358DBC96C885625278C71533F962B /* Support Files */,
+			);
+			name = FABAllTreasure;
+			path = ../../FABAllTreasure;
 			sourceTree = "<group>";
 		};
 		D28B0F3E24E0BB38B0F4C3B490278C19 /* Support Files */ = {
@@ -2184,22 +2234,14 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		F53470093EC69B9C00EEB40B451507BF /* Products */ = {
+		F84358DBC96C885625278C71533F962B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */,
-				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
-				7AFE31B7A412D2F1BBF76C31CB9D72AB /* FABAllTreasure.framework */,
-				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
-				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */,
-				4359FEC841567A83DF3827215C759B69 /* LKDBHelper.framework */,
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
-				3C48DA6A92ED5E9B70BF5239A098A26A /* Pods_FamilyAccountingBook.framework */,
-				490AC753C5C289D7B70E73B4E7512560 /* ReactiveCocoa.framework */,
-				CAA551C7035920D66F80FDC5A5753296 /* TAPageControl.framework */,
-				E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */,
+				985AA90AE3293077FD33E31C9971BFAD /* FABAllTreasure.debug.xcconfig */,
+				A5BCB0596AF66778688A6F1C683DDA0C /* FABAllTreasure.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../FamilyAccountingBook/Pods/Target Support Files/FABAllTreasure";
 			sourceTree = "<group>";
 		};
 		FBAAC6A4E3DEDED3E3FD93A2F9927449 /* YYModel */ = {
@@ -2276,6 +2318,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		395C5649A5BEC341FF161C1E7EF82D29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13976C58F1B0C0B190D8A0CD26B8267 /* FABCoreSDK-umbrella.h in Headers */,
+				CBDDA75A25C6E920003F5640 /* FABRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3C21E3A60B8D2063E4CC2A0220E45AFD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2300,16 +2351,6 @@
 				CF6144C162A94F9D1AA90BA11452F996 /* JSONModelLib.h in Headers */,
 				44B2A7DF47A4D2E2E15B85280E44D285 /* JSONValueTransformer.h in Headers */,
 				F98714160099BA0A2E310CF3BF003215 /* NSArray+JSONModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63D8510302FAC651CF52FCD238E12905 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1970063B0DD66B15D3E235301204EA41 /* FABAllTreasure-umbrella.h in Headers */,
-				CBDDA72525C6D4D4003F5640 /* FABAllTreasureVC.h in Headers */,
-				CBDDA6BC25C6D0FE003F5640 /* FABAllTreasureManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2344,14 +2385,6 @@
 				3A04BC2BA2F50235B0220B8C57662D7D /* YYClassInfo.h in Headers */,
 				2335E8153E4B00D30C5253B202253206 /* YYModel-umbrella.h in Headers */,
 				53689A208817F15EEE38B7CF5B8490FA /* YYModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC98DE529AB556BA3F61E7A8503E5EAA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FCCB2EFD019E02A4AD77B0E5915053C /* Pods-FamilyAccountingBook-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2488,6 +2521,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F12E3F834F76874D8440892EDE040084 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38EFC28759AE4BFEA4CB607B578FB36 /* Pods-FamilyAccountingBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2511,26 +2552,27 @@
 		};
 		3D85D128033ED8EB91426109D3D3A3B9 /* Pods-FamilyAccountingBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E12EEFAB2216151A5263CF7F67A1EEBE /* Build configuration list for PBXNativeTarget "Pods-FamilyAccountingBook" */;
+			buildConfigurationList = 1FED6A60D9A5F9097421BAF4B87CB2C2 /* Build configuration list for PBXNativeTarget "Pods-FamilyAccountingBook" */;
 			buildPhases = (
-				AC98DE529AB556BA3F61E7A8503E5EAA /* Headers */,
-				2196E01AAE5654EC64E7953C0AC6A76A /* Sources */,
-				EAE86D32FF09C6E03F678EEC51CBDFB3 /* Frameworks */,
-				7F7BE3FF00897C6780186C940963B8A6 /* Resources */,
+				F12E3F834F76874D8440892EDE040084 /* Headers */,
+				D36D8E4B2591F21852395E9E58690352 /* Sources */,
+				BBE9DBAF99AA5E467C0CE3995D782362 /* Frameworks */,
+				8D9461F34E571D844A647F4B70E857B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				505F918AEEDD14ABA4A8C635AD2D310B /* PBXTargetDependency */,
-				EF050FF28D390299513D6975A0FA0922 /* PBXTargetDependency */,
-				EAB3EA6988FEC83D033B4DA9B3381930 /* PBXTargetDependency */,
-				A32CAB39E2B99540E651C69A1DC88830 /* PBXTargetDependency */,
-				23BC0B7501F5C4C2AEE0E337FC284771 /* PBXTargetDependency */,
-				B5319C0E7551AB9486CED065D23E532E /* PBXTargetDependency */,
-				961CC5F1BD83E2DE32961BDD414E5D03 /* PBXTargetDependency */,
-				6A25DD1667B5A45B7215C244DC75E7F0 /* PBXTargetDependency */,
-				ACFEF7D27190B93B4344CC16F523F8BD /* PBXTargetDependency */,
-				38F9A2893E779BCA19C32A02E225C6FA /* PBXTargetDependency */,
+				3A37ED65C4B22FE46456BA177C061681 /* PBXTargetDependency */,
+				DEF22A0FCDA4DCD8B3EE09C8CF715D2F /* PBXTargetDependency */,
+				7B454CB289FFCDE26F538F6AFB081476 /* PBXTargetDependency */,
+				9593A4F48C8C7A9A8A9655416BF77948 /* PBXTargetDependency */,
+				41CB0D23E142785B87F73101349C7781 /* PBXTargetDependency */,
+				738A80968E54540DF05DEA4013041AFA /* PBXTargetDependency */,
+				7331018B92BFA90C6D597CB89F6FCE1C /* PBXTargetDependency */,
+				44284FD755443DC41B0CF37A9A920930 /* PBXTargetDependency */,
+				F98A0A7F0C316F8021D71ABF78AD76B6 /* PBXTargetDependency */,
+				AD3D3FB69C7F55316B792798BD8B0312 /* PBXTargetDependency */,
+				D582999352D1196CA762F3E8B1A1AE1A /* PBXTargetDependency */,
 			);
 			name = "Pods-FamilyAccountingBook";
 			productName = "Pods-FamilyAccountingBook";
@@ -2567,7 +2609,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F271336E69CD430B1FE7102E39613AAE /* PBXTargetDependency */,
+				A956CA3C7D3ACB1A5E1CB389B6F0848A /* PBXTargetDependency */,
 			);
 			name = LKDBHelper;
 			productName = LKDBHelper;
@@ -2610,6 +2652,24 @@
 			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B0FDCE6612B121244BD768EC8591CEB8 /* FABCoreSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C613125C59F0024B583F5D8322234C12 /* Build configuration list for PBXNativeTarget "FABCoreSDK" */;
+			buildPhases = (
+				395C5649A5BEC341FF161C1E7EF82D29 /* Headers */,
+				A895BA24408066F5DA8053C92EB11BD6 /* Sources */,
+				ACECDB9D5C48A3C3E6424A01F407CC01 /* Frameworks */,
+				EEE87DE76F84970715D9AD6268EDB8A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FABCoreSDK;
+			productName = FABCoreSDK;
+			productReference = E1DAB4381634F00562A17E4DF534A6FC /* FABCoreSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2193EC8253961EF55414E928CB551BFE /* Build configuration list for PBXNativeTarget "BlocksKit" */;
@@ -2626,24 +2686,6 @@
 			name = BlocksKit;
 			productName = BlocksKit;
 			productReference = 6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BAC76D76611DF88D224DB3CF7A82B877 /* FABAllTreasure */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10019BBD2550E109017ECB860448DA1D /* Build configuration list for PBXNativeTarget "FABAllTreasure" */;
-			buildPhases = (
-				63D8510302FAC651CF52FCD238E12905 /* Headers */,
-				2CE2E55F5BC1607B08B5C707ACBF5B5C /* Sources */,
-				BCA76BD6B63A8F8D77739F2E065DE9FE /* Frameworks */,
-				DD22AFBF4A2B993349E29B3DCCB047DF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FABAllTreasure;
-			productName = FABAllTreasure;
-			productReference = 7AFE31B7A412D2F1BBF76C31CB9D72AB /* FABAllTreasure.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */ = {
@@ -2718,13 +2760,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F53470093EC69B9C00EEB40B451507BF /* Products */;
+			productRefGroup = 394408022AB24D8CADEBB1C52E9192D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */,
 				BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */,
 				BAC76D76611DF88D224DB3CF7A82B877 /* FABAllTreasure */,
+				B0FDCE6612B121244BD768EC8591CEB8 /* FABCoreSDK */,
 				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
 				E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */,
 				798077C12EFD402A47390D1CDB0ED3D6 /* LKDBHelper */,
@@ -2766,13 +2809,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F7BE3FF00897C6780186C940963B8A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		858748A9388C9E06D2710D99064AE27F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2781,6 +2817,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9461F34E571D844A647F4B70E857B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2808,7 +2851,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD22AFBF4A2B993349E29B3DCCB047DF /* Resources */ = {
+		EEE87DE76F84970715D9AD6268EDB8A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2947,14 +2990,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2196E01AAE5654EC64E7953C0AC6A76A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3542F28F3B03F132462CB5EDBECE1CDE /* Pods-FamilyAccountingBook-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		296B0E568E34F8A853768564820E4FD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2965,16 +3000,6 @@
 				D2F6BD513D46229F3887CB96A0CACC82 /* LKDBUtils.m in Sources */,
 				EF0794E8D385C57B4B3DDD8895431161 /* NSObject+LKDBHelper.m in Sources */,
 				2D5504D0969A785E1CF7FEED0676DD4A /* NSObject+LKModel.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CE2E55F5BC1607B08B5C707ACBF5B5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75E335C99EDB59CB99157E491A5D004B /* FABAllTreasure-dummy.m in Sources */,
-				CBDDA6BD25C6D0FE003F5640 /* FABAllTreasureManager.m in Sources */,
-				CBDDA72625C6D4D4003F5640 /* FABAllTreasureVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3139,6 +3164,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A895BA24408066F5DA8053C92EB11BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDDA75925C6E920003F5640 /* FABRouter.m in Sources */,
+				F16A8FCC42DB2A8ED60FA37BE531ADAB /* FABCoreSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4EDB329CE4E53622BA6DE31F3589FB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3154,6 +3188,14 @@
 				E509CFA53DDA8CFFA1B4DE4A76A1AB47 /* JSONModelError.m in Sources */,
 				7AA44785B5F2F72F06BC4AC7329DEAB1 /* JSONValueTransformer.m in Sources */,
 				750E16E225DCC3B6ECB705DE09F71699 /* NSArray+JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D8E4B2591F21852395E9E58690352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDBB986095160960C0FF5AE6C39D0A7 /* Pods-FamilyAccountingBook-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3211,71 +3253,77 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		23BC0B7501F5C4C2AEE0E337FC284771 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JSONModel;
-			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
-			targetProxy = 335C7F47210817B790CEDDE6990F3A0B /* PBXContainerItemProxy */;
-		};
-		38F9A2893E779BCA19C32A02E225C6FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = 1B976BC3F4CAA68141E0F46DC3983B47 /* PBXContainerItemProxy */;
-		};
-		505F918AEEDD14ABA4A8C635AD2D310B /* PBXTargetDependency */ = {
+		3A37ED65C4B22FE46456BA177C061681 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BlocksKit;
 			target = B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */;
-			targetProxy = EE590FC6C5BA8D60FE34FA0F558E8132 /* PBXContainerItemProxy */;
+			targetProxy = 22D6B0F65102D688B90DA3CF17623628 /* PBXContainerItemProxy */;
 		};
-		6A25DD1667B5A45B7215C244DC75E7F0 /* PBXTargetDependency */ = {
+		41CB0D23E142785B87F73101349C7781 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ReactiveCocoa;
-			target = 07B5C6907D09E767CDC5954A9468CA2E /* ReactiveCocoa */;
-			targetProxy = 780E0C145020847E26BDEDF36325762C /* PBXContainerItemProxy */;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 61393C1BF4FC914D1C38D93B51E25156 /* PBXContainerItemProxy */;
 		};
-		961CC5F1BD83E2DE32961BDD414E5D03 /* PBXTargetDependency */ = {
+		44284FD755443DC41B0CF37A9A920930 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 2443EEA7FF03B272A8F8F2B0F2274466 /* PBXContainerItemProxy */;
+			targetProxy = FF4ADFC3DCF4D99FE52957F052F818AD /* PBXContainerItemProxy */;
 		};
-		A32CAB39E2B99540E651C69A1DC88830 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = CF75E6ED00A811D480C6FD363271BA97 /* PBXContainerItemProxy */;
-		};
-		ACFEF7D27190B93B4344CC16F523F8BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TAPageControl;
-			target = C7544868328B26802248D109459AB722 /* TAPageControl */;
-			targetProxy = 5C8D964E8271BFB4A074241A0BD79EBD /* PBXContainerItemProxy */;
-		};
-		B5319C0E7551AB9486CED065D23E532E /* PBXTargetDependency */ = {
+		7331018B92BFA90C6D597CB89F6FCE1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LKDBHelper;
 			target = 798077C12EFD402A47390D1CDB0ED3D6 /* LKDBHelper */;
-			targetProxy = 4034BD967B37AE26AAE683EEAB4871E7 /* PBXContainerItemProxy */;
+			targetProxy = 309268C7EE96C585141C493FA1B2BE05 /* PBXContainerItemProxy */;
 		};
-		EAB3EA6988FEC83D033B4DA9B3381930 /* PBXTargetDependency */ = {
+		738A80968E54540DF05DEA4013041AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = CA4D3BAF0A344E77DADC8FA19B756E4D /* PBXContainerItemProxy */;
+		};
+		7B454CB289FFCDE26F538F6AFB081476 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FABAllTreasure;
 			target = BAC76D76611DF88D224DB3CF7A82B877 /* FABAllTreasure */;
-			targetProxy = 4F3A789DC5C1063BD6A2CEB14DC2AE56 /* PBXContainerItemProxy */;
+			targetProxy = 317387871DC31529C0F254F19BD6CDCE /* PBXContainerItemProxy */;
 		};
-		EF050FF28D390299513D6975A0FA0922 /* PBXTargetDependency */ = {
+		9593A4F48C8C7A9A8A9655416BF77948 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Charts;
-			target = BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */;
-			targetProxy = AAE054EFEDE39565C0B2E5CF35F7E847 /* PBXContainerItemProxy */;
+			name = FABCoreSDK;
+			target = B0FDCE6612B121244BD768EC8591CEB8 /* FABCoreSDK */;
+			targetProxy = 54790478F9CF8789FA82E62BB230F518 /* PBXContainerItemProxy */;
 		};
-		F271336E69CD430B1FE7102E39613AAE /* PBXTargetDependency */ = {
+		A956CA3C7D3ACB1A5E1CB389B6F0848A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 49C17B2D6B816548401FC94FF2B2941B /* PBXContainerItemProxy */;
+			targetProxy = 6DB718FAAD334FB2F3307CC3E354A532 /* PBXContainerItemProxy */;
+		};
+		AD3D3FB69C7F55316B792798BD8B0312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAPageControl;
+			target = C7544868328B26802248D109459AB722 /* TAPageControl */;
+			targetProxy = F3DF44865701857BA05A4850941F5727 /* PBXContainerItemProxy */;
+		};
+		D582999352D1196CA762F3E8B1A1AE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 1AA63E354785B3A848C78D50B395ADCD /* PBXContainerItemProxy */;
+		};
+		DEF22A0FCDA4DCD8B3EE09C8CF715D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			target = BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */;
+			targetProxy = C3911650FCACC87A1501690466C867B1 /* PBXContainerItemProxy */;
+		};
+		F98A0A7F0C316F8021D71ABF78AD76B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveCocoa;
+			target = 07B5C6907D09E767CDC5954A9468CA2E /* ReactiveCocoa */;
+			targetProxy = DD9A267B09C07C1B9B013C5477A9A389 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3653,6 +3701,53 @@
 			};
 			name = Debug;
 		};
+		642CBBD89890EEEF5FAFB488CC27F024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BCB0596AF66778688A6F1C683DDA0C /* FABAllTreasure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7653FF1540F9934F4365F65BE1E57FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544AF9DDFE835E6D63C09B37F509CDEF /* Pods-FamilyAccountingBook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FamilyAccountingBook/Pods-FamilyAccountingBook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FamilyAccountingBook/Pods-FamilyAccountingBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		79D835A135CB72DCDB086BFD5FB70A37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2323B08835F40EA2F74D9F16881C325E /* BlocksKit.release.xcconfig */;
@@ -3744,37 +3839,7 @@
 			};
 			name = Debug;
 		};
-		A1518E5CFB0434DDFE3C6EB7B1391891 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E384F74BF600AB74A1BC7AA34E3A51 /* FABAllTreasure.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FABAllTreasure/FABAllTreasure-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FABAllTreasure/FABAllTreasure-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FABAllTreasure/FABAllTreasure.modulemap";
-				PRODUCT_MODULE_NAME = FABAllTreasure;
-				PRODUCT_NAME = FABAllTreasure;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A21E59121909C3FAE9930F2BC96D5FC4 /* Debug */ = {
+		9CFDF894F01DC1C9A1C3775F35C1705C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70BFBCD71631BEBF7998D432D597BD28 /* Pods-FamilyAccountingBook.debug.xcconfig */;
 			buildSettings = {
@@ -3836,9 +3901,9 @@
 			};
 			name = Debug;
 		};
-		A839896176497F02040317C47CAC5199 /* Release */ = {
+		AE957E064334815932DCB4AD1F503DBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CAF89D2C7D3466E00A575FB66EAF4F2 /* FABAllTreasure.release.xcconfig */;
+			baseConfigurationReference = 505E378F130494A921E45D96C2C8D258 /* FABCoreSDK.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -3848,24 +3913,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FABAllTreasure/FABAllTreasure-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FABAllTreasure/FABAllTreasure-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FABCoreSDK/FABCoreSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FABAllTreasure/FABAllTreasure.modulemap";
-				PRODUCT_MODULE_NAME = FABAllTreasure;
-				PRODUCT_NAME = FABAllTreasure;
+				MODULEMAP_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK.modulemap";
+				PRODUCT_MODULE_NAME = FABCoreSDK;
+				PRODUCT_NAME = FABCoreSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B37BA0A5BA4564C437BED4D75071C2B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3897,11 +3961,23 @@
 			};
 			name = Debug;
 		};
-		BE3E79D36754E91B5738733658555D22 /* Release */ = {
+		C49BAA1B7C69DBE7583A4F7B45AD26C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 544AF9DDFE835E6D63C09B37F509CDEF /* Pods-FamilyAccountingBook.release.xcconfig */;
+			baseConfigurationReference = 985AA90AE3293077FD33E31C9971BFAD /* FABAllTreasure.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C60BCDAA59557E17202F41B64F07A0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B0746D69C9B280B502B92DC613B2F4 /* FABCoreSDK.release.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3910,19 +3986,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FamilyAccountingBook/Pods-FamilyAccountingBook-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FABCoreSDK/FABCoreSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FamilyAccountingBook/Pods-FamilyAccountingBook.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK.modulemap";
+				PRODUCT_MODULE_NAME = FABCoreSDK;
+				PRODUCT_NAME = FABCoreSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4085,11 +4160,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10019BBD2550E109017ECB860448DA1D /* Build configuration list for PBXNativeTarget "FABAllTreasure" */ = {
+		12C1D6A776BE3A4837DA513F228CCD68 /* Build configuration list for PBXAggregateTarget "FABAllTreasure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1518E5CFB0434DDFE3C6EB7B1391891 /* Debug */,
-				A839896176497F02040317C47CAC5199 /* Release */,
+				C49BAA1B7C69DBE7583A4F7B45AD26C1 /* Debug */,
+				642CBBD89890EEEF5FAFB488CC27F024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4099,6 +4174,15 @@
 			buildConfigurations = (
 				819C5B0A9BB6B26B1D3FEE0F274084C5 /* Debug */,
 				461DEF55E0949BD9E425A071556040DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FED6A60D9A5F9097421BAF4B87CB2C2 /* Build configuration list for PBXNativeTarget "Pods-FamilyAccountingBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFDF894F01DC1C9A1C3775F35C1705C /* Debug */,
+				7653FF1540F9934F4365F65BE1E57FE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4148,11 +4232,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E12EEFAB2216151A5263CF7F67A1EEBE /* Build configuration list for PBXNativeTarget "Pods-FamilyAccountingBook" */ = {
+		C613125C59F0024B583F5D8322234C12 /* Build configuration list for PBXNativeTarget "FABCoreSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A21E59121909C3FAE9930F2BC96D5FC4 /* Debug */,
-				BE3E79D36754E91B5738733658555D22 /* Release */,
+				AE957E064334815932DCB4AD1F503DBC /* Debug */,
+				C60BCDAA59557E17202F41B64F07A0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAC76D76611DF88D224DB3CF7A82B877"
-               BuildableName = "FABAllTreasure"
-               BlueprintName = "FABAllTreasure"
+               BlueprintIdentifier = "B0FDCE6612B121244BD768EC8591CEB8"
+               BuildableName = "FABCoreSDK.framework"
+               BlueprintName = "FABCoreSDK"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
