@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BAC76D76611DF88D224DB3CF7A82B877"
-               BuildableName = "FABAllTreasure"
+               BuildableName = "FABAllTreasure.framework"
                BlueprintName = "FABAllTreasure"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

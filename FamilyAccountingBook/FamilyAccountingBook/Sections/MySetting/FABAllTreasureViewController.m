@@ -12,11 +12,11 @@
 #import "FABAccountingSummaryEntity.h"
 #import "FABAccountingRecentRecordEntity.h"
 #import "FABPieChartTableViewCell.h"
-#import "FABRouter.h"
+//#import "FABRouter.h"
 
 static NSString *AllTreasureViewID = @"AllTreasureView";
 
-static NSString *Router_JumpToAllTreasureVC = @"Router_JumpToAllTreasureVC";
+//static NSString *Router_JumpToAllTreasureVC = @"Router_JumpToAllTreasureVC";
 
 
 @interface FABAllTreasureViewController ()

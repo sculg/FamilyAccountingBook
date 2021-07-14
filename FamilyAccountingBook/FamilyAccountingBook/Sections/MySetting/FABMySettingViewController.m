@@ -15,6 +15,7 @@
 #import "FABPassWordViewController.h"
 #import <StoreKit/StoreKit.h>
 #import "FABAccountingRecentRecordEntity.h"
+#import "FABRouter.h"
 
 static NSString *MySettingViewID = @"MySettingView";
 
@@ -226,12 +227,19 @@ static NSString *MySettingViewID = @"MySettingView";
     
 }
 
+//
+//- (void)toAllTreasure
+//{
+//    FABAllTreasureViewController *allTreasure = [[FABAllTreasureViewController alloc] init];
+//    [self pushNormalViewController:allTreasure];
+//}
 
-- (void)toAllTreasure
-{
-    FABAllTreasureViewController *allTreasure = [[FABAllTreasureViewController alloc] init];
-    [self pushNormalViewController:allTreasure];
+
+- (void)toAllTreasure {
+    NSDictionary *params = @{@"navigation":self.navigationController};
+    [FABRouter openURL:@"FAB://Setting/AllTreasureVC" withUserInfo:params completion:nil];
 }
+
 
 - (void)toCommonSetting
 {

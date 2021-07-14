@@ -6,29 +6,18 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		BAC76D76611DF88D224DB3CF7A82B877 /* FABAllTreasure */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 12C1D6A776BE3A4837DA513F228CCD68 /* Build configuration list for PBXAggregateTarget "FABAllTreasure" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = FABAllTreasure;
-			productName = FABAllTreasure;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		00AE159D301D55ABBC0765F9F20BE3C2 /* NSNotificationCenter+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3453A5B26447E9DCDF42DECB4923993B /* NSNotificationCenter+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00F52B5B3C90538FE25AEBD9DCC93249 /* ChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF969B8B63799B055E02A9137B9F869 /* ChartDataProvider.swift */; };
 		0106FDBFF888A37D96E44C60F9205E76 /* TAPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4427A21E92F2A04466BDFC143775D82F /* TAPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		010D7257DF469A461D6564DF73F398CF /* FABRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 542D506B899CC4C834AA583F6C7762E8 /* FABRouter.m */; };
 		01618174B06DD11428CA21BD4F996704 /* ComponentBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA93F5790E60F7D80013585C1B4AC433 /* ComponentBase.swift */; };
 		02DB3B5C782BC3DEF6B921B9D049201D /* BubbleChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892DEEAA52AAB2E58A09FA0EA11F39AA /* BubbleChartDataEntry.swift */; };
 		0324788F8F31FCCE5BF11860F2F47EE3 /* RACPassthroughSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = A129CFC37C1E5E4D647D4361A0ADA251 /* RACPassthroughSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0359ED37321A51AB661D79336EE192F1 /* RACStringSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 0140E69AB786D2EF7FABFDBB01372D5F /* RACStringSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA009DDE60D6B17E67A5AB500DE39D /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0388D8402985CBE0DB060BB0D7CCB2ED /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE4F806A5B4138E1849F61B0B94940 /* Description.swift */; };
+		039170700C8275F3894CD3598F9296BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		03D8F8D16FAF2B28113DB82186DBC66F /* BarLineChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A480259C69CC8C134214FDFA755F4 /* BarLineChartViewBase.swift */; };
 		059A8D61799C76EB56EE8AE9BBB7AD1F /* UITextField+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FDF9A0B38B4E339E1B11134C671F28 /* UITextField+BlocksKit.m */; };
 		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C7281B1258208D7393CF9F2E6965DDA2 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +27,7 @@
 		0736935D474D0F6DBD5475ED3EC832A0 /* ReactiveCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1064D92E21CB835EDBA98ACA422B8337 /* ReactiveCocoa-dummy.m */; };
 		0769C281810E13C0985B2A414F20ADDE /* XAxisRendererHorizontalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BF7801E9B1179497287994326429C /* XAxisRendererHorizontalBarChart.swift */; };
 		07D8A570AD3F2351D94A86ED1DECF74E /* RACScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA6603D1A237429A17FA1C5A8225079 /* RACScheduler+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07F7CC1AD64BA23D8A3F7CE57BC9196B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		07F7CC1AD64BA23D8A3F7CE57BC9196B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		082EE92E541CC3D1CC3741C17F6C6396 /* RACSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CF898BAD320581D1225AD1189F85C2 /* RACSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		085A41939761B1FF2F95053B5AD92E9D /* BlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA114E144FA68F275F796D9D89E41D /* BlocksKit-dummy.m */; };
 		091DC33799828C5056388FB490CB5D7E /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA168F77DFED2EBE1FA11E3E590968 /* UIBarButtonItem+BlocksKit.m */; };
@@ -89,7 +78,7 @@
 		1B3C443E1B938E3F3A59717AEF5E651B /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CB7E409B02E3EDAD92A7F42810A011 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B606E53085AAC89CE94A6249D2AE139 /* NSFileHandle+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE52A77ECAD54E603D76FECA8F6D659 /* NSFileHandle+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C2DB744A980164665CE687581222A12 /* Charts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9962DD1BF78991A2C31660D964A0CB83 /* Charts-dummy.m */; };
-		1CC2C4464C49BED48885AF8F1211748F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C121B8B0DE1F00D53740606997CF58D /* CoreFoundation.framework */; };
+		1CC2C4464C49BED48885AF8F1211748F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04FC9CE8B1F1D39218F7CE6D85E5D3 /* CoreFoundation.framework */; };
 		1D2BEF7D292100F700E00314C6FA6FAF /* CandleStickChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DBC4130C5716D31E884B0D24C99DE /* CandleStickChartView.swift */; };
 		1E5CC267AD2209535B5741AA615601A3 /* RACErrorSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E587CD3C354F43DC900C0BCB4840F /* RACErrorSignal.m */; };
 		1EA6964A5C78B205DFC45AFC08637DF8 /* LegendEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438CFEA93758D3F44D13294A225D87 /* LegendEntry.swift */; };
@@ -99,7 +88,7 @@
 		219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB42129BBB853682BF879E77257EB7E /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		223EC41EE84BF2D60EB3944BECF69637 /* RACSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E06E63CD9AE238A892BF1A3FB869DB /* RACSequence.m */; };
 		22681421488F1E799B4C8FFC0A77F29B /* ZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A64747CD3E424D15DEE41E1A4474FAE /* ZoomViewJob.swift */; };
-		2268DE11251696977088EB5D4310171E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		2268DE11251696977088EB5D4310171E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		2335E8153E4B00D30C5253B202253206 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7562C765B9D74BB881E7EC66CCC938C /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		246B6B4CAEC28C91BADAB5B9EDAF5894 /* RACEmptySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CEB34E391161B6089DE54BA54A36EF /* RACEmptySequence.m */; };
 		24BA3BF04FE7C8EF18955B28DC61769C /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B902F312AEB1E2BC6B3D868238C5E062 /* JSONModelArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -131,9 +120,10 @@
 		2F819FF7F7721DA042E977EF91BA545D /* CombinedChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D949512BF76D85E5B5D9EF179AEC2 /* CombinedChartRenderer.swift */; };
 		2F8D24D6B08743BD703A3CBCD10580BD /* LKDBHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E6EB0395199496B6876ED83442478A /* LKDBHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3035AE24E4F177561B9DDA85C6FAF1D3 /* UICollectionReusableView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C83A48853AC9AEE42EC79D9E6B361BA6 /* UICollectionReusableView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		309862C1F6F9CA71BABC52895C447D72 /* FABCoreSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 506C8205D58D2147575A85B33D2CF031 /* FABCoreSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30AAA08CB85A7632E163745A33B1A1E8 /* NSObject+RACKVOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 104C9195CAE0FE84D5DDB7DFC4391C9D /* NSObject+RACKVOWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31918F06050D6445E06FEDF8E2183AF6 /* XAxisRendererRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FBD1E9C6AEB62BF6A510E5572CBB1 /* XAxisRendererRadarChart.swift */; };
-		31A66493CE1DBFFA9CA5F64CA5353AD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82E895DAB665EB6BC8CE8F01B82CE20 /* UIKit.framework */; };
+		31A66493CE1DBFFA9CA5F64CA5353AD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0229403255285A29A8DEFEE496CFC7 /* UIKit.framework */; };
 		31FA2793D4E41EFBEE4CE3E869A81900 /* NSObject+LKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BDAF09B5469A2BE90962FE2FFC9249 /* NSObject+LKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		327D44D901F352232A6048B559884A3E /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1918557489051EC94516C70A2ED6E902 /* NSObject+A2BlockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32847A1E157C22EA34F7C4E3FD401A13 /* RACMulticastConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = C7569E9D47AB98F52F36207998BF32CC /* RACMulticastConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -148,12 +138,13 @@
 		37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = A716A418C6EF311777B7A86DDE6B5FE1 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37438E7AA1ECBA4B527C1D44E6CADFDE /* UIAlertView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 816B6D2216B13D549825352F6382304A /* UIAlertView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3762317630AD2C73ACE7CAE48FABCC8F /* UIStepper+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC7B68B5FBE142886248193722EC38F /* UIStepper+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E26BD00E7F2CBA8AB87BF0B85D40F8 /* FABAllTreasureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEDAAA30630670DC2235DC5B19BFC2D /* FABAllTreasureManager.m */; };
 		384237A60B5FD43D74FF5F575E8DCCAC /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DB59A6F3A9D109CF25AC80B41AC2ACC7 /* JSONHTTPClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		38B7B031AA0B0C572E68AC2D7B7E43FA /* UIImagePickerController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2821176DAAE19A6794DB5482BD8EA0 /* UIImagePickerController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39E13C8ED0C32E9EC0B353CA45C70CF2 /* AnimatedMoveViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B63DC418E7163E07520000CF8F7D757 /* AnimatedMoveViewJob.swift */; };
 		3A04BC2BA2F50235B0220B8C57662D7D /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1BBDDFE181767DAA9A680BCA5D1BAB /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A5078F021BB004E2F4463F360D41391 /* HorizontalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FF5D2FC9711FA25B4401BD04365DD /* HorizontalBarChartView.swift */; };
-		3A610394B6B3BAD839E2BFDE78F54B09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		3A610394B6B3BAD839E2BFDE78F54B09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		3D57709B53538839313AA6A6DC6E322C /* ILineRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD40D10388B79029CB552FD524C0B20 /* ILineRadarChartDataSet.swift */; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = D61C59B05267E05952B76378BAC49233 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA6508793DCA67185D9C7D3D8C8AC80 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE639571AD982AFB0BE00A4803E967 /* YYClassInfo.m */; };
@@ -183,7 +174,7 @@
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A628A52F38D3E6CE9796EA7BC216F65 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BBFCE1FBB68AAFB91FF682CD80B9F69 /* ChevronDownShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3A3BBF1AEC61F200A3A410D1F949F /* ChevronDownShapeRenderer.swift */; };
 		4BC1CB5FB72CDE1EB8A7A7CDF69D83B1 /* NSString+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC9325AACE4337D360D1C2C22C1E328 /* NSString+RACSupport.m */; };
-		4C526862196B73429AF9662EA73E352F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		4C526862196B73429AF9662EA73E352F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		4C9557DF19D731B63533B218BB24FA89 /* UITextView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1F87685A1D6F7711756068D30C59 /* UITextView+RACSignalSupport.m */; };
 		4D9563B240B9127EDF6FBA5A21180FD8 /* PieChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748683CD344E7AC7AD35E04BA71ACA80 /* PieChartData.swift */; };
 		4DB24C948D1C4F4FB43DAA833D049885 /* LegendRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27955909FBD3066089B1A51CDC0F9DF /* LegendRenderer.swift */; };
@@ -201,7 +192,7 @@
 		58398B0E03224E5EBE7FCFAD62F8FB69 /* ILineChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC66B283281D47DAFA0F0DC39CEFF3A /* ILineChartDataSet.swift */; };
 		5847AEA5F6021F082A9238BDD5801079 /* Platform+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB074D93BB26983B4D270109049490 /* Platform+Accessibility.swift */; };
 		58AEC8AF3B611C7C1791067ECADAB282 /* NSString+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A1193E720CF76EE2D755DB13FF1964 /* NSString+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58AF805046CFD9986EFEAACCBA61F9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		58AF805046CFD9986EFEAACCBA61F9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		591A8317F58698083EA0925D454B1F77 /* UITextView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3221DDD79F62E3E52CE79C5E1A32D10C /* UITextView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		591CCA391F33BFFFA6BC5F37BD1C8419 /* NSObject+A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EFB4B2990557716C55D67A3E6BCB93 /* NSObject+A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A73E0971EE149AF6C87D3E116731130 /* NSObject+RACKVOWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A475DB4ED22A5335004BD0036B4B78E5 /* NSObject+RACKVOWrapper.m */; };
@@ -209,7 +200,8 @@
 		5B06C918A7066F3457C4C92363544EA9 /* NSIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCD68DC32BADC486A322FCC9B032F31 /* NSIndexSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B96DE0FB615C832ACB06B9E16B49740 /* IValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7243383D54ACB676963328393D0E61 /* IValueFormatter.swift */; };
 		5C790091CB1B0D41E23A4AE5FA727983 /* IBubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A1CD75A6DF64B5BB61F2E509722A8 /* IBubbleChartDataSet.swift */; };
-		5D5AB502D85BF8E27246A5964F6B3E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82E895DAB665EB6BC8CE8F01B82CE20 /* UIKit.framework */; };
+		5D0D5D03244A8FCF6313F1F6A61791C8 /* FABAllTreasureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68654F54AC0A23189B1D5DEC73C461A4 /* FABAllTreasureManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5AB502D85BF8E27246A5964F6B3E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0229403255285A29A8DEFEE496CFC7 /* UIKit.framework */; };
 		5D79FD33591AEAEB1B9BF86EC4EA3EA6 /* BubbleChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E0CDE3439756D245D5A12107C159B /* BubbleChartRenderer.swift */; };
 		5D8015A3DD833E96A646EDB48B4CC636 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBE783429D2C7044D85ABB6D0EA0816 /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DA6F4FC8413B90BD793D0AE181C2AA9 /* SquareShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31598169BC7B3D441EA13DFC57D4C4 /* SquareShapeRenderer.swift */; };
@@ -218,6 +210,7 @@
 		5F86F0A9416CF47DE55F7C1F333F9B20 /* RACSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDFFAEF6A9ED79F105649C2AB0A25B2 /* RACSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F964DC161D88BE519E59D025C01C6F5 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD081343EF858532317348ADDF0D25A /* JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		5FFBD27779914949CCB3A643396696CF /* UIWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F81D97DC76959EBD472148D4EC80CCE5 /* UIWebView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		617E0EE9675D71450CB4A8EDB0995CC5 /* FABAllTreasureVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D784BFFD76CAA1EA5EE3D44A8D47983F /* FABAllTreasureVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61A4F8288571431BD9CCAEA01D489B8B /* NSObject+RACPropertySubscribing.h in Headers */ = {isa = PBXBuildFile; fileRef = E32CC7BDDDDC69B06D80A5C68711792A /* NSObject+RACPropertySubscribing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61B753A042411BCF77F768D958106A5C /* RadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19D000A43352C890CC0FECAFE2C353 /* RadarHighlighter.swift */; };
 		62BEAD080E107195393F8ABBA8C81572 /* BarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132B2F5BB23351D5E73138CAAFD4F3D0 /* BarChartData.swift */; };
@@ -230,7 +223,7 @@
 		644259BC00D7510C939873AB975D0580 /* MKAnnotationView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D354B37CC348F855A4D3D442C9B79067 /* MKAnnotationView+RACSignalSupport.m */; };
 		644CBE15115BFEDB16BF372F81CFF076 /* PieRadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B156D951686A51E56B926B2E8B82EF /* PieRadarHighlighter.swift */; };
 		64A0821B4F9954E56639DAF9BD7E575C /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CABB9CEEC9A2DC4087930DA439AB409 /* Transformer.swift */; };
-		6538E1157612019EDF03446D2960A687 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDC17EAEA818244545D50274F63BDC8 /* FMDB.framework */; };
+		6538E1157612019EDF03446D2960A687 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0A4F018AA7AF025876F8467624A074 /* FMDB.framework */; };
 		6547F42706FE0F450AE76B538609FD26 /* RACDynamicSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 449BB369AC2B32F57F1FACE6F5F04B59 /* RACDynamicSignal.m */; };
 		65F93DEAB238CEDB3AFF16868C288503 /* NSMutableIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0F358D9E7005BAD5A7F94755831A96 /* NSMutableIndexSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66B829842549EECCE91E61D34FFABCBA /* ScatterChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811079C3C2B32E485A5B642E78D7AB6 /* ScatterChartData.swift */; };
@@ -245,7 +238,7 @@
 		6A532F6858B2D5219D76BEFE1E74A5A6 /* HorizontalBarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8D00178510431DFDC22E3590CA13A /* HorizontalBarChartRenderer.swift */; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA575A601F4AFAAAA87CEC77596D46D /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D229C93C05E1D19D951F1FF4358C0D11 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		6DFBFA0272B43FEAC41ED8A162568D24 /* UIImagePickerController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4645AA26B4CCEFE4E6E08B3405CB21E4 /* UIImagePickerController+BlocksKit.m */; };
 		6EBED60486C3C09090B37860F1C23392 /* LKDB+Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = F24BDFDC6A9030855201AB5B0A8C1FFE /* LKDB+Mapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F39836FEDB917CEC130865A29D6A49B /* NSString+RACKeyPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 51436CE161D944CDC0590D152E1F0924 /* NSString+RACKeyPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -257,12 +250,13 @@
 		72639114A8E00E411B7931609CEECEF1 /* RACDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 76ACAA14A21CAC5B70A325E559F1AA09 /* RACDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7320CBA29BE1D473CA5BE26B1D226D04 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6A6F74DFF411EEDEDF6C772481A44B /* Animator.swift */; };
 		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 268E6ABE16E12855338242EE31D4E68D /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74CA4B58912333FB9A989E1FD5A6DD39 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C963BD48D8056EB53F6C981C50EBF8 /* MessageUI.framework */; };
+		74CA4B58912333FB9A989E1FD5A6DD39 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503CC5014053AE239FFD468B495AFF5 /* MessageUI.framework */; };
 		74D4DC9B702FBC147C03965E9F271128 /* CrossShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242B0A6E172020C7B93FCE51794C428E /* CrossShapeRenderer.swift */; };
 		750E16E225DCC3B6ECB705DE09F71699 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8077400A418385F74F301EF36F63F /* NSArray+JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		75B22CB8C580F73B117214B061436099 /* IMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B77DDC910441D99853787623BE29F /* IMarker.swift */; };
 		75DED089B685357D34569CFC24045E73 /* RACStringSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F54C2FDD633B01F9CC10A47FEFB49F4 /* RACStringSequence.m */; };
 		7605565F28B5C078923EE0A3F5D7C86E /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E79D1FD22C645A7C02F6AA431AA56 /* ChartData.swift */; };
+		76673A839DB62D491F2C1EDD31504029 /* MyTestVC.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C7F8466FD5DE22C9CC0F78BAE80135 /* MyTestVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7731319719C1878AE7AF9D78705712AF /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9C771DB9D51BF9E34C86955CCB0E3 /* Range.swift */; };
 		777B08381903387AEBE83CA0713DB562 /* RACIndexSetSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BF75638D5F3245DFBF501685EAB18A /* RACIndexSetSequence.m */; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D0DBC512BC6959D7A96B4FD834BD7 /* MASConstraintMaker.m */; };
@@ -307,7 +301,7 @@
 		8EE80878B32207C5EC1712D83F04983A /* ChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F997B7ABE74666AD6040C624F194D /* ChartDataSet.swift */; };
 		8F72A8A13CA8FC3E305C1535E41D04EB /* NSURLConnection+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3C52B988D5E728CF8217B6F0F9C200 /* NSURLConnection+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9007604EDE67D2D13CB13356F95659 /* RACEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1A25B5C28334CB668A3C6E3B9C21AC /* RACEXTRuntimeExtensions.m */; };
-		9072FC11C9DE109F688DC8A1AB3CC69D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		9072FC11C9DE109F688DC8A1AB3CC69D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		9099526FDF0CC7F9BE37E73D1B71AA42 /* UIControl+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A26DE19CADBAA73870F9D0763CF806C /* UIControl+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91704461340ABFBEB88425DCC9867890 /* HorizontalBarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D3FE55A971F5BB59355F4560717527 /* HorizontalBarHighlighter.swift */; };
 		91FA70B412F137846836139ED890FF6C /* ChartBaseDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C4EBFA8809B43B15CDB4E42E84F866 /* ChartBaseDataSet.swift */; };
@@ -336,6 +330,7 @@
 		991A4EA362C241D77DF184594E226E93 /* ScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E72123C4D9021BCD89B9774C62B0ED /* ScatterChartView.swift */; };
 		992D239F5B142006F36438E77A2B531A /* RACSubscriptingAssignmentTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D510F0202E5C50A0CDD10A46A18457B /* RACSubscriptingAssignmentTrampoline.m */; };
 		9C081B18BB1A54D953EB89605319AA77 /* Legend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58635052F97EC30C95F3DDCA51EC5F /* Legend.swift */; };
+		9C1A33C631704B1E231D4C87C6410F91 /* FABRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BF4505DD5906A51D4D2BFAF8187BFB /* FABRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C1ED5238ABC9609D8CA98AD68113FCE /* A2BlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A5BB58773E2D42BB3B08F0355DB252 /* A2BlockInvocation.m */; };
 		9D241FDA2AE87391EF84B0B25C65AF73 /* NSObject+BKAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4508BB43CD72842C8B7BB4CB9526FD /* NSObject+BKAssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECC28E896FCE0FE530BCCCE6941BD61 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -431,20 +426,21 @@
 		C8092EC19C870273D18B562A7EE9CD0F /* BarLineScatterCandleBubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6DB81E838C344A960E042AB5C4515 /* BarLineScatterCandleBubbleChartDataProvider.swift */; };
 		C834DBB73ECF952A4D1D97904E05CB00 /* NSOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FF8505B762D79B5BB2917A1161930 /* NSOrderedSet+BlocksKit.m */; };
 		C84A6A3E2CCE57A58704456166D18069 /* RACKVOChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40049C4AFAC92819B38597E41D7F45D8 /* RACKVOChannel.m */; };
+		C99BBD84ECB07CA96AEE254F25691162 /* FABCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1960642690C4226BA9315AEE88C0E23F /* FABCoreSDK.framework */; };
 		C9E83B3024265E75806B4F9F60C3D06B /* RACSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = FD86629D82CA1D385E5A30383D74D913 /* RACSignal.m */; };
 		CA6BEA35F6F22F61075631EF4CA476C5 /* RACReplaySubject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF22791F4334BB55272455BABEB020D /* RACReplaySubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CADA3263D9306E1D64AAB82D23D2E19E /* UITableViewHeaderFooterView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7489658AE3E537CE9E4E4862A5636447 /* UITableViewHeaderFooterView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAE986D939019B7726C896B88AC34B82 /* ScatterChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A37834A28CCFE1FEEA669287CFD8A6 /* ScatterChartDataSet.swift */; };
 		CB6E235EB0A5B896F9D1815877757EF9 /* CandleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EB75A0A869B30F73A63EE3C4D7EA /* CandleChartData.swift */; };
-		CBDDA75925C6E920003F5640 /* FABRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDDA75725C6E920003F5640 /* FABRouter.m */; };
-		CBDDA75A25C6E920003F5640 /* FABRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDDA75825C6E920003F5640 /* FABRouter.h */; };
 		CC4C642566282D6390D6D79811F6C1DC /* RACErrorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFFEABFF41618A768441C5AC264CBED /* RACErrorSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD043305A02D7441DD640D6B54261BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		CDABB0AA47F0EEE957FCE629F8D2DB6B /* BubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1B12AF61E85ED745471A08605BE05 /* BubbleChartView.swift */; };
 		CE460375BE540FD967B8CA0C9FC874A8 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AC55E4064089D8AB4F5CAE8A2BDA3 /* YYModel-dummy.m */; };
 		CEC814CFD549BCDDAB65F5918969182E /* IHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3AFCFC8C1546274EDE6F48FFA85B /* IHighlighter.swift */; };
 		CF6144C162A94F9D1AA90BA11452F996 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1E78A3EDDDD7859C6047B2FBDAB849 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF788718B39D4FFA2C994F6CD7D5B0BC /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A642C46C08C8A3A8DEB26F28BA956B /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0B1CDDC4EEA3D2A15CBFF4FA3303D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		CF79A82595EFAAAA03FC6430757E29E2 /* FABAllTreasure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2293BAFC30857938083CA313643EA943 /* FABAllTreasure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B1CDDC4EEA3D2A15CBFF4FA3303D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		D1009DBFC18A7C5AA61F5DA5DD793C77 /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F004EE84D32056FBE7E9C66534E1DA2 /* NSMutableDictionary+BlocksKit.m */; };
 		D1B8CDC88CA0293447091D168F39B66B /* UICollectionReusableView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C541DEC18A828CCEFA5784A5538C7 /* UICollectionReusableView+RACSignalSupport.m */; };
 		D27FB235F57668A1FF7F957D559E4E2C /* NSIndexSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C03425C095969BE877BF711A87B15CD /* NSIndexSet+RACSequenceAdditions.m */; };
@@ -453,10 +449,12 @@
 		D39EA4164B2DB84A6F295951A31592C8 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C65897663B3819820F43FCCD12E4C5D /* JSONModel+networking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D4D04CDBE68E638C8ADD838618DB9E7F /* RACEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = B719007537C3E6942CB8E32352393B3E /* RACEXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D564A1FD9970BFA7B11E63C06524524B /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D67247DFF8E50D1FCA6DBB39CF20D7 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D58A2AE0BA8FC6B56EEF2ED10676700B /* FABCoreSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D9524241BF7289E005599B56E881F2 /* FABCoreSDK-dummy.m */; };
 		D5A2207793C9F1F75A75509D95C1EC6A /* UIBarButtonItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D9FABDBCBD1C07F1EAAC2D438D11E5 /* UIBarButtonItem+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D68F93293888B6776369185028CB60B0 /* IBarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F669FA6BB32743E187099F348508B67 /* IBarChartDataSet.swift */; };
 		D6E011A7BA193945CEA69517E40CBD48 /* XShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C825EFA52093DA1C69AFB5D862AD2FE4 /* XShapeRenderer.swift */; };
 		D7B623CFD7231E00FB60419AA17A3E82 /* MoveViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2E8A7B787BC4941085D8CE4D925AB /* MoveViewJob.swift */; };
+		D85B24A8FB8CD6249342DF3C231645C4 /* FABAllTreasureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C7A44B55C897A85F9014725C6309A /* FABAllTreasureVC.m */; };
 		D885D137C7BBBBA479BDB92A72B7D04E /* Platform+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C554E06D1B53288BFCEB206A53D9D /* Platform+Color.swift */; };
 		D9687FA7E8A77056DC5C8444EEA904E5 /* BarLineScatterCandleBubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E5E71A4FEACBEEF7F6CC23DB0DDB6 /* BarLineScatterCandleBubbleChartData.swift */; };
 		D9E08178B8524CA556D6682189FA8236 /* UISwitch+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8EF3D632B7CE560792DDED6A30146 /* UISwitch+RACSignalSupport.m */; };
@@ -487,11 +485,10 @@
 		E63E7C561D6EB07E30ADE917A93270BE /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD325335EDDF5E0BED240261DDF58B0B /* BlocksKit+UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E667AF98DE4D39AE296A43CB195A4669 /* RACChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBB7D379E548BF1CF31B24ACF6D8707 /* RACChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EF8FFC4F685FE72AD8FD950A22396B /* RACArraySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = A68AAAC2903E4BD2A08602D856553F2C /* RACArraySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6FA47F529F19CEDB0CF7BFD95ED8090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
 		E73D9F2950182C774E50E891F75C1BB4 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015A383A7B2F62EFB65B87A79A01E574 /* LineChartView.swift */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2C1FCB460C0352641BB24BE64B4DAE /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7CB601E57442AAE994A1FDE532E2D94 /* UIRefreshControl+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D2854D28FFADBAE756D66AE55920FA65 /* UIRefreshControl+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7CB72FEE2BA8FD320108C20C4AC4A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		E7CB72FEE2BA8FD320108C20C4AC4A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		E7CBE606982C38420CF8FE76965585F4 /* NSMutableSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B16F8C37FE86244193D511192121EE51 /* NSMutableSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A246774010833A438D0CB67B6E45CE /* MASConstraint.m */; };
 		E96933645DBB6113A94B915DA8C07D05 /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B35CF00DA271CA9F405E173BA363147 /* UIView+BlocksKit.m */; };
@@ -510,11 +507,9 @@
 		EEE7C3B2DB0A8AA92F28F87310FDBF5B /* RACStream+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E655BC67FFC74E99FC9E5ADA24E8F0 /* RACStream+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EF0794E8D385C57B4B3DDD8895431161 /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0987AF46D03227DCC3D70682C12AF060 /* NSObject+LKDBHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EF57656B0F585FA18814D96F8B301E8E /* NSObject+RACSelectorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF6F2E33D8D09331B4C68C7DD4A63DB /* NSObject+RACSelectorSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F13976C58F1B0C0B190D8A0CD26B8267 /* FABCoreSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 485DF97C65EB82D06F90F4FD26E2AD88 /* FABCoreSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F16A8FCC42DB2A8ED60FA37BE531ADAB /* FABCoreSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C929EAAE703A08904C5E12BD5D06F3 /* FABCoreSDK-dummy.m */; };
 		F1B3693550BD159B7E910C182326A44B /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C867E2656716248023EA9A6E722221 /* ChartAnimationEasing.swift */; };
 		F202AE59369A42D39FDDE8A0E67C4B06 /* RACCompoundDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 899882E29CF416D7D01A1014005CBCD5 /* RACCompoundDisposable.m */; };
-		F26B98E98E1122E758EFF14A66BC5799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */; };
+		F26B98E98E1122E758EFF14A66BC5799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72177D8A2073457B37565DE47E86F57B /* Foundation.framework */; };
 		F28C3D140DF2FC29C1CE7ECE95CCB446 /* RACSignal+Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B60898F51031D4FFE4582A0342C48D /* RACSignal+Operations.m */; };
 		F2C1EF0010084FA2B769B019EBD6D909 /* CombinedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80DD1B182580E4F523D6A5B1F30BB6 /* CombinedChartView.swift */; };
 		F31C78160027D574A2C11C21FAA1CB65 /* MFMailComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 62048C08BA80831076067495248DFE72 /* MFMailComposeViewController+BlocksKit.m */; };
@@ -524,7 +519,9 @@
 		F57F89A4CA7E896A541B19134F2F898D /* RACUnarySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 833173354B621446FAAC473FAF2DD175 /* RACUnarySequence.m */; };
 		F5D40BEB1902E778C516443F03283946 /* RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 811501E4A40AB6C28F2142FBF9B09A9F /* RACSubject.m */; };
 		F6245879A4BBFEE9190A85294E51DBF2 /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEB3711E4518D62AEDBE5F19C646B9 /* UIGestureRecognizer+BlocksKit.m */; };
+		F63A83B484CC0A84F6E95D96E26E022C /* FABAllTreasure-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B203B28352751F9A69695EA2EA020DC /* FABAllTreasure-dummy.m */; };
 		F71F43AA460A63C52541C275B3293873 /* RACTupleSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96E17C4A764C9F9ABDB8469A320157 /* RACTupleSequence.m */; };
+		F72B6E3B006127F2A79FF2BC095105CD /* MyTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1A726245441FF945A9F042459CA47 /* MyTestVC.m */; };
 		F8A90B58596E63DD5AEF4059A0B5FB2E /* RACKVOProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B242C147ADFBEB305E056DE787B7668 /* RACKVOProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F95E9612D7C529ADBAF213B08C346923 /* RACStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE6F974D3696339F97F6E4AECAEA00B /* RACStream.m */; };
 		F98714160099BA0A2E310CF3BF003215 /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E9B785E325B57C87583F14A18F35D3 /* NSArray+JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -543,99 +540,109 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1AA63E354785B3A848C78D50B395ADCD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
-			remoteInfo = YYModel;
-		};
-		22D6B0F65102D688B90DA3CF17623628 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2777DC549C19A310651FBD3C87B71DF;
-			remoteInfo = BlocksKit;
-		};
-		309268C7EE96C585141C493FA1B2BE05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 798077C12EFD402A47390D1CDB0ED3D6;
-			remoteInfo = LKDBHelper;
-		};
-		317387871DC31529C0F254F19BD6CDCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BAC76D76611DF88D224DB3CF7A82B877;
-			remoteInfo = FABAllTreasure;
-		};
-		54790478F9CF8789FA82E62BB230F518 /* PBXContainerItemProxy */ = {
+		12D597387DA980CDC5BF23C517769D1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B0FDCE6612B121244BD768EC8591CEB8;
 			remoteInfo = FABCoreSDK;
 		};
-		61393C1BF4FC914D1C38D93B51E25156 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		6DB718FAAD334FB2F3307CC3E354A532 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		C3911650FCACC87A1501690466C867B1 /* PBXContainerItemProxy */ = {
+		1354EF0C1EEEED9F2E5928E60A88DCFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BF03B0B2B8B052092CB5F90CC5FB3757;
 			remoteInfo = Charts;
 		};
-		CA4D3BAF0A344E77DADC8FA19B756E4D /* PBXContainerItemProxy */ = {
+		55DB180B02A7418F7BD3C74A0E4F2587 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
-			remoteInfo = JSONModel;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
 		};
-		DD9A267B09C07C1B9B013C5477A9A389 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07B5C6907D09E767CDC5954A9468CA2E;
-			remoteInfo = ReactiveCocoa;
-		};
-		F3DF44865701857BA05A4850941F5727 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C7544868328B26802248D109459AB722;
-			remoteInfo = TAPageControl;
-		};
-		FF4ADFC3DCF4D99FE52957F052F818AD /* PBXContainerItemProxy */ = {
+		5BAC24124575DC699BC91B2776A2AD9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
+		70CC68F1FF42AF73534EF3D7494F355A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		73D9E86ADA553B7034089FB907B95D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2777DC549C19A310651FBD3C87B71DF;
+			remoteInfo = BlocksKit;
+		};
+		77E15193E05D20B09013F3E379DC27A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		8AFC40AD0019C9AA49A4EC184A90CBD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FDCE6612B121244BD768EC8591CEB8;
+			remoteInfo = FABCoreSDK;
+		};
+		AF5B15FD8AEAE8260123044D7AEB0FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7544868328B26802248D109459AB722;
+			remoteInfo = TAPageControl;
+		};
+		B6DC275AD351CFAA73F4CEA1AA1E37C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		C77593BC498F67A9614B3F02B23063B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC76D76611DF88D224DB3CF7A82B877;
+			remoteInfo = FABAllTreasure;
+		};
+		C7F560F174C5D7D4BF1E73CE5836CB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B5C6907D09E767CDC5954A9468CA2E;
+			remoteInfo = ReactiveCocoa;
+		};
+		FF84CB69B61A04F06DCEB8ADAB9109C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798077C12EFD402A47390D1CDB0ED3D6;
+			remoteInfo = LKDBHelper;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B7B19E1F099A0EFC230FB8D48745EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0106D07B40977D75856137A91BC2DE62 /* RACKVOProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOProxy.m; path = ReactiveCocoa/RACKVOProxy.m; sourceTree = "<group>"; };
 		01191017B872E3D1B218DB0EBB93C9C6 /* UIRefreshControl+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+RACCommandSupport.m"; path = "ReactiveCocoa/UIRefreshControl+RACCommandSupport.m"; sourceTree = "<group>"; };
 		0140E69AB786D2EF7FABFDBB01372D5F /* RACStringSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACStringSequence.h; path = ReactiveCocoa/RACStringSequence.h; sourceTree = "<group>"; };
 		015A383A7B2F62EFB65B87A79A01E574 /* LineChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartView.swift; path = Source/Charts/Charts/LineChartView.swift; sourceTree = "<group>"; };
+		01E09B6E64EFFAAD95310C269CF2EF1A /* FABCoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABCoreSDK.release.xcconfig; sourceTree = "<group>"; };
 		0217D9B099C607F2E8F9B910D01DAFD1 /* BlocksKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlocksKit.modulemap; sourceTree = "<group>"; };
 		0218C4F8B1CA064BB4BB770C498ABAB5 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		02AA606375A95B9C3EC6833B2F151A02 /* FABCoreSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FABCoreSDK.modulemap; sourceTree = "<group>"; };
 		03C867E2656716248023EA9A6E722221 /* ChartAnimationEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAnimationEasing.swift; path = Source/Charts/Animation/ChartAnimationEasing.swift; sourceTree = "<group>"; };
 		03D3C90D34EE9D5D64766AC2C653D7A7 /* RACSubscriptionScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubscriptionScheduler.h; path = ReactiveCocoa/RACSubscriptionScheduler.h; sourceTree = "<group>"; };
 		040627B8EA4DE3E8BEE93D52DDA0FD61 /* RACStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACStream.h; path = ReactiveCocoa/RACStream.h; sourceTree = "<group>"; };
@@ -644,6 +651,7 @@
 		0652D292FC125F6669DD16C99545E079 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		06E121DBA707EEB175D8DA2848265B3A /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
 		07048224883BF6CBD0523D9882461415 /* RACKVOTrampoline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACKVOTrampoline.h; path = ReactiveCocoa/RACKVOTrampoline.h; sourceTree = "<group>"; };
+		08119380C29E1CADD31CB69D53862BFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0846378580AD9C0B7130C806F227B984 /* BlocksKit+MessageUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+MessageUI.h"; path = "BlocksKit/BlocksKit+MessageUI.h"; sourceTree = "<group>"; };
 		0890FE9C3ACC28ACB0D863748CEF74EE /* PieChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/PieChartDataEntry.swift; sourceTree = "<group>"; };
 		0987AF46D03227DCC3D70682C12AF060 /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LKDBHelper.m"; path = "LKDBHelper/Helper/NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
@@ -653,9 +661,9 @@
 		0A628A52F38D3E6CE9796EA7BC216F65 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		0AB3654BC62362587BB30C729FDF1DD7 /* BlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-prefix.pch"; sourceTree = "<group>"; };
 		0ABAA6B74D2D645D99E00324B1194450 /* UIDatePicker+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDatePicker+RACSignalSupport.h"; path = "ReactiveCocoa/UIDatePicker+RACSignalSupport.h"; sourceTree = "<group>"; };
-		0B474895EB8AD8A49FC7FAC335B50357 /* FABCoreSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FABCoreSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0BE7579A629A50AAAE28418051EA3703 /* ChartLimitLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartLimitLine.swift; path = Source/Charts/Components/ChartLimitLine.swift; sourceTree = "<group>"; };
 		0BEC05D45E22C5838946FE733E0E188E /* BarChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataProvider.swift; path = Source/Charts/Interfaces/BarChartDataProvider.swift; sourceTree = "<group>"; };
+		0BEDAAA30630670DC2235DC5B19BFC2D /* FABAllTreasureManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FABAllTreasureManager.m; sourceTree = "<group>"; };
 		0C111FCC8108323CA125AD63B1FA4547 /* A2BlockInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2BlockInvocation.h; path = BlocksKit/DynamicDelegate/A2BlockInvocation.h; sourceTree = "<group>"; };
 		0C625ABC90D450052594D19093E2578F /* BarChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/BarChartDataEntry.swift; sourceTree = "<group>"; };
 		0C64527C6F59E4876D28D4AEABB399AA /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
@@ -663,6 +671,7 @@
 		0CABB9CEEC9A2DC4087930DA439AB409 /* Transformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformer.swift; path = Source/Charts/Utils/Transformer.swift; sourceTree = "<group>"; };
 		0E71F3A27E9B4C9D7B831FF008C9DBEB /* NSOrderedSet+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+RACSequenceAdditions.m"; path = "ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		0E955F4DA96C456A906FF93BFAB1CAD0 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		0EA1A726245441FF945A9F042459CA47 /* MyTestVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyTestVC.m; sourceTree = "<group>"; };
 		0EC66B283281D47DAFA0F0DC39CEFF3A /* ILineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineChartDataSet.swift; sourceTree = "<group>"; };
 		0EDFE43197EBADEC3053BC19F33B5DC8 /* RACPassthroughSubscriber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACPassthroughSubscriber.m; path = ReactiveCocoa/RACPassthroughSubscriber.m; sourceTree = "<group>"; };
 		0EDFFAEF6A9ED79F105649C2AB0A25B2 /* RACSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSequence.h; path = ReactiveCocoa/RACSequence.h; sourceTree = "<group>"; };
@@ -687,6 +696,7 @@
 		18C6DB81E838C344A960E042AB5C4515 /* BarLineScatterCandleBubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartDataProvider.swift; path = Source/Charts/Interfaces/BarLineScatterCandleBubbleChartDataProvider.swift; sourceTree = "<group>"; };
 		191349DFB37EF92B21A1817D05F8A648 /* NSSet+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+RACSequenceAdditions.m"; path = "ReactiveCocoa/NSSet+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		1918557489051EC94516C70A2ED6E902 /* NSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2BlockDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
+		1960642690C4226BA9315AEE88C0E23F /* FABCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FABCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A06DD0E7564DDC97DDD2BEF7F6D84E1 /* ScatterChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartDataProvider.swift; path = Source/Charts/Interfaces/ScatterChartDataProvider.swift; sourceTree = "<group>"; };
 		1A0808E79D23CA2C8DCC40CCE4B09642 /* LKDBHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDBHelper.release.xcconfig; sourceTree = "<group>"; };
 		1A6C541DEC18A828CCEFA5784A5538C7 /* UICollectionReusableView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionReusableView+RACSignalSupport.m"; path = "ReactiveCocoa/UICollectionReusableView+RACSignalSupport.m"; sourceTree = "<group>"; };
@@ -703,10 +713,12 @@
 		1E4AA9F5E8D6100D948B75D92AF0E561 /* AnimatedViewPortJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedViewPortJob.swift; path = Source/Charts/Jobs/AnimatedViewPortJob.swift; sourceTree = "<group>"; };
 		1E7EEA8C317FDB4277AC96A1C5618390 /* RACGroupedSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACGroupedSignal.m; path = ReactiveCocoa/RACGroupedSignal.m; sourceTree = "<group>"; };
 		1FB876BAD561B78A7C154D38E3B2E6C0 /* NSMutableSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.m"; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211E2ED6D663599703FABDEFBC291661 /* NSObject+BKBlockExecution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKBlockExecution.h"; path = "BlocksKit/Core/NSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
 		211E727053566A63D147997BCEFA106A /* RadarChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartData.swift; path = Source/Charts/Data/Implementations/Standard/RadarChartData.swift; sourceTree = "<group>"; };
+		2201178F2AD8EE43611A7FD066C76FB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		221598C3741BF49E3CBC932CECC11004 /* UITextField+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+RACSignalSupport.m"; path = "ReactiveCocoa/UITextField+RACSignalSupport.m"; sourceTree = "<group>"; };
+		2293BAFC30857938083CA313643EA943 /* FABAllTreasure-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABAllTreasure-umbrella.h"; sourceTree = "<group>"; };
 		22C77DE6F5A273CCC782CE1D6A48553C /* ChartColorTemplates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartColorTemplates.swift; path = Source/Charts/Utils/ChartColorTemplates.swift; sourceTree = "<group>"; };
 		22F834D5ABC274FF0EE3D9475E8151E6 /* NSObject+RACDeallocating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACDeallocating.h"; path = "ReactiveCocoa/NSObject+RACDeallocating.h"; sourceTree = "<group>"; };
 		2323B08835F40EA2F74D9F16881C325E /* BlocksKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlocksKit.release.xcconfig; sourceTree = "<group>"; };
@@ -715,9 +727,9 @@
 		242B0A6E172020C7B93FCE51794C428E /* CrossShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/CrossShapeRenderer.swift; sourceTree = "<group>"; };
 		24C5DA73F98F806A9858DEE4071079F0 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		24DB1F9F777D0BB68849412513B7E0C8 /* UITableViewCell+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+RACSignalSupport.h"; path = "ReactiveCocoa/UITableViewCell+RACSignalSupport.h"; sourceTree = "<group>"; };
+		251CC41CA9CB756C2F93710FE1ADFDA9 /* FABCoreSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FABCoreSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25A37834A28CCFE1FEEA669287CFD8A6 /* ScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ScatterChartDataSet.swift; sourceTree = "<group>"; };
 		25BD58F897D74B5A041907212078FCE2 /* RACMulticastConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACMulticastConnection.m; path = ReactiveCocoa/RACMulticastConnection.m; sourceTree = "<group>"; };
-		267D57E7A47779ADB5C2D3C65E8E10DE /* FABCoreSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABCoreSDK-prefix.pch"; sourceTree = "<group>"; };
 		268E6ABE16E12855338242EE31D4E68D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		27B8A69E56DBAAB57DC127ADB9234F2D /* BarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/BarChartDataSet.swift; sourceTree = "<group>"; };
 		27C2BC550AE0BBA74E8E666A7C676A15 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
@@ -733,8 +745,8 @@
 		2B63DC418E7163E07520000CF8F7D757 /* AnimatedMoveViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedMoveViewJob.swift; path = Source/Charts/Jobs/AnimatedMoveViewJob.swift; sourceTree = "<group>"; };
 		2BF1B3B21EB47CAB4638D4F6AE9636E5 /* RACSignalSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSignalSequence.m; path = ReactiveCocoa/RACSignalSequence.m; sourceTree = "<group>"; };
 		2C4979108ADD8AAF63DD2E0821AB7380 /* NSObject+BKBlockObservation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKBlockObservation.h"; path = "BlocksKit/Core/NSObject+BKBlockObservation.h"; sourceTree = "<group>"; };
-		2DDC17EAEA818244545D50274F63BDC8 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECC28E896FCE0FE530BCCCE6941BD61 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2F1C7A44B55C897A85F9014725C6309A /* FABAllTreasureVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FABAllTreasureVC.m; sourceTree = "<group>"; };
 		2F4ADE1CCB81F80216CD786E3FA37101 /* MarkerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkerView.swift; path = Source/Charts/Components/MarkerView.swift; sourceTree = "<group>"; };
 		30CD049F1EBB57E9432F49B2F0E53744 /* LKDBHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKDBHelper-Info.plist"; sourceTree = "<group>"; };
 		321E29576BE03608F22A8F01ACA2BFEF /* LKDBHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDBHelper.debug.xcconfig; sourceTree = "<group>"; };
@@ -758,7 +770,7 @@
 		39CECC9F4D3EDBD7F9FDFAC8E2FE51A6 /* PieChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartRenderer.swift; path = Source/Charts/Renderers/PieChartRenderer.swift; sourceTree = "<group>"; };
 		3A54144B07F8823A93BE12A70C14294F /* TAPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAPageControl-dummy.m"; sourceTree = "<group>"; };
 		3BD5A0B1D07A9DE21423D45748B20602 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
-		3C48DA6A92ED5E9B70BF5239A098A26A /* Pods_FamilyAccountingBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamilyAccountingBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C48DA6A92ED5E9B70BF5239A098A26A /* Pods_FamilyAccountingBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FamilyAccountingBook.framework; path = "Pods-FamilyAccountingBook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C53539DC87EC5A879FB1A2E706E88CC /* NSDictionary+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RACSequenceAdditions.m"; path = "ReactiveCocoa/NSDictionary+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		3CACDF80BF1FD7F695431252A06495D2 /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
 		3D6B6C735C8C4D57C44511EE06EA1FBC /* BarLineScatterCandleBubbleRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleRenderer.swift; path = Source/Charts/Renderers/BarLineScatterCandleBubbleRenderer.swift; sourceTree = "<group>"; };
@@ -773,7 +785,8 @@
 		40049C4AFAC92819B38597E41D7F45D8 /* RACKVOChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOChannel.m; path = ReactiveCocoa/RACKVOChannel.m; sourceTree = "<group>"; };
 		41697B088FB49F5390038DA19866D28D /* PieRadarChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarChartViewBase.swift; path = Source/Charts/Charts/PieRadarChartViewBase.swift; sourceTree = "<group>"; };
 		419177FC63FE164D1022B775C8638E7E /* UITextField+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+RACSignalSupport.h"; path = "ReactiveCocoa/UITextField+RACSignalSupport.h"; sourceTree = "<group>"; };
-		4359FEC841567A83DF3827215C759B69 /* LKDBHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKDBHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A62EA7885C607605CE5395FCCC8F48 /* FABCoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABCoreSDK.debug.xcconfig; sourceTree = "<group>"; };
+		4359FEC841567A83DF3827215C759B69 /* LKDBHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LKDBHelper.framework; path = LKDBHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4427A21E92F2A04466BDFC143775D82F /* TAPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAPageControl-umbrella.h"; sourceTree = "<group>"; };
 		449BB369AC2B32F57F1FACE6F5F04B59 /* RACDynamicSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDynamicSignal.m; path = ReactiveCocoa/RACDynamicSignal.m; sourceTree = "<group>"; };
 		450B6E310B359059EA084AE88BBF4063 /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+BlocksKit.h"; path = "BlocksKit/UIKit/UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
@@ -783,25 +796,26 @@
 		476404063A409D731352F67E9DC6FE60 /* TAPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TAPageControl-Info.plist"; sourceTree = "<group>"; };
 		47889DF13E996EC4465D52430E36E783 /* Pods-FamilyAccountingBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FamilyAccountingBook-Info.plist"; sourceTree = "<group>"; };
 		4823205C60F226C90D4333A196FC459E /* RACEXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTRuntimeExtensions.h; path = ReactiveCocoa/extobjc/RACEXTRuntimeExtensions.h; sourceTree = "<group>"; };
-		485DF97C65EB82D06F90F4FD26E2AD88 /* FABCoreSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABCoreSDK-umbrella.h"; sourceTree = "<group>"; };
 		48D887D2C6E604A3820F99F5093BD570 /* RACDynamicSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDynamicSequence.h; path = ReactiveCocoa/RACDynamicSequence.h; sourceTree = "<group>"; };
-		490AC753C5C289D7B70E73B4E7512560 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490AC753C5C289D7B70E73B4E7512560 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveCocoa.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C4EBFA8809B43B15CDB4E42E84F866 /* ChartBaseDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartBaseDataSet.swift; path = Source/Charts/Data/Implementations/ChartBaseDataSet.swift; sourceTree = "<group>"; };
 		49EF0D04FF581CD151363B200EB01849 /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m"; sourceTree = "<group>"; };
 		4A924F269D59BFBF16F2C722ABC8E05C /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
-		4C121B8B0DE1F00D53740606997CF58D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		4C667612CE620C159C6BE41F6227AAB2 /* FABCoreSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FABCoreSDK-Info.plist"; sourceTree = "<group>"; };
 		4C9321400EC2CDB97DAC52CECEA2C014 /* RACImmediateScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACImmediateScheduler.m; path = ReactiveCocoa/RACImmediateScheduler.m; sourceTree = "<group>"; };
 		4CB2E477F7A45489744C7EE32F7E2886 /* UIActionSheet+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+RACSignalSupport.m"; path = "ReactiveCocoa/UIActionSheet+RACSignalSupport.m"; sourceTree = "<group>"; };
+		4D0229403255285A29A8DEFEE496CFC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4D80800993FD8AC9E7E8F9638CCD9AFC /* NSObject+RACDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACDescription.m"; path = "ReactiveCocoa/NSObject+RACDescription.m"; sourceTree = "<group>"; };
-		4F2FCB2D804FB4903431B302120B7C5F /* RACCompoundDisposableProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.dtrace; name = RACCompoundDisposableProvider.d; path = ReactiveCocoa/RACCompoundDisposableProvider.d; sourceTree = "<group>"; };
+		4F2FCB2D804FB4903431B302120B7C5F /* RACCompoundDisposableProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; name = RACCompoundDisposableProvider.d; path = ReactiveCocoa/RACCompoundDisposableProvider.d; sourceTree = "<group>"; };
 		5007AB021DE79D26E63C9DAE600F5BAF /* UIGestureRecognizer+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+RACSignalSupport.h"; path = "ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.h"; sourceTree = "<group>"; };
-		505E378F130494A921E45D96C2C8D258 /* FABCoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABCoreSDK.debug.xcconfig; sourceTree = "<group>"; };
+		506C8205D58D2147575A85B33D2CF031 /* FABCoreSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABCoreSDK-umbrella.h"; sourceTree = "<group>"; };
 		50AA114E144FA68F275F796D9D89E41D /* BlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlocksKit-dummy.m"; sourceTree = "<group>"; };
 		50CDD0AECC6BC03411F0C74C4082F821 /* Pods-FamilyAccountingBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FamilyAccountingBook-umbrella.h"; sourceTree = "<group>"; };
+		510054E23823335DBF8D9D484EC78EAA /* FABAllTreasure-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABAllTreasure-prefix.pch"; sourceTree = "<group>"; };
 		51436CE161D944CDC0590D152E1F0924 /* NSString+RACKeyPathUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RACKeyPathUtilities.h"; path = "ReactiveCocoa/NSString+RACKeyPathUtilities.h"; sourceTree = "<group>"; };
 		5152DF3075A12B11FFD00BA70DB32E08 /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+BlocksKit.h"; path = "BlocksKit/Core/NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
-		51F38AAAC3DEAF191003D702E7064AEB /* RACSignalProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.dtrace; name = RACSignalProvider.d; path = ReactiveCocoa/RACSignalProvider.d; sourceTree = "<group>"; };
+		51F38AAAC3DEAF191003D702E7064AEB /* RACSignalProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; name = RACSignalProvider.d; path = ReactiveCocoa/RACSignalProvider.d; sourceTree = "<group>"; };
+		5312B5921E0DB4254ED60D0F358BF66A /* FABCoreSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FABCoreSDK-Info.plist"; sourceTree = "<group>"; };
+		542D506B899CC4C834AA583F6C7762E8 /* FABRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FABRouter.m; sourceTree = "<group>"; };
 		544AF9DDFE835E6D63C09B37F509CDEF /* Pods-FamilyAccountingBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FamilyAccountingBook.release.xcconfig"; sourceTree = "<group>"; };
 		547BF7801E9B1179497287994326429C /* XAxisRendererHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxisRendererHorizontalBarChart.swift; path = Source/Charts/Renderers/XAxisRendererHorizontalBarChart.swift; sourceTree = "<group>"; };
 		558B3148F34C1DA223CADAF076C98056 /* Charts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Charts.modulemap; sourceTree = "<group>"; };
@@ -811,17 +825,16 @@
 		55F50BCCCBB6CC4A056DC612096F6097 /* CombinedChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartData.swift; path = Source/Charts/Data/Implementations/Standard/CombinedChartData.swift; sourceTree = "<group>"; };
 		55FDB1ED8838A80D6BAD24AB3075D460 /* NSIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
 		56AD351F31B9F276707799B66A685CD4 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		56C963BD48D8056EB53F6C981C50EBF8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		57A8D00178510431DFDC22E3590CA13A /* HorizontalBarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartRenderer.swift; path = Source/Charts/Renderers/HorizontalBarChartRenderer.swift; sourceTree = "<group>"; };
 		582A19105594D177F35AA3253A2CBE3D /* Pods-FamilyAccountingBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FamilyAccountingBook-dummy.m"; sourceTree = "<group>"; };
 		5832648BAD963B8B9513A4864152EA2A /* MarkerImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkerImage.swift; path = Source/Charts/Components/MarkerImage.swift; sourceTree = "<group>"; };
-		58D3A9E07EB53F0BC7CDDAC3B9DFFA32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		58EEB3711E4518D62AEDBE5F19C646B9 /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+BlocksKit.m"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
 		597A92B8B8B15522FB451F68968EA235 /* RACSerialDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSerialDisposable.h; path = ReactiveCocoa/RACSerialDisposable.h; sourceTree = "<group>"; };
 		59A246774010833A438D0CB67B6E45CE /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		59AD3485BC12C5633F77E60C455481DC /* RACCompoundDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACCompoundDisposable.h; path = ReactiveCocoa/RACCompoundDisposable.h; sourceTree = "<group>"; };
 		5A03F17C26A8F148F5DCAAE3F9130425 /* BKMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMacros.h; path = BlocksKit/Core/BKMacros.h; sourceTree = "<group>"; };
 		5A4BD48F8E3122B49E495D24C28DA883 /* RACReplaySubject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACReplaySubject.m; path = ReactiveCocoa/RACReplaySubject.m; sourceTree = "<group>"; };
+		5B203B28352751F9A69695EA2EA020DC /* FABAllTreasure-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FABAllTreasure-dummy.m"; sourceTree = "<group>"; };
 		5C0D6891CBEEEC172A20A2425100BD3C /* ViewPortHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewPortHandler.swift; path = Source/Charts/Utils/ViewPortHandler.swift; sourceTree = "<group>"; };
 		5C35D6B473892912287504EA76B109B3 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		5CE35B4E2DB4BA7BBD72D16497F1CD0A /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
@@ -843,7 +856,6 @@
 		62EA009DDE60D6B17E67A5AB500DE39D /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		62EBDC5D2B71FED409D9FF542123B9E2 /* PieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartView.swift; path = Source/Charts/Charts/PieChartView.swift; sourceTree = "<group>"; };
 		63B6B20FDD20FF2C1375BE15AEBCBCE9 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
-		63C929EAAE703A08904C5E12BD5D06F3 /* FABCoreSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FABCoreSDK-dummy.m"; sourceTree = "<group>"; };
 		63F49F1EB210F236572448BA85EA9194 /* NSString+RACKeyPathUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACKeyPathUtilities.m"; path = "ReactiveCocoa/NSString+RACKeyPathUtilities.m"; sourceTree = "<group>"; };
 		644193A87C32093C6C86A631BD0A6110 /* UIControl+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+RACSignalSupport.m"; path = "ReactiveCocoa/UIControl+RACSignalSupport.m"; sourceTree = "<group>"; };
 		645356133ADB1B91DA75D06C49AA6A1F /* RACKVOTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOTrampoline.m; path = ReactiveCocoa/RACKVOTrampoline.m; sourceTree = "<group>"; };
@@ -852,9 +864,11 @@
 		6781C7654CF70D923E068141A51DF45D /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
 		678D3FCE25752464668BE76249C4A6AC /* ChartDataRendererBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataRendererBase.swift; path = Source/Charts/Renderers/ChartDataRendererBase.swift; sourceTree = "<group>"; };
 		683B77DDC910441D99853787623BE29F /* IMarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMarker.swift; path = Source/Charts/Components/IMarker.swift; sourceTree = "<group>"; };
+		68654F54AC0A23189B1D5DEC73C461A4 /* FABAllTreasureManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FABAllTreasureManager.h; sourceTree = "<group>"; };
 		69438CFEA93758D3F44D13294A225D87 /* LegendEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegendEntry.swift; path = Source/Charts/Components/LegendEntry.swift; sourceTree = "<group>"; };
 		69C2EC7A23D8AD532C9AA56B97D64E2F /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONModel.modulemap; sourceTree = "<group>"; };
 		69D2529B337E2BB8DE606CFA5E16D458 /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = Source/Charts/Utils/Platform.swift; sourceTree = "<group>"; };
+		6A184F89430A10C10BCF96411C78246A /* FABAllTreasure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABAllTreasure.release.xcconfig; sourceTree = "<group>"; };
 		6A6E1F87685A1D6F7711756068D30C59 /* UITextView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+RACSignalSupport.m"; path = "ReactiveCocoa/UITextView+RACSignalSupport.m"; sourceTree = "<group>"; };
 		6AB23A3A40723C53CD0AAE494DFB62EE /* DefaultValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValueFormatter.swift; path = Source/Charts/Formatters/DefaultValueFormatter.swift; sourceTree = "<group>"; };
 		6ABD577E1E243FC334E56EE80D1965F1 /* UIAlertView+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+RACSignalSupport.h"; path = "ReactiveCocoa/UIAlertView+RACSignalSupport.h"; sourceTree = "<group>"; };
@@ -862,10 +876,12 @@
 		6B242C147ADFBEB305E056DE787B7668 /* RACKVOProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACKVOProxy.h; path = ReactiveCocoa/RACKVOProxy.h; sourceTree = "<group>"; };
 		6B4E829B94862FC1418F12246FC317F6 /* CircleShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/CircleShapeRenderer.swift; sourceTree = "<group>"; };
 		6BB69FFFFAE6F2A95EB370E7CBDA01C0 /* CombinedHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedHighlighter.swift; path = Source/Charts/Highlight/CombinedHighlighter.swift; sourceTree = "<group>"; };
+		6C0A4F018AA7AF025876F8467624A074 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1BBDDFE181767DAA9A680BCA5D1BAB /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
 		6C9729304D3E1A7B15A7AE06B4DED209 /* JSONModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.debug.xcconfig; sourceTree = "<group>"; };
 		6DD5D8E520912571756563273B4FFFAF /* NSDictionary+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RACSequenceAdditions.h"; path = "ReactiveCocoa/NSDictionary+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		6E45A113E724CFBD7F97688B4594E09C /* ReactiveCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveCocoa.debug.xcconfig; sourceTree = "<group>"; };
+		6E49D2DCCD75E7DFD3A9F0F06F774803 /* FABAllTreasure.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FABAllTreasure.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6E67425653EB3BADF0158067C2487E0A /* RACUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACUnit.m; path = ReactiveCocoa/RACUnit.m; sourceTree = "<group>"; };
 		6E737F21AB57AE4B529531AC03A0A219 /* LineChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartRenderer.swift; path = Source/Charts/Renderers/LineChartRenderer.swift; sourceTree = "<group>"; };
 		6EE52A77ECAD54E603D76FECA8F6D659 /* NSFileHandle+RACSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileHandle+RACSupport.h"; path = "ReactiveCocoa/NSFileHandle+RACSupport.h"; sourceTree = "<group>"; };
@@ -874,12 +890,13 @@
 		6F40B46C8F2B3C2E8AAE7A0C59C8BD60 /* LKDBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBUtils.m; path = LKDBHelper/Helper/LKDBUtils.m; sourceTree = "<group>"; };
 		6F54C2FDD633B01F9CC10A47FEFB49F4 /* RACStringSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACStringSequence.m; path = ReactiveCocoa/RACStringSequence.m; sourceTree = "<group>"; };
 		6F68A14F54367C1D0F7849D91616D56F /* UITextField+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+BlocksKit.h"; path = "BlocksKit/UIKit/UITextField+BlocksKit.h"; sourceTree = "<group>"; };
-		6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlocksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlocksKit.framework; path = BlocksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		705F13E483D21BEF898C18BEF0B5EA97 /* Charts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Charts-prefix.pch"; sourceTree = "<group>"; };
 		70BFBCD71631BEBF7998D432D597BD28 /* Pods-FamilyAccountingBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FamilyAccountingBook.debug.xcconfig"; sourceTree = "<group>"; };
 		711CBE99BFAE59D8C07AB3BE032C0517 /* A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2DynamicDelegate.h; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.h; sourceTree = "<group>"; };
 		71DDFAB248A3DBE27BEF8C20ABA82573 /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+BlocksKit.h"; path = "BlocksKit/Core/NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
 		71FE4306CB9E4F14673D1F1ACD32EE27 /* UIControl+RACSignalSupportPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+RACSignalSupportPrivate.m"; path = "ReactiveCocoa/UIControl+RACSignalSupportPrivate.m"; sourceTree = "<group>"; };
+		72177D8A2073457B37565DE47E86F57B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7244DE4A5EE5DF38DEFAF76A06DC5DB7 /* Pods-FamilyAccountingBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FamilyAccountingBook-acknowledgements.plist"; sourceTree = "<group>"; };
 		7254B8D9D27866325F0B7DA3C5C722B6 /* RACDynamicSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDynamicSignal.h; path = ReactiveCocoa/RACDynamicSignal.h; sourceTree = "<group>"; };
 		732A193A166AA6EC448E4BD8386B8F70 /* BarLineScatterCandleBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartDataSet.swift; sourceTree = "<group>"; };
@@ -900,6 +917,7 @@
 		7A64747CD3E424D15DEE41E1A4474FAE /* ZoomViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomViewJob.swift; path = Source/Charts/Jobs/ZoomViewJob.swift; sourceTree = "<group>"; };
 		7A685204A2285D13A9484D1D32CF7EBF /* RACDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDisposable.m; path = ReactiveCocoa/RACDisposable.m; sourceTree = "<group>"; };
 		7AF22791F4334BB55272455BABEB020D /* RACReplaySubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACReplaySubject.h; path = ReactiveCocoa/RACReplaySubject.h; sourceTree = "<group>"; };
+		7AFE31B7A412D2F1BBF76C31CB9D72AB /* FABAllTreasure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FABAllTreasure.framework; path = FABAllTreasure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B45E3ECF0DFD3F99EB6B4C94D04AC69 /* RACUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACUnit.h; path = ReactiveCocoa/RACUnit.h; sourceTree = "<group>"; };
 		7B90B27749ED4FF45B31427689E38F75 /* ICandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICandleChartDataSet.swift; path = Source/Charts/Data/Interfaces/ICandleChartDataSet.swift; sourceTree = "<group>"; };
 		7BD21D438A87F229C445EB3780FE20B0 /* RACQueueScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACQueueScheduler.h; path = ReactiveCocoa/RACQueueScheduler.h; sourceTree = "<group>"; };
@@ -913,7 +931,6 @@
 		7D7E5E71A4FEACBEEF7F6CC23DB0DDB6 /* BarLineScatterCandleBubbleChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartData.swift; path = Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartData.swift; sourceTree = "<group>"; };
 		7DD7D69188575CBB1B25F39F2ACC135C /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
 		7DF2A160BA526D8E2D42DB47F3191348 /* RACScheduler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACScheduler+Private.h"; path = "ReactiveCocoa/RACScheduler+Private.h"; sourceTree = "<group>"; };
-		7E18773C596DBE81BF90935C81440E13 /* FABAllTreasure.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FABAllTreasure.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E270E893E260ED0B3970DDFEDF86264 /* RACUnarySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACUnarySequence.h; path = ReactiveCocoa/RACUnarySequence.h; sourceTree = "<group>"; };
 		7E5EC8852B2057A364DDF33AABE08B6C /* Pods-FamilyAccountingBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FamilyAccountingBook-frameworks.sh"; sourceTree = "<group>"; };
 		7E5F9BA7BAE707D3B7854107951300DD /* NSOrderedSet+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+RACSequenceAdditions.h"; path = "ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.h"; sourceTree = "<group>"; };
@@ -938,14 +955,15 @@
 		833173354B621446FAAC473FAF2DD175 /* RACUnarySequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACUnarySequence.m; path = ReactiveCocoa/RACUnarySequence.m; sourceTree = "<group>"; };
 		83B60F4E8C72F8DF78D272FDCD093ABA /* YAxisRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxisRenderer.swift; path = Source/Charts/Renderers/YAxisRenderer.swift; sourceTree = "<group>"; };
 		8424E152B4546A49E384C59572BBA49F /* RadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/RadarChartDataSet.swift; sourceTree = "<group>"; };
+		8503CC5014053AE239FFD468B495AFF5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		85C2AEBF9D71F138A0D7190D10B38F90 /* TAAbstractDotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAAbstractDotView.m; path = TAPageControl/TAAbstractDotView.m; sourceTree = "<group>"; };
+		8729CEDDAA6771D098A5F4744556D188 /* FABAllTreasure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABAllTreasure.debug.xcconfig; sourceTree = "<group>"; };
 		8744C2CF84E23DF4DCEAFED6AA7FD289 /* IBarLineScatterCandleBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBarLineScatterCandleBubbleChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBarLineScatterCandleBubbleChartDataSet.swift; sourceTree = "<group>"; };
 		8787B76C32C1CBEF43E7D210F70E7A18 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
 		88C4E99515123CDF28E4B56A14ADC20C /* RACSerialDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSerialDisposable.m; path = ReactiveCocoa/RACSerialDisposable.m; sourceTree = "<group>"; };
 		892DEEAA52AAB2E58A09FA0EA11F39AA /* BubbleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/BubbleChartDataEntry.swift; sourceTree = "<group>"; };
 		89497AD9A278CD71343386011DA4ABD2 /* RACCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACCommand.m; path = ReactiveCocoa/RACCommand.m; sourceTree = "<group>"; };
 		899882E29CF416D7D01A1014005CBCD5 /* RACCompoundDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACCompoundDisposable.m; path = ReactiveCocoa/RACCompoundDisposable.m; sourceTree = "<group>"; };
-		89B0746D69C9B280B502B92DC613B2F4 /* FABCoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABCoreSDK.release.xcconfig; sourceTree = "<group>"; };
 		89CF898BAD320581D1225AD1189F85C2 /* RACSubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubject.h; path = ReactiveCocoa/RACSubject.h; sourceTree = "<group>"; };
 		8AB8EF3D632B7CE560792DDED6A30146 /* UISwitch+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+RACSignalSupport.m"; path = "ReactiveCocoa/UISwitch+RACSignalSupport.m"; sourceTree = "<group>"; };
 		8AE2E8A7B787BC4941085D8CE4D925AB /* MoveViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoveViewJob.swift; path = Source/Charts/Jobs/MoveViewJob.swift; sourceTree = "<group>"; };
@@ -971,10 +989,8 @@
 		941C79604724C92E59A23C317A6EB024 /* BlocksKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-umbrella.h"; sourceTree = "<group>"; };
 		94FDF9A0B38B4E339E1B11134C671F28 /* UITextField+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+BlocksKit.m"; path = "BlocksKit/UIKit/UITextField+BlocksKit.m"; sourceTree = "<group>"; };
 		950FC6DC47E7D62F2CC82E0501BA747B /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BlocksKit.m"; path = "BlocksKit/Core/NSArray+BlocksKit.m"; sourceTree = "<group>"; };
-		965BC9865F5E4978356E3CFEB6C18D16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96DEA3ACFCA5A930F3531FABC4C3A110 /* TAPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAPageControl.debug.xcconfig; sourceTree = "<group>"; };
 		96E38536DCC61F5865F902A7DC260C8B /* UIBarButtonItem+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+RACCommandSupport.m"; path = "ReactiveCocoa/UIBarButtonItem+RACCommandSupport.m"; sourceTree = "<group>"; };
-		985AA90AE3293077FD33E31C9971BFAD /* FABAllTreasure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABAllTreasure.debug.xcconfig; sourceTree = "<group>"; };
 		987A61CC545B25C19E6B5805D86D12B2 /* ReactiveCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-umbrella.h"; sourceTree = "<group>"; };
 		98C8077400A418385F74F301EF36F63F /* NSArray+JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONModel.m"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.m"; sourceTree = "<group>"; };
 		9962DD1BF78991A2C31660D964A0CB83 /* Charts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Charts-dummy.m"; sourceTree = "<group>"; };
@@ -986,7 +1002,7 @@
 		9BDCFE4D82FF87472AB3B872EFA485B5 /* UIBarButtonItem+RACCommandSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+RACCommandSupport.h"; path = "ReactiveCocoa/UIBarButtonItem+RACCommandSupport.h"; sourceTree = "<group>"; };
 		9C544B3F89A7DFB583D900D5D8C632E7 /* LineChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartData.swift; path = Source/Charts/Data/Implementations/Standard/LineChartData.swift; sourceTree = "<group>"; };
 		9D468C9D3C51F176CC3FDB190D5A717E /* RACTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACTuple.m; path = ReactiveCocoa/RACTuple.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC7B68B5FBE142886248193722EC38F /* UIStepper+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStepper+RACSignalSupport.h"; path = "ReactiveCocoa/UIStepper+RACSignalSupport.h"; sourceTree = "<group>"; };
 		9E19D000A43352C890CC0FECAFE2C353 /* RadarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarHighlighter.swift; path = Source/Charts/Highlight/RadarHighlighter.swift; sourceTree = "<group>"; };
 		9E2821176DAAE19A6794DB5482BD8EA0 /* UIImagePickerController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+BlocksKit.h"; path = "BlocksKit/UIKit/UIImagePickerController+BlocksKit.h"; sourceTree = "<group>"; };
@@ -998,28 +1014,26 @@
 		A07CBA01363BCCEB4C9A2DF4AB7D707D /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
 		A129CFC37C1E5E4D647D4361A0ADA251 /* RACPassthroughSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACPassthroughSubscriber.h; path = ReactiveCocoa/RACPassthroughSubscriber.h; sourceTree = "<group>"; };
 		A137B216FA2353C9A84AC30BD0E49857 /* RACDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDisposable.h; path = ReactiveCocoa/RACDisposable.h; sourceTree = "<group>"; };
-		A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Charts.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A228342E8FD931AA3CC3B7812B5E1EF7 /* BlocksKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlocksKit-Info.plist"; sourceTree = "<group>"; };
 		A22DEEC6241102D7AFDDD96A21E703F4 /* IScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IScatterChartDataSet.swift; path = Source/Charts/Data/Interfaces/IScatterChartDataSet.swift; sourceTree = "<group>"; };
 		A261C6E45DF516A507BDE7059310C845 /* IPieChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPieChartDataSet.swift; path = Source/Charts/Data/Interfaces/IPieChartDataSet.swift; sourceTree = "<group>"; };
-		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A475DB4ED22A5335004BD0036B4B78E5 /* NSObject+RACKVOWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACKVOWrapper.m"; path = "ReactiveCocoa/NSObject+RACKVOWrapper.m"; sourceTree = "<group>"; };
 		A508A754FDDE4A24E9B6FC8E94504BE2 /* RACTupleSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACTupleSequence.h; path = ReactiveCocoa/RACTupleSequence.h; sourceTree = "<group>"; };
 		A528B76BD6D632CB7D4A01DC5A5D09C6 /* Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Charts.release.xcconfig; sourceTree = "<group>"; };
 		A555480AA6BFD72375A46AC35DC4CAEB /* TAPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAPageControl.release.xcconfig; sourceTree = "<group>"; };
 		A58E0CDE3439756D245D5A12107C159B /* BubbleChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartRenderer.swift; path = Source/Charts/Renderers/BubbleChartRenderer.swift; sourceTree = "<group>"; };
-		A5BCB0596AF66778688A6F1C683DDA0C /* FABAllTreasure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FABAllTreasure.release.xcconfig; sourceTree = "<group>"; };
 		A5C9B049A2494414714B28D21D20146B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		A638BE7FBE4CABE01C6016E656CD5671 /* RACQueueScheduler+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACQueueScheduler+Subclass.h"; path = "ReactiveCocoa/RACQueueScheduler+Subclass.h"; sourceTree = "<group>"; };
 		A68AAAC2903E4BD2A08602D856553F2C /* RACArraySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACArraySequence.h; path = ReactiveCocoa/RACArraySequence.h; sourceTree = "<group>"; };
+		A6C7F8466FD5DE22C9CC0F78BAE80135 /* MyTestVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyTestVC.h; sourceTree = "<group>"; };
 		A716A418C6EF311777B7A86DDE6B5FE1 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		A793401F897A7184BEE7A86630516972 /* RACObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACObjCRuntime.h; path = ReactiveCocoa/RACObjCRuntime.h; sourceTree = "<group>"; };
 		A7E1BFEBBDF84D5CD548E78898C3462D /* RadarChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/RadarChartDataEntry.swift; sourceTree = "<group>"; };
 		A7F9BC2B4204D0035DB2DC9887E7418B /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
 		A802773DCF65F51FF5085BF930DCF04E /* NSURLConnection+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+RACSupport.m"; path = "ReactiveCocoa/NSURLConnection+RACSupport.m"; sourceTree = "<group>"; };
-		A82E895DAB665EB6BC8CE8F01B82CE20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A850D74FC5227A3521A1DE903BF24991 /* ChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartViewBase.swift; path = Source/Charts/Charts/ChartViewBase.swift; sourceTree = "<group>"; };
-		A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A88C783C147E3EE31609D65685A09F91 /* UISwitch+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwitch+RACSignalSupport.h"; path = "ReactiveCocoa/UISwitch+RACSignalSupport.h"; sourceTree = "<group>"; };
 		A962AA432EB8B7FD8AA2D1E99930459C /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
 		A9BCB8BC839B3AF4020FBEF12BF3902C /* LineScatterCandleRadarRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleRadarRenderer.swift; path = Source/Charts/Renderers/LineScatterCandleRadarRenderer.swift; sourceTree = "<group>"; };
@@ -1047,10 +1061,8 @@
 		B16F8C37FE86244193D511192121EE51 /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
 		B1B5C198DEBABA401E51DD9BC255D135 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAAnimatedDotView.h; path = TAPageControl/TAAnimatedDotView.h; sourceTree = "<group>"; };
 		B2139911ABB94BB3D27B6FA4A11C9FE1 /* RACScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACScheduler.m; path = ReactiveCocoa/RACScheduler.m; sourceTree = "<group>"; };
-		B28AF8887BE6731BB4F26B951159022E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B2DEBB36CD13512E5408A4B8BC2045E3 /* TAPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAPageControl.h; path = TAPageControl/TAPageControl.h; sourceTree = "<group>"; };
 		B2FB074D93BB26983B4D270109049490 /* Platform+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Accessibility.swift"; path = "Source/Charts/Utils/Platform+Accessibility.swift"; sourceTree = "<group>"; };
-		B333F78934A5DD957F5A3A537F45646F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B4496D1BEAF2A76EC11EF68FC9EE026B /* RACEmptySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEmptySequence.h; path = ReactiveCocoa/RACEmptySequence.h; sourceTree = "<group>"; };
 		B54F7D31560F380EDB29B426601C3183 /* RACSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSignal.h; path = ReactiveCocoa/RACSignal.h; sourceTree = "<group>"; };
 		B554342D4A600195622C0C6A505138FF /* ViewPortJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewPortJob.swift; path = Source/Charts/Jobs/ViewPortJob.swift; sourceTree = "<group>"; };
@@ -1058,11 +1070,12 @@
 		B719007537C3E6942CB8E32352393B3E /* RACEXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTScope.h; path = ReactiveCocoa/extobjc/RACEXTScope.h; sourceTree = "<group>"; };
 		B72F01D7F5301A24B709A77E24B67BE9 /* LineScatterCandleRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleRadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineScatterCandleRadarChartDataSet.swift; sourceTree = "<group>"; };
 		B7BDC276DD7BB3B2164DBEF15A4B684C /* IRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRadarChartDataSet.swift; path = Source/Charts/Data/Interfaces/IRadarChartDataSet.swift; sourceTree = "<group>"; };
+		B7BF4505DD5906A51D4D2BFAF8187BFB /* FABRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FABRouter.h; sourceTree = "<group>"; };
 		B89FF5D2FC9711FA25B4401BD04365DD /* HorizontalBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartView.swift; path = Source/Charts/Charts/HorizontalBarChartView.swift; sourceTree = "<group>"; };
 		B8ED278E8290F808851FA86851D54361 /* LineChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataProvider.swift; path = Source/Charts/Interfaces/LineChartDataProvider.swift; sourceTree = "<group>"; };
 		B902F312AEB1E2BC6B3D868238C5E062 /* JSONModelArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelArray.m; path = JSONModel/JSONModel/JSONModelArray.m; sourceTree = "<group>"; };
 		BA31598169BC7B3D441EA13DFC57D4C4 /* SquareShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SquareShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/SquareShapeRenderer.swift; sourceTree = "<group>"; };
-		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC9682F6243D2BD83C979450769F21D /* RACBlockTrampoline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACBlockTrampoline.h; path = ReactiveCocoa/RACBlockTrampoline.h; sourceTree = "<group>"; };
 		BB7F997B7ABE74666AD6040C624F194D /* ChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataSet.swift; sourceTree = "<group>"; };
 		BC6AC55E4064089D8AB4F5CAE8A2BDA3 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
@@ -1099,20 +1112,17 @@
 		C99FF8505B762D79B5BB2917A1161930 /* NSOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+BlocksKit.m"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
 		CA1B4CA029ABCC5F0153EBD120CF2DF4 /* Pods-FamilyAccountingBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FamilyAccountingBook.modulemap"; sourceTree = "<group>"; };
 		CA5DBC4130C5716D31E884B0D24C99DE /* CandleStickChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartView.swift; path = Source/Charts/Charts/CandleStickChartView.swift; sourceTree = "<group>"; };
-		CAA551C7035920D66F80FDC5A5753296 /* TAPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TAPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA551C7035920D66F80FDC5A5753296 /* TAPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TAPageControl.framework; path = TAPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA5E8A01AA6019C1D488BCF78385B95 /* TADotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TADotView.h; path = TAPageControl/TADotView.h; sourceTree = "<group>"; };
 		CAA6603D1A237429A17FA1C5A8225079 /* RACScheduler+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACScheduler+Subclass.h"; path = "ReactiveCocoa/RACScheduler+Subclass.h"; sourceTree = "<group>"; };
 		CAC7ABEA574E1DFD02DB2281385601B5 /* RACSignal+Operations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACSignal+Operations.h"; path = "ReactiveCocoa/RACSignal+Operations.h"; sourceTree = "<group>"; };
 		CB1E3D6C040EECDBBCE9934850B01676 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
 		CB91E1E32769E51A31653D7DE79BC02E /* UIGestureRecognizer+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+RACSignalSupport.m"; path = "ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.m"; sourceTree = "<group>"; };
-		CBDDA75725C6E920003F5640 /* FABRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABRouter.m; sourceTree = "<group>"; };
-		CBDDA75825C6E920003F5640 /* FABRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABRouter.h; sourceTree = "<group>"; };
 		CC333F6CD5417B9014F8BB8C5746020E /* CandleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataEntry.swift; sourceTree = "<group>"; };
 		CCB981063F8CBE5AAAE097FBD39C08C5 /* LineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineChartDataSet.swift; sourceTree = "<group>"; };
 		CCC169DAE4AC7FA6FF0C0262F270AC45 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		CD012293C5DCE8182F626730A008F424 /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
 		CD462A90A1CA497F5E3D99028AA42B71 /* A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2DynamicDelegate.m; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.m; sourceTree = "<group>"; };
-		CDCB59ABBD5977074538EBE5383DBD75 /* FABCoreSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FABCoreSDK.modulemap; sourceTree = "<group>"; };
 		CDCD68DC32BADC486A322FCC9B032F31 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
 		CDED6975575447E9D12D4965B77021AD /* LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBHelper.h; path = LKDBHelper/Helper/LKDBHelper.h; sourceTree = "<group>"; };
 		CEFDC0437DA4ABE2AAABD5621EC2D265 /* RACSubscriptingAssignmentTrampoline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubscriptingAssignmentTrampoline.h; path = ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h; sourceTree = "<group>"; };
@@ -1134,6 +1144,7 @@
 		D61C59B05267E05952B76378BAC49233 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		D699D4344D25EE8BBF36E0DB3EBD9AC7 /* RadarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartView.swift; path = Source/Charts/Charts/RadarChartView.swift; sourceTree = "<group>"; };
 		D7562C765B9D74BB881E7EC66CCC938C /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
+		D784BFFD76CAA1EA5EE3D44A8D47983F /* FABAllTreasureVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FABAllTreasureVC.h; sourceTree = "<group>"; };
 		D7C5845E945A1BF31296DFEE8538893D /* CandleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataProvider.swift; path = Source/Charts/Interfaces/CandleChartDataProvider.swift; sourceTree = "<group>"; };
 		D835ECD12DC48CD111FAE1C18DE32FAE /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BlocksKit.h"; path = "BlocksKit/Core/NSArray+BlocksKit.h"; sourceTree = "<group>"; };
 		D8A8AAAC4D94BB8F447F88D9652BEF53 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
@@ -1155,13 +1166,14 @@
 		E19321E485C981C74B9D83F957AEE5A6 /* XAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxis.swift; path = Source/Charts/Components/XAxis.swift; sourceTree = "<group>"; };
 		E1BF79FE9C0E16142BF8BF96F7B45249 /* LineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineRadarChartDataSet.swift; sourceTree = "<group>"; };
 		E1CF80B64F5AE14C5F315920A6FBB079 /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
-		E1DAB4381634F00562A17E4DF534A6FC /* FABCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FABCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D9524241BF7289E005599B56E881F2 /* FABCoreSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FABCoreSDK-dummy.m"; sourceTree = "<group>"; };
+		E1DAB4381634F00562A17E4DF534A6FC /* FABCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FABCoreSDK.framework; path = FABCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21A1CD75A6DF64B5BB61F2E509722A8 /* IBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBubbleChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBubbleChartDataSet.swift; sourceTree = "<group>"; };
 		E32CC7BDDDDC69B06D80A5C68711792A /* NSObject+RACPropertySubscribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACPropertySubscribing.h"; path = "ReactiveCocoa/NSObject+RACPropertySubscribing.h"; sourceTree = "<group>"; };
 		E37E272F8249DAFBB05F3C25F7D3E43B /* RACSubscriptionScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSubscriptionScheduler.m; path = ReactiveCocoa/RACSubscriptionScheduler.m; sourceTree = "<group>"; };
 		E3CB7E409B02E3EDAD92A7F42810A011 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
 		E44F2F49752CD57739279976D34CE7F4 /* TriangleShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriangleShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/TriangleShapeRenderer.swift; sourceTree = "<group>"; };
-		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47B9AF556A48B883B3192DE539D1DB3 /* NSInvocation+RACTypeParsing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+RACTypeParsing.m"; path = "ReactiveCocoa/NSInvocation+RACTypeParsing.m"; sourceTree = "<group>"; };
 		E4879BE18E86025EFCF6720E54823767 /* IFillFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IFillFormatter.swift; path = Source/Charts/Formatters/IFillFormatter.swift; sourceTree = "<group>"; };
 		E4BDAF09B5469A2BE90962FE2FFC9249 /* NSObject+LKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LKModel.h"; path = "LKDBHelper/Helper/NSObject+LKModel.h"; sourceTree = "<group>"; };
@@ -1176,16 +1188,20 @@
 		EB2028929E9F7CF4B91D67F1A49C68F9 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		EB58635052F97EC30C95F3DDCA51EC5F /* Legend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Legend.swift; path = Source/Charts/Components/Legend.swift; sourceTree = "<group>"; };
 		EC4508BB43CD72842C8B7BB4CB9526FD /* NSObject+BKAssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKAssociatedObjects.h"; path = "BlocksKit/Core/NSObject+BKAssociatedObjects.h"; sourceTree = "<group>"; };
+		ED04FC9CE8B1F1D39218F7CE6D85E5D3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		EF0F358D9E7005BAD5A7F94755831A96 /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
 		F07D235DAACB900BD4358F372F64CE53 /* BlocksKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlocksKit.debug.xcconfig; sourceTree = "<group>"; };
+		F07DCA8ADA37D655F14DE45E00891460 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F0CEB34E391161B6089DE54BA54A36EF /* RACEmptySequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEmptySequence.m; path = ReactiveCocoa/RACEmptySequence.m; sourceTree = "<group>"; };
 		F0F40BB20C7DF1C3A87C7071505CA64B /* RACSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubscriber.h; path = ReactiveCocoa/RACSubscriber.h; sourceTree = "<group>"; };
 		F1AFC424EB3AACFD5247E10C7A7C570F /* NSObject+LKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LKModel.m"; path = "LKDBHelper/Helper/NSObject+LKModel.m"; sourceTree = "<group>"; };
+		F1E3F12F5DA8401E8120BE9954B1457D /* FABCoreSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FABCoreSDK-prefix.pch"; sourceTree = "<group>"; };
 		F1F6BDE7F2F62028B38A7E4F928F3B2A /* NSInvocation+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+BlocksKit.m"; path = "BlocksKit/Core/NSInvocation+BlocksKit.m"; sourceTree = "<group>"; };
 		F24BDFDC6A9030855201AB5B0A8C1FFE /* LKDB+Mapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LKDB+Mapping.h"; path = "LKDBHelper/Helper/LKDB+Mapping.h"; sourceTree = "<group>"; };
 		F2B60898F51031D4FFE4582A0342C48D /* RACSignal+Operations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RACSignal+Operations.m"; path = "ReactiveCocoa/RACSignal+Operations.m"; sourceTree = "<group>"; };
 		F2D59D3A269FCD2E7703036AD63C7D3A /* Platform+Touch Handling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Touch Handling.swift"; path = "Source/Charts/Utils/Platform+Touch Handling.swift"; sourceTree = "<group>"; };
 		F341970009199F464275C3E06490D3BB /* LKDBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBUtils.h; path = LKDBHelper/Helper/LKDBUtils.h; sourceTree = "<group>"; };
+		F34E2C78F3A11916DA3E1C29053F7399 /* FABAllTreasure-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FABAllTreasure-Info.plist"; sourceTree = "<group>"; };
 		F3D67247DFF8E50D1FCA6DBB39CF20D7 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
 		F3DC867B8EB443BF86E86C639D4CDC48 /* Charts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Charts.debug.xcconfig; sourceTree = "<group>"; };
 		F3E9D460A32DB4BDCBE3C5AE697C0868 /* NSObject+BKBlockObservation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKBlockObservation.m"; path = "BlocksKit/Core/NSObject+BKBlockObservation.m"; sourceTree = "<group>"; };
@@ -1198,6 +1214,7 @@
 		F996DA41161E298F5AF44FF11B3833F8 /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+BlocksKit.h"; path = "BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
 		F9A3BEF749615C3857C035369851E5A0 /* RACScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACScheduler.h; path = ReactiveCocoa/RACScheduler.h; sourceTree = "<group>"; };
 		F9BEC57609715096C13E01CC7D1634D1 /* RACEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEvent.m; path = ReactiveCocoa/RACEvent.m; sourceTree = "<group>"; };
+		F9C7CB79AFE8ACB36066B73444AAFE73 /* FABAllTreasure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FABAllTreasure.modulemap; sourceTree = "<group>"; };
 		FA1A25B5C28334CB668A3C6E3B9C21AC /* RACEXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEXTRuntimeExtensions.m; path = ReactiveCocoa/extobjc/RACEXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		FA1B4CEBEDE59CF43D0BCAF4B55D077B /* NSIndexSet+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+RACSequenceAdditions.h"; path = "ReactiveCocoa/NSIndexSet+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		FA5BF8318B3962E2DC309714A61E8153 /* ReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveCocoa.release.xcconfig; sourceTree = "<group>"; };
@@ -1219,6 +1236,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B7B420F90003A83002BB88009EDDE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD043305A02D7441DD640D6B54261BBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DA6D3992470BA83E36A3961F928BD34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1261,14 +1286,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACECDB9D5C48A3C3E6424A01F407CC01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6FA47F529F19CEDB0CF7BFD95ED8090 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BBE9DBAF99AA5E467C0CE3995D782362 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1292,6 +1309,15 @@
 				1CC2C4464C49BED48885AF8F1211748F /* CoreFoundation.framework in Frameworks */,
 				4C526862196B73429AF9662EA73E352F /* Foundation.framework in Frameworks */,
 				31A66493CE1DBFFA9CA5F64CA5353AD6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E253113D7DCA9A0BB0FC0932AD25C1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99BBD84ECB07CA96AEE254F25691162 /* FABCoreSDK.framework in Frameworks */,
+				039170700C8275F3894CD3598F9296BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1321,6 +1347,7 @@
 				61CC15B9BEFD97226BDBA1F322AE52C2 /* standard */,
 				DD443BC1B262C74AEB6A71F9F883E961 /* Support Files */,
 			);
+			name = LKDBHelper;
 			path = LKDBHelper;
 			sourceTree = "<group>";
 		};
@@ -1377,21 +1404,6 @@
 			path = "Target Support Files/Pods-FamilyAccountingBook";
 			sourceTree = "<group>";
 		};
-		23953AA839183D1C4CA004313D3DAE5F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDCB59ABBD5977074538EBE5383DBD75 /* FABCoreSDK.modulemap */,
-				63C929EAAE703A08904C5E12BD5D06F3 /* FABCoreSDK-dummy.m */,
-				4C667612CE620C159C6BE41F6227AAB2 /* FABCoreSDK-Info.plist */,
-				267D57E7A47779ADB5C2D3C65E8E10DE /* FABCoreSDK-prefix.pch */,
-				485DF97C65EB82D06F90F4FD26E2AD88 /* FABCoreSDK-umbrella.h */,
-				505E378F130494A921E45D96C2C8D258 /* FABCoreSDK.debug.xcconfig */,
-				89B0746D69C9B280B502B92DC613B2F4 /* FABCoreSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../FamilyAccountingBook/Pods/Target Support Files/FABCoreSDK";
-			sourceTree = "<group>";
-		};
 		24ECF518F1B58DB2538BB4A923717A18 /* standard */ = {
 			isa = PBXGroup;
 			children = (
@@ -1410,15 +1422,29 @@
 			name = standard;
 			sourceTree = "<group>";
 		};
-		2D3943EBE12CBE7E79A10177AA3D0DC2 /* FABCoreSDK */ = {
+		265F99D47EF2DC68DDFE9D67505CFACB /* FABAllTreasureManager */ = {
 			isa = PBXGroup;
 			children = (
-				CBDDA75625C6E8BF003F5640 /* FABRouter */,
-				58C5CDB8914CC67388297545DC2DC7BC /* Pod */,
-				23953AA839183D1C4CA004313D3DAE5F /* Support Files */,
+				68654F54AC0A23189B1D5DEC73C461A4 /* FABAllTreasureManager.h */,
+				0BEDAAA30630670DC2235DC5B19BFC2D /* FABAllTreasureManager.m */,
 			);
-			name = FABCoreSDK;
-			path = ../../FABCoreSDK;
+			name = FABAllTreasureManager;
+			path = FABAllTreasure/Classes/FABAllTreasureManager;
+			sourceTree = "<group>";
+		};
+		2DD8C853A67B7E71DF4662DC03BCE231 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02AA606375A95B9C3EC6833B2F151A02 /* FABCoreSDK.modulemap */,
+				E1D9524241BF7289E005599B56E881F2 /* FABCoreSDK-dummy.m */,
+				5312B5921E0DB4254ED60D0F358BF66A /* FABCoreSDK-Info.plist */,
+				F1E3F12F5DA8401E8120BE9954B1457D /* FABCoreSDK-prefix.pch */,
+				506C8205D58D2147575A85B33D2CF031 /* FABCoreSDK-umbrella.h */,
+				42A62EA7885C607605CE5395FCCC8F48 /* FABCoreSDK.debug.xcconfig */,
+				01E09B6E64EFFAAD95310C269CF2EF1A /* FABCoreSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../FamilyAccountingBook/Pods/Target Support Files/FABCoreSDK";
 			sourceTree = "<group>";
 		};
 		2F2A49E737FC4614D8EB68B70E81DB94 /* UIKit */ = {
@@ -1449,13 +1475,13 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		3247032305B0F529721AD0A459432A70 /* Frameworks */ = {
+		300573BAF8176856AD09B8E3C227986A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2DDC17EAEA818244545D50274F63BDC8 /* FMDB.framework */,
-				B9647AA17A2F12CDEC5CF8D98CB59A62 /* iOS */,
+				7B53EE3CDD86D898D17421616F2AAFEA /* FABAllTreasure */,
+				C9F8BF303060DAE446F5066AB21B4F48 /* FABCoreSDK */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		38B1148F000334DDC9C295199910E0F5 /* ReactiveCocoa */ = {
@@ -1466,14 +1492,16 @@
 				B69B34F77994950B71CDE69A006FA342 /* Support Files */,
 				792A3E0A818BDAF8F9716EFD7039AF38 /* UI */,
 			);
+			name = ReactiveCocoa;
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
 		};
-		394408022AB24D8CADEBB1C52E9192D1 /* Products */ = {
+		4418065023B85E22A3929EAB88E829BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */,
 				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
+				7AFE31B7A412D2F1BBF76C31CB9D72AB /* FABAllTreasure.framework */,
 				E1DAB4381634F00562A17E4DF534A6FC /* FABCoreSDK.framework */,
 				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
 				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */,
@@ -1496,17 +1524,8 @@
 				8415F6E321C6DCA957B011A0C37C0F61 /* Support Files */,
 				2F2A49E737FC4614D8EB68B70E81DB94 /* UIKit */,
 			);
+			name = BlocksKit;
 			path = BlocksKit;
-			sourceTree = "<group>";
-		};
-		58C5CDB8914CC67388297545DC2DC7BC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0B474895EB8AD8A49FC7FAC335B50357 /* FABCoreSDK.podspec */,
-				B333F78934A5DD957F5A3A537F45646F /* LICENSE */,
-				B28AF8887BE6731BB4F26B951159022E /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		60307B402653BD401486BA6B409186AC /* Pods */ = {
@@ -1548,7 +1567,18 @@
 				A3BC18359A8692F5467DAE974BB98AA4 /* Core */,
 				F4713D02294284553A7BE98C4ED42ACB /* Support Files */,
 			);
+			name = Charts;
 			path = Charts;
+			sourceTree = "<group>";
+		};
+		74EEBED1F2F2288FC6A1880D153F9D9F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D784BFFD76CAA1EA5EE3D44A8D47983F /* FABAllTreasureVC.h */,
+				2F1C7A44B55C897A85F9014725C6309A /* FABAllTreasureVC.m */,
+			);
+			name = VC;
+			path = FABAllTreasure/Classes/VC;
 			sourceTree = "<group>";
 		};
 		78108026E1D1624C16C0227AD6FE600B /* Support Files */ = {
@@ -1613,6 +1643,18 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
+		7B53EE3CDD86D898D17421616F2AAFEA /* FABAllTreasure */ = {
+			isa = PBXGroup;
+			children = (
+				265F99D47EF2DC68DDFE9D67505CFACB /* FABAllTreasureManager */,
+				971C4282780B009C8946D9D8EC722B6C /* Pod */,
+				836B06BB786B98B4A71710F459AD68B5 /* Support Files */,
+				74EEBED1F2F2288FC6A1880D153F9D9F /* VC */,
+			);
+			name = FABAllTreasure;
+			path = ../../FABAllTreasure;
+			sourceTree = "<group>";
+		};
 		7B63D7E969BB0090E6CED6254F1A9B7F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1667,13 +1709,19 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		7E97F427439DB0AD36978CD28C9681E9 /* Development Pods */ = {
+		836B06BB786B98B4A71710F459AD68B5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D20AC5E6EFE801CAF20C9B0F3173139E /* FABAllTreasure */,
-				2D3943EBE12CBE7E79A10177AA3D0DC2 /* FABCoreSDK */,
+				F9C7CB79AFE8ACB36066B73444AAFE73 /* FABAllTreasure.modulemap */,
+				5B203B28352751F9A69695EA2EA020DC /* FABAllTreasure-dummy.m */,
+				F34E2C78F3A11916DA3E1C29053F7399 /* FABAllTreasure-Info.plist */,
+				510054E23823335DBF8D9D484EC78EAA /* FABAllTreasure-prefix.pch */,
+				2293BAFC30857938083CA313643EA943 /* FABAllTreasure-umbrella.h */,
+				8729CEDDAA6771D098A5F4744556D188 /* FABAllTreasure.debug.xcconfig */,
+				6A184F89430A10C10BCF96411C78246A /* FABAllTreasure.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../FamilyAccountingBook/Pods/Target Support Files/FABAllTreasure";
 			sourceTree = "<group>";
 		};
 		8415F6E321C6DCA957B011A0C37C0F61 /* Support Files */ = {
@@ -1704,7 +1752,18 @@
 				C35B89B86D8B3C6E2A078936069CA335 /* TAPageControl.m */,
 				DCA315E379BFD18AEBB60869FB10E5FF /* Support Files */,
 			);
+			name = TAPageControl;
 			path = TAPageControl;
+			sourceTree = "<group>";
+		};
+		971C4282780B009C8946D9D8EC722B6C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6E49D2DCCD75E7DFD3A9F0F06F774803 /* FABAllTreasure.podspec */,
+				00B7B19E1F099A0EFC230FB8D48745EF /* LICENSE */,
+				F07DCA8ADA37D655F14DE45E00891460 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A3BC18359A8692F5467DAE974BB98AA4 /* Core */ = {
@@ -1854,12 +1913,44 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		A58D744D43DC4D3F5E46B141A073C83B /* FABRouter */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF4505DD5906A51D4D2BFAF8187BFB /* FABRouter.h */,
+				542D506B899CC4C834AA583F6C7762E8 /* FABRouter.m */,
+			);
+			name = FABRouter;
+			path = FABCoreSDK/Classes/FABRouter;
+			sourceTree = "<group>";
+		};
+		A635C656A7AEBA20A99759C494E47F69 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				251CC41CA9CB756C2F93710FE1ADFDA9 /* FABCoreSDK.podspec */,
+				08119380C29E1CADD31CB69D53862BFF /* LICENSE */,
+				2201178F2AD8EE43611A7FD066C76FB5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A73CAF2EAB217A24687E88AB62C987FE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED04FC9CE8B1F1D39218F7CE6D85E5D3 /* CoreFoundation.framework */,
+				72177D8A2073457B37565DE47E86F57B /* Foundation.framework */,
+				8503CC5014053AE239FFD468B495AFF5 /* MessageUI.framework */,
+				4D0229403255285A29A8DEFEE496CFC7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		ADF3E2F800A011C96C5FD306B416AC0D /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
 				24ECF518F1B58DB2538BB4A923717A18 /* standard */,
 				7B63D7E969BB0090E6CED6254F1A9B7F /* Support Files */,
 			);
+			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -1882,6 +1973,16 @@
 			name = DynamicDelegate;
 			sourceTree = "<group>";
 		};
+		B633D12D043E01D278186B6871427AB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1960642690C4226BA9315AEE88C0E23F /* FABCoreSDK.framework */,
+				6C0A4F018AA7AF025876F8467624A074 /* FMDB.framework */,
+				A73CAF2EAB217A24687E88AB62C987FE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B69B34F77994950B71CDE69A006FA342 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1895,17 +1996,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ReactiveCocoa";
-			sourceTree = "<group>";
-		};
-		B9647AA17A2F12CDEC5CF8D98CB59A62 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4C121B8B0DE1F00D53740606997CF58D /* CoreFoundation.framework */,
-				A860720C91988ED8C1C00A90BA45F956 /* Foundation.framework */,
-				56C963BD48D8056EB53F6C981C50EBF8 /* MessageUI.framework */,
-				A82E895DAB665EB6BC8CE8F01B82CE20 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		BAAF861FB5FFB4231B6459621AB135BE /* Core */ = {
@@ -2063,45 +2153,28 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		C137CE3E2E7F5025DB5911D0F28DDEF8 /* Pod */ = {
+		C9F8BF303060DAE446F5066AB21B4F48 /* FABCoreSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7E18773C596DBE81BF90935C81440E13 /* FABAllTreasure.podspec */,
-				58D3A9E07EB53F0BC7CDDAC3B9DFFA32 /* LICENSE */,
-				965BC9865F5E4978356E3CFEB6C18D16 /* README.md */,
+				DDE2BEB72F987C039A199F2AA094637F /* AAA */,
+				A58D744D43DC4D3F5E46B141A073C83B /* FABRouter */,
+				A635C656A7AEBA20A99759C494E47F69 /* Pod */,
+				2DD8C853A67B7E71DF4662DC03BCE231 /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CBDDA75625C6E8BF003F5640 /* FABRouter */ = {
-			isa = PBXGroup;
-			children = (
-				CBDDA75825C6E920003F5640 /* FABRouter.h */,
-				CBDDA75725C6E920003F5640 /* FABRouter.m */,
-			);
-			path = FABRouter;
+			name = FABCoreSDK;
+			path = ../../FABCoreSDK;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7E97F427439DB0AD36978CD28C9681E9 /* Development Pods */,
-				3247032305B0F529721AD0A459432A70 /* Frameworks */,
+				300573BAF8176856AD09B8E3C227986A /* Development Pods */,
+				B633D12D043E01D278186B6871427AB4 /* Frameworks */,
 				60307B402653BD401486BA6B409186AC /* Pods */,
-				394408022AB24D8CADEBB1C52E9192D1 /* Products */,
+				4418065023B85E22A3929EAB88E829BC /* Products */,
 				E66AC368934DF388B774C07892AC2AB2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D20AC5E6EFE801CAF20C9B0F3173139E /* FABAllTreasure */ = {
-			isa = PBXGroup;
-			children = (
-				C137CE3E2E7F5025DB5911D0F28DDEF8 /* Pod */,
-				F84358DBC96C885625278C71533F962B /* Support Files */,
-			);
-			name = FABAllTreasure;
-			path = ../../FABAllTreasure;
 			sourceTree = "<group>";
 		};
 		D28B0F3E24E0BB38B0F4C3B490278C19 /* Support Files */ = {
@@ -2145,6 +2218,7 @@
 				98C8077400A418385F74F301EF36F63F /* NSArray+JSONModel.m */,
 				D28B0F3E24E0BB38B0F4C3B490278C19 /* Support Files */,
 			);
+			name = JSONModel;
 			path = JSONModel;
 			sourceTree = "<group>";
 		};
@@ -2176,6 +2250,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LKDBHelper";
+			sourceTree = "<group>";
+		};
+		DDE2BEB72F987C039A199F2AA094637F /* AAA */ = {
+			isa = PBXGroup;
+			children = (
+				A6C7F8466FD5DE22C9CC0F78BAE80135 /* MyTestVC.h */,
+				0EA1A726245441FF945A9F042459CA47 /* MyTestVC.m */,
+			);
+			name = AAA;
+			path = FABCoreSDK/Classes/AAA;
 			sourceTree = "<group>";
 		};
 		E66AC368934DF388B774C07892AC2AB2 /* Targets Support Files */ = {
@@ -2231,17 +2315,8 @@
 				0EEA55567E9CCA13274B1E5307ED42E1 /* ViewController+MASAdditions.m */,
 				06D7DC2D9235E40ABD7BB000654901DD /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
-			sourceTree = "<group>";
-		};
-		F84358DBC96C885625278C71533F962B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				985AA90AE3293077FD33E31C9971BFAD /* FABAllTreasure.debug.xcconfig */,
-				A5BCB0596AF66778688A6F1C683DDA0C /* FABAllTreasure.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../FamilyAccountingBook/Pods/Target Support Files/FABAllTreasure";
 			sourceTree = "<group>";
 		};
 		FBAAC6A4E3DEDED3E3FD93A2F9927449 /* YYModel */ = {
@@ -2254,12 +2329,23 @@
 				27C2BC550AE0BBA74E8E666A7C676A15 /* YYModel.h */,
 				78108026E1D1624C16C0227AD6FE600B /* Support Files */,
 			);
+			name = YYModel;
 			path = YYModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0D21A8AF769A6D774484C98D7D07B38F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF79A82595EFAAAA03FC6430757E29E2 /* FABAllTreasure-umbrella.h in Headers */,
+				5D0D5D03244A8FCF6313F1F6A61791C8 /* FABAllTreasureManager.h in Headers */,
+				617E0EE9675D71450CB4A8EDB0995CC5 /* FABAllTreasureVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32B51F95D7CA13B23F30843EBA1634D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2315,15 +2401,6 @@
 				940E50F9989BAE854217737616102C4C /* LKDBUtils.h in Headers */,
 				A60A5723AF821BB0F476AB9C860B7C39 /* NSObject+LKDBHelper.h in Headers */,
 				31FA2793D4E41EFBEE4CE3E869A81900 /* NSObject+LKModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		395C5649A5BEC341FF161C1E7EF82D29 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F13976C58F1B0C0B190D8A0CD26B8267 /* FABCoreSDK-umbrella.h in Headers */,
-				CBDDA75A25C6E920003F5640 /* FABRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2385,6 +2462,16 @@
 				3A04BC2BA2F50235B0220B8C57662D7D /* YYClassInfo.h in Headers */,
 				2335E8153E4B00D30C5253B202253206 /* YYModel-umbrella.h in Headers */,
 				53689A208817F15EEE38B7CF5B8490FA /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E7C6B9BBF7A5FE1E94033C00465640 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309862C1F6F9CA71BABC52895C447D72 /* FABCoreSDK-umbrella.h in Headers */,
+				9C1A33C631704B1E231D4C87C6410F91 /* FABRouter.h in Headers */,
+				76673A839DB62D491F2C1EDD31504029 /* MyTestVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2562,17 +2649,17 @@
 			buildRules = (
 			);
 			dependencies = (
-				3A37ED65C4B22FE46456BA177C061681 /* PBXTargetDependency */,
-				DEF22A0FCDA4DCD8B3EE09C8CF715D2F /* PBXTargetDependency */,
-				7B454CB289FFCDE26F538F6AFB081476 /* PBXTargetDependency */,
-				9593A4F48C8C7A9A8A9655416BF77948 /* PBXTargetDependency */,
-				41CB0D23E142785B87F73101349C7781 /* PBXTargetDependency */,
-				738A80968E54540DF05DEA4013041AFA /* PBXTargetDependency */,
-				7331018B92BFA90C6D597CB89F6FCE1C /* PBXTargetDependency */,
-				44284FD755443DC41B0CF37A9A920930 /* PBXTargetDependency */,
-				F98A0A7F0C316F8021D71ABF78AD76B6 /* PBXTargetDependency */,
-				AD3D3FB69C7F55316B792798BD8B0312 /* PBXTargetDependency */,
-				D582999352D1196CA762F3E8B1A1AE1A /* PBXTargetDependency */,
+				9632A0B6E4119482BE6C0352061BE4AE /* PBXTargetDependency */,
+				D399402D7C24BD9FD07ADE0AE9C6F4BB /* PBXTargetDependency */,
+				3153A1DED30E63DAB6CB58CEC9E5A4DE /* PBXTargetDependency */,
+				11876A0B85B4FBADE7569FB5ADD9DFF6 /* PBXTargetDependency */,
+				BD027BA4BBB62BC9916E1E164FF68ACD /* PBXTargetDependency */,
+				09C51885C8B3D305275546645DD4CFDA /* PBXTargetDependency */,
+				35A9B646AA40C21907B362784BD06098 /* PBXTargetDependency */,
+				D1F274D9D56277F12C89334D5E578208 /* PBXTargetDependency */,
+				4C10C156D2B5AA2CE6435ABDC9E367DA /* PBXTargetDependency */,
+				B28F242EA67EE6DE11C373D8B7E338B8 /* PBXTargetDependency */,
+				77665D36331D7035C1497156C41E0BB5 /* PBXTargetDependency */,
 			);
 			name = "Pods-FamilyAccountingBook";
 			productName = "Pods-FamilyAccountingBook";
@@ -2609,7 +2696,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A956CA3C7D3ACB1A5E1CB389B6F0848A /* PBXTargetDependency */,
+				41EEB5AE97C69765B4BB6C7141EF5E1F /* PBXTargetDependency */,
 			);
 			name = LKDBHelper;
 			productName = LKDBHelper;
@@ -2654,12 +2741,12 @@
 		};
 		B0FDCE6612B121244BD768EC8591CEB8 /* FABCoreSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C613125C59F0024B583F5D8322234C12 /* Build configuration list for PBXNativeTarget "FABCoreSDK" */;
+			buildConfigurationList = 444ECB04B8BC0CE470C167C217F0F497 /* Build configuration list for PBXNativeTarget "FABCoreSDK" */;
 			buildPhases = (
-				395C5649A5BEC341FF161C1E7EF82D29 /* Headers */,
-				A895BA24408066F5DA8053C92EB11BD6 /* Sources */,
-				ACECDB9D5C48A3C3E6424A01F407CC01 /* Frameworks */,
-				EEE87DE76F84970715D9AD6268EDB8A4 /* Resources */,
+				91E7C6B9BBF7A5FE1E94033C00465640 /* Headers */,
+				20A7E94791FF8AFFA9B322624E4820C8 /* Sources */,
+				1B7B420F90003A83002BB88009EDDE27 /* Frameworks */,
+				B93D3F674485E9409D4BCF1FC71BD74A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2686,6 +2773,25 @@
 			name = BlocksKit;
 			productName = BlocksKit;
 			productReference = 6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAC76D76611DF88D224DB3CF7A82B877 /* FABAllTreasure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1809BDD928423ABD17DA54055049E63 /* Build configuration list for PBXNativeTarget "FABAllTreasure" */;
+			buildPhases = (
+				0D21A8AF769A6D774484C98D7D07B38F /* Headers */,
+				7FA62661748C321FB84F49C571192FEE /* Sources */,
+				E253113D7DCA9A0BB0FC0932AD25C1B3 /* Frameworks */,
+				1EA11F94A9B0E0806C70CD6C82A4212D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF97B41144459ACBC9D5738A0AC8214 /* PBXTargetDependency */,
+			);
+			name = FABAllTreasure;
+			productName = FABAllTreasure;
+			productReference = 7AFE31B7A412D2F1BBF76C31CB9D72AB /* FABAllTreasure.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */ = {
@@ -2760,7 +2866,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 394408022AB24D8CADEBB1C52E9192D1 /* Products */;
+			productRefGroup = 4418065023B85E22A3929EAB88E829BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2782,6 +2888,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		12D8032BE10B7EE6B72C651FE4E47D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA11F94A9B0E0806C70CD6C82A4212D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2830,6 +2943,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B93D3F674485E9409D4BCF1FC71BD74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0AFB00D995D51D37A221C832E39671F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2845,13 +2965,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D7AA57EACB020D30EC592C4D76F7D92F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEE87DE76F84970715D9AD6268EDB8A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2987,6 +3100,16 @@
 				7C795F8614BB9F75BE0E6E88763FC76B /* TADotView.m in Sources */,
 				8B0FF6483E3BF5B8FB4F2C98985ABE30 /* TAPageControl-dummy.m in Sources */,
 				28695BFEE3DB40ACB7492F498FE45D7A /* TAPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A7E94791FF8AFFA9B322624E4820C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58A2AE0BA8FC6B56EEF2ED10676700B /* FABCoreSDK-dummy.m in Sources */,
+				010D7257DF469A461D6564DF73F398CF /* FABRouter.m in Sources */,
+				F72B6E3B006127F2A79FF2BC095105CD /* MyTestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3164,12 +3287,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A895BA24408066F5DA8053C92EB11BD6 /* Sources */ = {
+		7FA62661748C321FB84F49C571192FEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBDDA75925C6E920003F5640 /* FABRouter.m in Sources */,
-				F16A8FCC42DB2A8ED60FA37BE531ADAB /* FABCoreSDK-dummy.m in Sources */,
+				F63A83B484CC0A84F6E95D96E26E022C /* FABAllTreasure-dummy.m in Sources */,
+				37E26BD00E7F2CBA8AB87BF0B85D40F8 /* FABAllTreasureManager.m in Sources */,
+				D85B24A8FB8CD6249342DF3C231645C4 /* FABAllTreasureVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3253,77 +3377,83 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A37ED65C4B22FE46456BA177C061681 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BlocksKit;
-			target = B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */;
-			targetProxy = 22D6B0F65102D688B90DA3CF17623628 /* PBXContainerItemProxy */;
-		};
-		41CB0D23E142785B87F73101349C7781 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 61393C1BF4FC914D1C38D93B51E25156 /* PBXContainerItemProxy */;
-		};
-		44284FD755443DC41B0CF37A9A920930 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = FF4ADFC3DCF4D99FE52957F052F818AD /* PBXContainerItemProxy */;
-		};
-		7331018B92BFA90C6D597CB89F6FCE1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LKDBHelper;
-			target = 798077C12EFD402A47390D1CDB0ED3D6 /* LKDBHelper */;
-			targetProxy = 309268C7EE96C585141C493FA1B2BE05 /* PBXContainerItemProxy */;
-		};
-		738A80968E54540DF05DEA4013041AFA /* PBXTargetDependency */ = {
+		09C51885C8B3D305275546645DD4CFDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JSONModel;
 			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
-			targetProxy = CA4D3BAF0A344E77DADC8FA19B756E4D /* PBXContainerItemProxy */;
+			targetProxy = 77E15193E05D20B09013F3E379DC27A0 /* PBXContainerItemProxy */;
 		};
-		7B454CB289FFCDE26F538F6AFB081476 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FABAllTreasure;
-			target = BAC76D76611DF88D224DB3CF7A82B877 /* FABAllTreasure */;
-			targetProxy = 317387871DC31529C0F254F19BD6CDCE /* PBXContainerItemProxy */;
-		};
-		9593A4F48C8C7A9A8A9655416BF77948 /* PBXTargetDependency */ = {
+		11876A0B85B4FBADE7569FB5ADD9DFF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FABCoreSDK;
 			target = B0FDCE6612B121244BD768EC8591CEB8 /* FABCoreSDK */;
-			targetProxy = 54790478F9CF8789FA82E62BB230F518 /* PBXContainerItemProxy */;
+			targetProxy = 8AFC40AD0019C9AA49A4EC184A90CBD7 /* PBXContainerItemProxy */;
 		};
-		A956CA3C7D3ACB1A5E1CB389B6F0848A /* PBXTargetDependency */ = {
+		2DF97B41144459ACBC9D5738A0AC8214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FABCoreSDK;
+			target = B0FDCE6612B121244BD768EC8591CEB8 /* FABCoreSDK */;
+			targetProxy = 12D597387DA980CDC5BF23C517769D1D /* PBXContainerItemProxy */;
+		};
+		3153A1DED30E63DAB6CB58CEC9E5A4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FABAllTreasure;
+			target = BAC76D76611DF88D224DB3CF7A82B877 /* FABAllTreasure */;
+			targetProxy = C77593BC498F67A9614B3F02B23063B5 /* PBXContainerItemProxy */;
+		};
+		35A9B646AA40C21907B362784BD06098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKDBHelper;
+			target = 798077C12EFD402A47390D1CDB0ED3D6 /* LKDBHelper */;
+			targetProxy = FF84CB69B61A04F06DCEB8ADAB9109C4 /* PBXContainerItemProxy */;
+		};
+		41EEB5AE97C69765B4BB6C7141EF5E1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 6DB718FAAD334FB2F3307CC3E354A532 /* PBXContainerItemProxy */;
+			targetProxy = 55DB180B02A7418F7BD3C74A0E4F2587 /* PBXContainerItemProxy */;
 		};
-		AD3D3FB69C7F55316B792798BD8B0312 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TAPageControl;
-			target = C7544868328B26802248D109459AB722 /* TAPageControl */;
-			targetProxy = F3DF44865701857BA05A4850941F5727 /* PBXContainerItemProxy */;
-		};
-		D582999352D1196CA762F3E8B1A1AE1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = 1AA63E354785B3A848C78D50B395ADCD /* PBXContainerItemProxy */;
-		};
-		DEF22A0FCDA4DCD8B3EE09C8CF715D2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Charts;
-			target = BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */;
-			targetProxy = C3911650FCACC87A1501690466C867B1 /* PBXContainerItemProxy */;
-		};
-		F98A0A7F0C316F8021D71ABF78AD76B6 /* PBXTargetDependency */ = {
+		4C10C156D2B5AA2CE6435ABDC9E367DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReactiveCocoa;
 			target = 07B5C6907D09E767CDC5954A9468CA2E /* ReactiveCocoa */;
-			targetProxy = DD9A267B09C07C1B9B013C5477A9A389 /* PBXContainerItemProxy */;
+			targetProxy = C7F560F174C5D7D4BF1E73CE5836CB67 /* PBXContainerItemProxy */;
+		};
+		77665D36331D7035C1497156C41E0BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = B6DC275AD351CFAA73F4CEA1AA1E37C3 /* PBXContainerItemProxy */;
+		};
+		9632A0B6E4119482BE6C0352061BE4AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlocksKit;
+			target = B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */;
+			targetProxy = 73D9E86ADA553B7034089FB907B95D36 /* PBXContainerItemProxy */;
+		};
+		B28F242EA67EE6DE11C373D8B7E338B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAPageControl;
+			target = C7544868328B26802248D109459AB722 /* TAPageControl */;
+			targetProxy = AF5B15FD8AEAE8260123044D7AEB0FEB /* PBXContainerItemProxy */;
+		};
+		BD027BA4BBB62BC9916E1E164FF68ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 70CC68F1FF42AF73534EF3D7494F355A /* PBXContainerItemProxy */;
+		};
+		D1F274D9D56277F12C89334D5E578208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 5BAC24124575DC699BC91B2776A2AD9A /* PBXContainerItemProxy */;
+		};
+		D399402D7C24BD9FD07ADE0AE9C6F4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			target = BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */;
+			targetProxy = 1354EF0C1EEEED9F2E5928E60A88DCFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3357,6 +3487,68 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		166D32FCB5E78ED96E0F8C3FF9E15D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E09B6E64EFFAAD95310C269CF2EF1A /* FABCoreSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FABCoreSDK/FABCoreSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK.modulemap";
+				PRODUCT_MODULE_NAME = FABCoreSDK;
+				PRODUCT_NAME = FABCoreSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17606AAB034FEE03D25DFAB1CFFD49F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A528B76BD6D632CB7D4A01DC5A5D09C6 /* Charts.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Charts/Charts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Charts/Charts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
+				PRODUCT_MODULE_NAME = Charts;
+				PRODUCT_NAME = Charts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		21A73C8DAFB26EE5F9231E34832C116F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3609,6 +3801,36 @@
 			};
 			name = Release;
 		};
+		4C32297FE058B4F351F4018647F9B9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3DC867B8EB443BF86E86C639D4CDC48 /* Charts.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Charts/Charts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Charts/Charts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
+				PRODUCT_MODULE_NAME = Charts;
+				PRODUCT_NAME = Charts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5020ADDB2DF2C861DCC361F5E3A1C656 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A555480AA6BFD72375A46AC35DC4CAEB /* TAPageControl.release.xcconfig */;
@@ -3700,20 +3922,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		642CBBD89890EEEF5FAFB488CC27F024 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5BCB0596AF66778688A6F1C683DDA0C /* FABAllTreasure.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		7653FF1540F9934F4365F65BE1E57FE1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3871,6 +4079,36 @@
 			};
 			name = Debug;
 		};
+		9EDBD27F2B0CD81303B41B1BF9B431F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8729CEDDAA6771D098A5F4744556D188 /* FABAllTreasure.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FABAllTreasure/FABAllTreasure-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FABAllTreasure/FABAllTreasure-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FABAllTreasure/FABAllTreasure.modulemap";
+				PRODUCT_MODULE_NAME = FABAllTreasure;
+				PRODUCT_NAME = FABAllTreasure;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A4D98C4D1A7FFA8702D98A81927A6589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96DEA3ACFCA5A930F3531FABC4C3A110 /* TAPageControl.debug.xcconfig */;
@@ -3891,36 +4129,6 @@
 				MODULEMAP_FILE = "Target Support Files/TAPageControl/TAPageControl.modulemap";
 				PRODUCT_MODULE_NAME = TAPageControl;
 				PRODUCT_NAME = TAPageControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AE957E064334815932DCB4AD1F503DBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 505E378F130494A921E45D96C2C8D258 /* FABCoreSDK.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FABCoreSDK/FABCoreSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK.modulemap";
-				PRODUCT_MODULE_NAME = FABCoreSDK;
-				PRODUCT_NAME = FABCoreSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -3960,50 +4168,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		C49BAA1B7C69DBE7583A4F7B45AD26C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 985AA90AE3293077FD33E31C9971BFAD /* FABAllTreasure.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C60BCDAA59557E17202F41B64F07A0E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89B0746D69C9B280B502B92DC613B2F4 /* FABCoreSDK.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FABCoreSDK/FABCoreSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK.modulemap";
-				PRODUCT_MODULE_NAME = FABCoreSDK;
-				PRODUCT_NAME = FABCoreSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4060,11 +4224,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		CFCA0776DC9F6F1BF19593C7B32D907C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A62EA7885C607605CE5395FCCC8F48 /* FABCoreSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FABCoreSDK/FABCoreSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FABCoreSDK/FABCoreSDK.modulemap";
+				PRODUCT_MODULE_NAME = FABCoreSDK;
+				PRODUCT_NAME = FABCoreSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D574E57ED803C80D473D55F0BB8C64B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4096,9 +4291,9 @@
 			};
 			name = Debug;
 		};
-		DBF261D4DF8DDA39ED4B13BE75329132 /* Release */ = {
+		E295D714C459B0A17733F7138854938A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A528B76BD6D632CB7D4A01DC5A5D09C6 /* Charts.release.xcconfig */;
+			baseConfigurationReference = 6A184F89430A10C10BCF96411C78246A /* FABAllTreasure.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4108,14 +4303,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Charts/Charts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Charts/Charts-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FABAllTreasure/FABAllTreasure-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FABAllTreasure/FABAllTreasure-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
-				PRODUCT_MODULE_NAME = Charts;
-				PRODUCT_NAME = Charts;
+				MODULEMAP_FILE = "Target Support Files/FABAllTreasure/FABAllTreasure.modulemap";
+				PRODUCT_MODULE_NAME = FABAllTreasure;
+				PRODUCT_NAME = FABAllTreasure;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -4127,48 +4322,9 @@
 			};
 			name = Release;
 		};
-		F204D972C9B9DBB57BD6144DECDFE8C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3DC867B8EB443BF86E86C639D4CDC48 /* Charts.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Charts/Charts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Charts/Charts-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
-				PRODUCT_MODULE_NAME = Charts;
-				PRODUCT_NAME = Charts;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12C1D6A776BE3A4837DA513F228CCD68 /* Build configuration list for PBXAggregateTarget "FABAllTreasure" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C49BAA1B7C69DBE7583A4F7B45AD26C1 /* Debug */,
-				642CBBD89890EEEF5FAFB488CC27F024 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1B5BDF4A6361BEE8C7DFD6E241CE3333 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4192,6 +4348,15 @@
 			buildConfigurations = (
 				980807D4153DDB910B8F9EC29018BC2C /* Debug */,
 				79D835A135CB72DCDB086BFD5FB70A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444ECB04B8BC0CE470C167C217F0F497 /* Build configuration list for PBXNativeTarget "FABCoreSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCA0776DC9F6F1BF19593C7B32D907C /* Debug */,
+				166D32FCB5E78ED96E0F8C3FF9E15D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4232,15 +4397,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C613125C59F0024B583F5D8322234C12 /* Build configuration list for PBXNativeTarget "FABCoreSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE957E064334815932DCB4AD1F503DBC /* Debug */,
-				C60BCDAA59557E17202F41B64F07A0E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E99E56B9296D32CB36D7FBE35E014198 /* Build configuration list for PBXNativeTarget "ReactiveCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4253,8 +4409,8 @@
 		EACB1516A3F84CD99E9B870444AB37F1 /* Build configuration list for PBXNativeTarget "Charts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F204D972C9B9DBB57BD6144DECDFE8C9 /* Debug */,
-				DBF261D4DF8DDA39ED4B13BE75329132 /* Release */,
+				4C32297FE058B4F351F4018647F9B9FC /* Debug */,
+				17606AAB034FEE03D25DFAB1CFFD49F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4264,6 +4420,15 @@
 			buildConfigurations = (
 				02910E73C9BC355FA20483345A8BAE44 /* Debug */,
 				5595DB483511168853EE71C2ADEF6523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1809BDD928423ABD17DA54055049E63 /* Build configuration list for PBXNativeTarget "FABAllTreasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDBD27F2B0CD81303B41B1BF9B431F9 /* Debug */,
+				E295D714C459B0A17733F7138854938A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

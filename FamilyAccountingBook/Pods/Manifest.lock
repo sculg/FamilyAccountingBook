@@ -14,11 +14,12 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - Charts (3.5.0):
-    - Charts/Core (= 3.5.0)
-  - Charts/Core (3.5.0)
-  - FABAllTreasure (0.1.0)
-  - FABCoreSDK (0.1.0)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - FABAllTreasure (0.1.1):
+    - FABCoreSDK
+  - FABCoreSDK (0.1.6)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -70,9 +71,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
-  FABAllTreasure: 01cfc79cd24ea7dd9da95eacce43ae6a46559c03
-  FABCoreSDK: 2a593bebf94e0097f244d87d49523db5e591c5f7
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  FABAllTreasure: 1546918176b85eae31b9410b7b795661deab2cb2
+  FABCoreSDK: 0c86a872df43f6dbf18bdb2c433d1ad49bb2f93e
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
   LKDBHelper: e853b4408ffa1a5cc1c39346c45b4204db83e10a

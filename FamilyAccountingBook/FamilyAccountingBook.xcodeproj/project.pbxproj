@@ -72,7 +72,6 @@
 		CB3927E41F5813BE00B3D914 /* XNOKeyboardExtensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3927E31F5813BE00B3D914 /* XNOKeyboardExtensionView.m */; };
 		CB3927E81F5816CA00B3D914 /* record_bueaty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3927E71F5816CA00B3D914 /* record_bueaty@2x.png */; };
 		CB3927EA1F58171F00B3D914 /* keyboard_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3927E91F58171F00B3D914 /* keyboard_arrow@2x.png */; };
-		CB3D6CE325C5A92C005C91E8 /* FABRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D6CE225C5A92B005C91E8 /* FABRouter.m */; };
 		CB3D6D0025C5B7FF005C91E8 /* FABSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D6CFF25C5B7FF005C91E8 /* FABSettingManager.m */; };
 		CB75914F1F0F2C4F00249735 /* FABSecurityEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = CB75914E1F0F2C4F00249735 /* FABSecurityEntity.m */; };
 		CB7591531F0F6DD700249735 /* FABAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7591521F0F6DD700249735 /* FABAppUtils.m */; };
@@ -302,8 +301,6 @@
 		CB3927E31F5813BE00B3D914 /* XNOKeyboardExtensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNOKeyboardExtensionView.m; sourceTree = "<group>"; };
 		CB3927E71F5816CA00B3D914 /* record_bueaty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_bueaty@2x.png"; sourceTree = "<group>"; };
 		CB3927E91F58171F00B3D914 /* keyboard_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_arrow@2x.png"; sourceTree = "<group>"; };
-		CB3D6CE125C5A92B005C91E8 /* FABRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABRouter.h; sourceTree = "<group>"; };
-		CB3D6CE225C5A92B005C91E8 /* FABRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABRouter.m; sourceTree = "<group>"; };
 		CB3D6CFE25C5B7FF005C91E8 /* FABSettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABSettingManager.h; sourceTree = "<group>"; };
 		CB3D6CFF25C5B7FF005C91E8 /* FABSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABSettingManager.m; sourceTree = "<group>"; };
 		CB75914D1F0F2C4F00249735 /* FABSecurityEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABSecurityEntity.h; sourceTree = "<group>"; };
@@ -849,15 +846,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		CB3D6CDE25C5A82B005C91E8 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				CB3D6CE125C5A92B005C91E8 /* FABRouter.h */,
-				CB3D6CE225C5A92B005C91E8 /* FABRouter.m */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		CB3D6CF725C5B785005C91E8 /* FABSettingManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -1023,7 +1011,6 @@
 		CB9AD3BF1EFB963600CAF17D /* General */ = {
 			isa = PBXGroup;
 			children = (
-				CB3D6CDE25C5A82B005C91E8 /* Router */,
 				CB7591501F0F6DA200249735 /* Classes */,
 				CBC6D7041EFC12C000F7BA4A /* Categories */,
 				CBC6D6F31EFC11BE00F7BA4A /* View */,
@@ -1506,6 +1493,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-FamilyAccountingBook/Pods-FamilyAccountingBook-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FABAllTreasure/FABAllTreasure.framework",
 				"${BUILT_PRODUCTS_DIR}/FABCoreSDK/FABCoreSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
@@ -1519,6 +1507,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FABAllTreasure.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FABCoreSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
@@ -1581,7 +1570,6 @@
 				CB3D6D0025C5B7FF005C91E8 /* FABSettingManager.m in Sources */,
 				CBA61A8C1EFCFADB008BE475 /* NSDate+convenience.m in Sources */,
 				CB7875B21F90807100AD2249 /* DAYComponentView.m in Sources */,
-				CB3D6CE325C5A92C005C91E8 /* FABRouter.m in Sources */,
 				CBA61AC61EFCFB61008BE475 /* FABAccountingRecentRecordCell.m in Sources */,
 				CB7A66891FB2FCF100CEACF2 /* FABSummaryBlockView.m in Sources */,
 				CBA61AA11EFCFB00008BE475 /* UIView+SSToolkitAdditions.m in Sources */,
@@ -1818,7 +1806,7 @@
 				);
 				GCC_PREFIX_HEADER = FamilyAccountingBook/FamilyAccountingBook.pch;
 				INFOPLIST_FILE = FamilyAccountingBook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1845,8 +1833,9 @@
 					"-framework",
 					"\"YYModel\"",
 					"-ObjC",
+					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fab.FamilyAccountingBook01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fab.FamilyAccountingBook1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1874,7 +1863,7 @@
 				);
 				GCC_PREFIX_HEADER = FamilyAccountingBook/FamilyAccountingBook.pch;
 				INFOPLIST_FILE = FamilyAccountingBook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1902,6 +1891,7 @@
 					"-framework",
 					"\"YYModel\"",
 					"-ObjC",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fab.FamilyAccountingBook01;
 				PRODUCT_NAME = "$(TARGET_NAME)";

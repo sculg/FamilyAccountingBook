@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "FABAllTreasureManager.h"
+#import "FABAllTreasureVC.h"
 
 FOUNDATION_EXPORT double FABAllTreasureVersionNumber;
 FOUNDATION_EXPORT const unsigned char FABAllTreasureVersionString[];

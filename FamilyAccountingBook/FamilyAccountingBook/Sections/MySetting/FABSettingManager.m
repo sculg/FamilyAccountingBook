@@ -8,7 +8,7 @@
 
 #import "FABSettingManager.h"
 #import "FABAllTreasureViewController.h"
-#import "FABRouter.h"
+//#import "FABRouter.h"
 
 @implementation FABSettingManager
 
@@ -23,10 +23,11 @@
 }
 
 + (void)load {
-    [FABRouter registerURLPattern:@"FAB://Setting/AllTreasureVC" toHandler:^(NSDictionary *routerParameters) {
-        UINavigationController *navi = routerParameters[FABRouterParameterUserInfo][@"navigation"];
-        FABAllTreasureViewController *VC = [[FABAllTreasureViewController alloc] init];
-        [navi pushViewController:VC animated:YES];
-    }];
+    
+//    [FABRouter registerURLPattern:@"FAB://Setting/AllTreasureVC" toHandler:^(NSDictionary *routerParameters) {
+//        UINavigationController *navi = routerParameters[FABRouterParameterUserInfo][@"navigation"];
+//        FABAllTreasureViewController *VC = [[FABAllTreasureViewController alloc] init];
+//        [navi pushViewController:VC animated:YES];
+//    }];
 }
 @end
